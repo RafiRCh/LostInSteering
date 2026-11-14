@@ -1,0 +1,26 @@
+# Secrets: never commit
+kaggle.json
+.env
+*token*
+!**/tokenizer*
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model weights and large tensors (keep vectors out of git unless small and deliberate)
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# Obsidian workspace state
+vault/.obsidian/workspace*
+vault/.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
