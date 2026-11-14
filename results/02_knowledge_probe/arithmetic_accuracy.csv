@@ -1,0 +1,10 @@
+,level,en,es,zh,hi,bn,ar
+Qwen2.5-7B-Instruct,easy,0.825,0.8,0.8,0.8,0.825,0.775
+Qwen2.5-7B-Instruct,medium,0.625,0.625,0.65,0.6,0.525,0.65
+Qwen2.5-7B-Instruct,hard,0.5,0.55,0.525,0.575,0.55,0.525
+Mistral-7B-Instruct-v0.3,easy,0.55,0.575,0.6,0.6,0.575,0.525
+Mistral-7B-Instruct-v0.3,medium,0.55,0.575,0.625,0.575,0.525,0.5
+Mistral-7B-Instruct-v0.3,hard,0.5,0.575,0.475,0.725,0.7,0.5
+Phi-3.5-mini-instruct,easy,0.725,0.725,0.7,0.7,0.725,0.75
+Phi-3.5-mini-instruct,medium,0.5,0.525,0.5,0.5,0.5,0.5
+Phi-3.5-mini-instruct,hard,0.5,0.5,0.525,0.5,0.5,0.5

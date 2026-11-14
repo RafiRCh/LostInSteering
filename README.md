@@ -16,7 +16,7 @@ built in each language as the fair comparison.
 | Step | Notebook | Status | Results |
 |---|---|---|---|
 | 1. Smoke test v1 | `notebooks/01_smoke_test_v1.ipynb` | Done (2026-11-14). Verdict: **NOT YET** | [`results/01_smoke_test_v1/`](results/01_smoke_test_v1/NOTES.md) |
-| 2. Knowledge probe (3 models) | `notebooks/02_knowledge_probe.ipynb` | Ready, not run yet | `results/02_knowledge_probe/` |
+| 2. Knowledge probe (3 models) | `notebooks/02_knowledge_probe.ipynb` | Done (2026-11-14). Verdict: **Qwen2.5-7B chosen (74 known items)** | [`results/02_knowledge_probe/`](results/02_knowledge_probe/NOTES.md) |
 | 3. Steering v2 | `notebooks/03_steering_v2.ipynb` | To be written after step 2 | |
 
 The full plan and what to do next is in [`docs/ROADMAP.md`](docs/ROADMAP.md).

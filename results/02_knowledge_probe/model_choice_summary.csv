@@ -1,0 +1,4 @@
+,weakest_lang_mmlu,weakest_lang,known_in_all_6,mean_agree_wrong,max_agree_wrong,mean_honesty_gap,usable_arith_level,usable_for_v2
+Mistral-7B-Instruct-v0.3,0.24666666666666667,Hindi,21,0.8204022,0.95665324,0.12993257,none,False
+Phi-3.5-mini-instruct,0.28,Bengali,22,0.5133398,0.79250044,0.2187406,none,False
+Qwen2.5-7B-Instruct,0.44333333333333336,Bengali,74,0.3285102,0.49455503,0.4466443,none,True
