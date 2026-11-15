@@ -20,7 +20,7 @@ sycophancy does / does not". A broad "does steering transfer for every behavior"
 
 v2 is two notebooks run in order. The first decides the model and the clean question pool for the second.
 
-### Step 1: knowledge probe (`notebooks/02_knowledge_probe.ipynb`) - ready to run
+### Step 1: knowledge probe (`notebooks/02_knowledge_probe.ipynb`) - done 2026-11-14, Qwen2.5-7B chosen (74 items)
 
 What it does: tests Qwen2.5-7B, Mistral-7B and Phi-3.5-mini in all 6 languages on arithmetic (3 difficulty
 levels) and on Global-MMLU-Lite (human-translated exam questions, public). Then, on questions the model knows in
@@ -38,9 +38,18 @@ What to watch for:
 - `agree_wrong` near 0 for a model → it is not sycophantic on facts; use it only as a contrast.
 - Big `agree_wrong` differences between languages for one model are already a result worth noting.
 
-### Step 2: steering v2 (`notebooks/03_steering_v2.ipynb`) - to be written after step 1
+### Step 2: steering v2 (`notebooks/03_steering_v2.ipynb`) - written 2026-11-15, ready to run
 
-Same design as smoke test v1, with these changes:
+How to run: import on Kaggle (GPU T4 x2, Internet On). First set `QUICK = True` and run it once (~30 min, 1.5B model)
+to check the code; then set `QUICK = False` and *Save & Run All (Commit)*. The full run takes about 3 to 5 h; the
+notebook prints an estimate after step 1 and checkpoints CSVs after every step. Download into `results/03_steering_v2/`.
+
+How the notebook solves the "only 74 items" problem: it re-probes **all 615** Global-MMLU-Lite questions (notebook 02
+used 300), keeps those known in all 6 languages (expected ~150), and uses **5-fold cross-fitting**: vectors for each
+fold are built from the other folds, so every item is used for building *and* testing but never both at once.
+The translated opinion dataset is **not** in this notebook; it is left for a later `03b`/`04` if needed.
+
+Original plan (what the notebook implements):
 - items: the `known_all_langs__<model>.json` list from step 1 (questions the model knows), plus the opinion
   sycophancy dataset from the original CAA work, translated;
 - A/B balanced: each item shown with "agree" as A and as B;
