@@ -1,0 +1,5 @@
+{
+  "Qwen/Qwen2.5-7B-Instruct": {
+    "error": "CUDA out of memory. Tried to allocate 5.63 GiB. GPU 0 has a total capacity of 14.56 GiB of which 758.81 MiB is free. Including non-PyTorch memory, this process has 13.82 GiB memory in use. Of the allocated memory 12.23 GiB is allocated by PyTorch, and 1.46 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+  }
+}

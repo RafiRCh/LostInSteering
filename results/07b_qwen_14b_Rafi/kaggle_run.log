@@ -1,0 +1,142 @@
+[{"stream_name":"stderr","time":8.347648287,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.347700494,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.347707711,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.347711544,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.950329185,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.950382634,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.950388378,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.950392843,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":42.180793044,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stderr","time":42.180851647,"data":"\n"}
+,{"stream_name":"stderr","time":42.1808593,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stdout","time":42.224918332,"data":"HF token activated successfully (Hub login confirmed)\n"}
+,{"stream_name":"stdout","time":42.22494851,"data":"torch 2.11.0+cu130 | CUDA: True\n"}
+,{"stream_name":"stdout","time":42.224959209,"data":"  GPU 0: Tesla T4 (15.6 GB)\n"}
+,{"stream_name":"stdout","time":42.224962664,"data":"  GPU 1: Tesla T4 (15.6 GB)\n"}
+,{"stream_name":"stdout","time":42.251523443,"data":"14B run, outputs in /kaggle/working/qwen_14b_run\n"}
+,{"stream_name":"stdout","time":42.379957073,"data":"Loading 150 opinion items from Shah et al. (2026)...\n"}
+,{"stream_name":"stdout","time":43.785169227,"data":"  en: 150 items\n"}
+,{"stream_name":"stdout","time":44.040464048,"data":"  es: 150 items\n"}
+,{"stream_name":"stdout","time":44.279616759,"data":"  zh: 150 items\n"}
+,{"stream_name":"stdout","time":44.995417396,"data":"  hi: 150 items\n"}
+,{"stream_name":"stdout","time":45.604484102,"data":"  bn: 150 items\n"}
+,{"stream_name":"stdout","time":46.066412942,"data":"  ar: 150 items\n"}
+,{"stream_name":"stdout","time":46.0698517,"data":"Opinion items ready: 150\n"}
+,{"stream_name":"stdout","time":46.069867735,"data":"Loading ALL Global-MMLU-Lite items...\n"}
+,{"stream_name":"stdout","time":48.964260059,"data":"  en: 615 items\n"}
+,{"stream_name":"stdout","time":50.718608472,"data":"  es: 615 items\n"}
+,{"stream_name":"stdout","time":52.573117437,"data":"  zh: 615 items\n"}
+,{"stream_name":"stdout","time":54.439714508,"data":"  hi: 615 items\n"}
+,{"stream_name":"stdout","time":56.21701555,"data":"  bn: 615 items\n"}
+,{"stream_name":"stdout","time":57.734330728,"data":"  ar: 615 items\n"}
+,{"stream_name":"stdout","time":57.734363828,"data":"Valid factual items with consistent answer across languages: 608\n"}
+,{"stream_name":"stdout","time":58.133048328,"data":"\n"}
+,{"stream_name":"stdout","time":58.133082562,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":58.133086758,"data":"  MODEL: Qwen/Qwen2.5-14B-Instruct\n"}
+,{"stream_name":"stdout","time":58.133090275,"data":"======================================================================\n"}
+,{"stream_name":"stderr","time":60.390284677,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":60.390314006,"data":"\n"}
+,{"stream_name":"stderr","time":60.390318772,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":299.996706626,"data":"Some parameters are on the meta device because they were offloaded to the disk.\n"}
+,{"stream_name":"stderr","time":299.997667904,"data":"\n"}
+,{"stream_name":"stderr","time":299.997685626,"data":"Some parameters are on the meta device because they were offloaded to the disk.\n"}
+,{"stream_name":"stdout","time":300.251368733,"data":"  48 layers, D=5120, ~14.8B params, batch_size=2\n"}
+,{"stream_name":"stdout","time":300.25141997,"data":"  GPU 0: 13.12 GB used\n"}
+,{"stream_name":"stdout","time":300.251426557,"data":"  GPU 1: 14.87 GB used\n"}
+,{"stream_name":"stdout","time":300.251431835,"data":"  Letter tokens: {'A': [32, 362], 'B': [33, 425]}\n"}
+,{"stream_name":"stdout","time":300.251437306,"data":"  Model loaded (4.0 min)\n"}
+,{"stream_name":"stdout","time":300.251442917,"data":"\n"}
+,{"stream_name":"stdout","time":300.25144786,"data":"  [PROBE] Testing 608 factual items across 6 languages...\n"}
+,{"stream_name":"stdout","time":308.933187815,"data":"\n"}
+,{"stream_name":"stdout","time":308.933263001,"data":"  OOM on Qwen/Qwen2.5-14B-Instruct! Falling back to Qwen/Qwen2.5-7B-Instruct\n"}
+,{"stream_name":"stderr","time":309.133769524,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":309.133826633,"data":"  File \"/tmp/ipykernel_23/1506717318.py\", line 4, in \u003ccell line: 0\u003e\n"}
+,{"stream_name":"stderr","time":309.133834569,"data":"    ALL_RESULTS[MODEL_NAME] = run_model(MODEL_NAME, BASE_OUT)\n"}
+,{"stream_name":"stderr","time":309.13383931,"data":"                              ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.133844134,"data":"  File \"/tmp/ipykernel_23/2426984273.py\", line 64, in run_model\n"}
+,{"stream_name":"stderr","time":309.133848819,"data":"    pr = letter_probs([prompt], [\"A\", \"B\"])\n"}
+,{"stream_name":"stderr","time":309.133855469,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
+,{"stream_name":"stderr","time":309.133863184,"data":"    return func(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.133866232,"data":"  File \"/tmp/ipykernel_23/3210629386.py\", line 31, in letter_probs\n"}
+,{"stream_name":"stderr","time":309.13386936,"data":"    logits = model.lm_head(h.to(HEAD_DEVICE)).float()\n"}
+,{"stream_name":"stderr","time":309.133872359,"data":"             ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.133875455,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":309.13387863,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.133881563,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.1338846,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stderr","time":309.13388771,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.133890675,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 187, in new_forward\n"}
+,{"stream_name":"stderr","time":309.133907212,"data":"    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.133923742,"data":"                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.133928174,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 50, in wrapper\n"}
+,{"stream_name":"stderr","time":309.133931823,"data":"    return wrapper._compiled_fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.133935378,"data":"           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.133938816,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py\", line 1263, in _fn\n"}
+,{"stream_name":"stderr","time":309.133942596,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.133946003,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 371, in pre_forward\n"}
+,{"stream_name":"stderr","time":309.133949717,"data":"    value = self.weights_map[name]\n"}
+,{"stream_name":"stderr","time":309.133953144,"data":"            ~~~~~~~~~~~~~~~~^^^^^^\n"}
+,{"stream_name":"stderr","time":309.133956612,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/utils/offload.py\", line 127, in __getitem__\n"}
+,{"stream_name":"stderr","time":309.133960375,"data":"    return self.dataset[f\"{self.prefix}{key}\"]\n"}
+,{"stream_name":"stderr","time":309.133963894,"data":"           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.133967456,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/utils/offload.py\", line 187, in __getitem__\n"}
+,{"stream_name":"stderr","time":309.133978814,"data":"    tensor = tensor.to(getattr(torch, weight_info[\"dtype\"]))\n"}
+,{"stream_name":"stderr","time":309.133983904,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 0 has a total capacity of 14.56 GiB of which 758.81 MiB is free. Including non-PyTorch memory, this process has 13.82 GiB memory in use. Of the allocated memory 13.68 GiB is allocated by PyTorch, and 14.18 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":309.133990639,"data":"\n"}
+,{"stream_name":"stderr","time":309.134005968,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":309.134010345,"data":"  File \"/tmp/ipykernel_23/1506717318.py\", line 4, in \u003ccell line: 0\u003e\n"}
+,{"stream_name":"stderr","time":309.134015134,"data":"    ALL_RESULTS[MODEL_NAME] = run_model(MODEL_NAME, BASE_OUT)\n"}
+,{"stream_name":"stderr","time":309.134019394,"data":"                              ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.13402343,"data":"  File \"/tmp/ipykernel_23/2426984273.py\", line 64, in run_model\n"}
+,{"stream_name":"stderr","time":309.13402708,"data":"    pr = letter_probs([prompt], [\"A\", \"B\"])\n"}
+,{"stream_name":"stderr","time":309.134030794,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
+,{"stream_name":"stderr","time":309.134034934,"data":"    return func(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.13403844,"data":"  File \"/tmp/ipykernel_23/3210629386.py\", line 31, in letter_probs\n"}
+,{"stream_name":"stderr","time":309.13404207,"data":"    logits = model.lm_head(h.to(HEAD_DEVICE)).float()\n"}
+,{"stream_name":"stderr","time":309.134045538,"data":"             ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.134054024,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":309.134058428,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.134062124,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.13406595,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stderr","time":309.134069874,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.134073879,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 187, in new_forward\n"}
+,{"stream_name":"stderr","time":309.134077703,"data":"    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.134081278,"data":"                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.134084928,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 50, in wrapper\n"}
+,{"stream_name":"stderr","time":309.134088599,"data":"    return wrapper._compiled_fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.134092892,"data":"           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.134097905,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py\", line 1263, in _fn\n"}
+,{"stream_name":"stderr","time":309.13410221,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":309.134106544,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/hooks.py\", line 371, in pre_forward\n"}
+,{"stream_name":"stderr","time":309.134110332,"data":"    value = self.weights_map[name]\n"}
+,{"stream_name":"stderr","time":309.134113764,"data":"            ~~~~~~~~~~~~~~~~^^^^^^\n"}
+,{"stream_name":"stderr","time":309.134117269,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/utils/offload.py\", line 127, in __getitem__\n"}
+,{"stream_name":"stderr","time":309.13412096,"data":"    return self.dataset[f\"{self.prefix}{key}\"]\n"}
+,{"stream_name":"stderr","time":309.134124539,"data":"           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":309.134128651,"data":"  File \"/usr/local/lib/python3.13/dist-packages/accelerate/utils/offload.py\", line 187, in __getitem__\n"}
+,{"stream_name":"stderr","time":309.134133499,"data":"    tensor = tensor.to(getattr(torch, weight_info[\"dtype\"]))\n"}
+,{"stream_name":"stderr","time":309.13413796,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 0 has a total capacity of 14.56 GiB of which 758.81 MiB is free. Including non-PyTorch memory, this process has 13.82 GiB memory in use. Of the allocated memory 13.68 GiB is allocated by PyTorch, and 14.18 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":309.135557954,"data":"\n"}
+,{"stream_name":"stdout","time":309.135572909,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":309.135576713,"data":"  MODEL: Qwen/Qwen2.5-7B-Instruct\n"}
+,{"stream_name":"stdout","time":309.135580275,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":384.388262026,"data":"  Fallback also failed: CUDA out of memory. Tried to allocate 5.63 GiB. GPU 0 has a total capacity of 14.56 GiB of which 758.81 MiB is free. Including non-PyTorch memory, this process has 13.82 GiB memory in use. Of the allocated memory 12.23 GiB is allocated by PyTorch, and 1.46 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":384.388312129,"data":"\n"}
+,{"stream_name":"stdout","time":384.388318258,"data":"Total wall time: 5.7 min\n"}
+,{"stream_name":"stdout","time":384.388322673,"data":"DONE!\n"}
+,{"stream_name":"stdout","time":384.432708392,"data":"\n"}
+,{"stream_name":"stdout","time":384.432746873,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":384.432752575,"data":"  CROSS-MODEL COMPARISON\n"}
+,{"stream_name":"stdout","time":384.432756107,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":384.432759741,"data":"\n"}
+,{"stream_name":"stdout","time":384.432763179,"data":"TOTAL WALL TIME: 5.7 minutes\n"}
+,{"stream_name":"stdout","time":384.432766916,"data":"ALL DONE!\n"}
+,{"stream_name":"stderr","time":390.379760436,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":390.379812012,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":390.618130081,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":390.618174098,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":391.508433616,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":391.674202394,"data":"[NbConvertApp] Writing 806088 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":394.268422547,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":395.134215604,"data":"[NbConvertApp] Writing 1144683 bytes to __results__.html\n"}
+]
