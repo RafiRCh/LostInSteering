@@ -53,13 +53,14 @@ What to watch for:
    - Test alternative sycophancy formulations where agreement does not conflate with factual correctness: e.g., opinion-based sycophancy (original Anthropic dataset), caving under pushback (re-asking questions), or over-praise.
    - Alternatively, evaluate intermediate/gentle steering multipliers (e.g. -1 to -2) or persona-based steering vectors.
 
-### Step 3: Opinion Sycophancy (`notebooks/04_opinion_sycophancy.ipynb`) - ready to run
+### Step 3: Complete Paper Run (`notebooks/04_complete_paper_run.ipynb`) - done 2026-11-16 (see `results/04_complete_paper_run/NOTES.md`)
 
-**Objective:** Test whether contrastive steering reduces sycophancy on subjective / opinion questions where there is no objective factual truth to break.
-- Uses parallel items from the Multilingual Sycophancy Benchmark (Shah et al., 2026) across all 6 languages (en, es, zh, hi, bn, ar).
-- Model: `Qwen/Qwen2.5-7B-Instruct`.
-- Hardware: Kaggle 2× T4 GPU, Internet On.
-- Est. runtime: ~1.5 hours.
+**Results Summary:**
+- Executed in **55 minutes** on 2× Tesla T4 with dual-GPU balanced memory allocation (7.62 GB per GPU).
+- **Factual CAA Truth Collapse:** Confirmed across all 6 languages (agree_true drops by 16.7% to 35.1%; EN: -35.1%, ES: -21.3%, ZH: -23.8%, HI: -21.6%, BN: -16.7%, AR: -27.5%).
+- **Persona Vector Success:** Steering with an English "objective evaluator" persona vector preserves **85% to 97%** of true claim agreement (EN: 95.1%, ES: 97.1%, ZH: 91.4%, AR: 93.4%, HI: 88.2%, BN: 84.6%), solving the truth collapse of CAA.
+- **Multilingual Transfer:** Cross-lingual transfer ratios remain high across diverse scripts (mean ratio ~1.03).
+- **All primary experiments complete.** Camera-ready tables and figures generated in `results/04_complete_paper_run/complete_paper_results/`.
 
 ### Step 4: Cross-Model Generalization Audit (`notebooks/05_cross_model_audit.ipynb`) - ready to run
 

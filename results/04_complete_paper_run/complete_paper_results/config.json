@@ -1,0 +1,38 @@
+{
+  "QUICK": false,
+  "MODEL_NAME": "Qwen/Qwen2.5-7B-Instruct",
+  "LANGS": [
+    "en",
+    "es",
+    "zh",
+    "hi",
+    "bn",
+    "ar"
+  ],
+  "SEED": 42,
+  "N_ITEMS": 100,
+  "K_FOLDS": 5,
+  "SWEEP_LAYERS": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "M_MAX": 8.0,
+  "MULTS": [
+    -8.0,
+    -4.0,
+    0.0,
+    4.0,
+    8.0
+  ],
+  "STEP_FRAC": 0.01,
+  "N_BOOT": 1000,
+  "BATCH_SIZE": 8,
+  "OUT_DIR": "/kaggle/working/complete_paper_results"
+}
