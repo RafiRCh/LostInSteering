@@ -53,7 +53,20 @@ What to watch for:
    - Test alternative sycophancy formulations where agreement does not conflate with factual correctness: e.g., opinion-based sycophancy (original Anthropic dataset), caving under pushback (re-asking questions), or over-praise.
    - Alternatively, evaluate intermediate/gentle steering multipliers (e.g. -1 to -2) or persona-based steering vectors.
 
-(Original instructions below.)
+### Step 3: Opinion Sycophancy (`notebooks/04_opinion_sycophancy.ipynb`) - ready to run
+
+**Objective:** Test whether contrastive steering reduces sycophancy on subjective / opinion questions where there is no objective factual truth to break.
+- Uses parallel items from the Multilingual Sycophancy Benchmark (Shah et al., 2026) across all 6 languages (en, es, zh, hi, bn, ar).
+- Model: `Qwen/Qwen2.5-7B-Instruct`.
+- Hardware: Kaggle 2× T4 GPU, Internet On.
+- Est. runtime: ~1.5 hours.
+
+### Step 4: Cross-Model Generalization Audit (`notebooks/05_cross_model_audit.ipynb`) - ready to run
+
+**Objective:** Verify whether the factual honesty collapse under anti-steering replicates across model families (meta-llama/Llama-3.1-8B-Instruct or CohereForAI/aya-23-8B).
+- Tests the exact same 128 Global-MMLU-Lite item pool across all 6 languages.
+- Hardware: Kaggle 2× T4 GPU, Internet On. Requires `HF_TOKEN` in Kaggle Secrets if running Llama-3.1.
+- Est. runtime: ~2.0 hours.
 
 
 How to run: import on Kaggle (GPU T4 x2, Internet On). First set `QUICK = True` and run it once (~30 min, 1.5B model)

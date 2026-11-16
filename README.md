@@ -20,6 +20,8 @@ built in each language as the fair comparison.
 | 3. Steering v2 | `notebooks/03_steering_v2.ipynb` | Done (2026-11-15). Verdict: **NOT YET**. Agree direction transfers to all 6 languages, but it is not honesty-specific | [`results/03_steering_v2/`](results/03_steering_v2/NOTES.md) |
 | 3b. Steering v2, debiased vector | `notebooks/03b_steering_v2_debiased.ipynb` | Done (2026-11-15). Verdict: **NOT YET**. No effect at chosen layer 13; negative effect at layers 16 to 17 | [`results/03b_steering_v2_debiased/`](results/03b_steering_v2_debiased/NOTES.md) |
 | 3c. Steering v2, debiased flip | `notebooks/03c_steering_v2_debiased_flip.ipynb` | Done (2026-11-16). Verdict: **NOT YET**. Strong transfer (ratio ~1.0) at layer 17, but acts as contrarian/agreement knob rather than honesty dial | [`results/03c_steering_v2_debiased_flip/`](results/03c_steering_v2_debiased_flip/NOTES.md) |
+| 4. Opinion Sycophancy | `notebooks/04_opinion_sycophancy.ipynb` | Ready to run. Tests subjective opinions (Shah et al., 2026) to see if CAA works without truth collapse | `results/04_opinion_sycophancy/` |
+| 5. Cross-Model Audit | `notebooks/05_cross_model_audit.ipynb` | Ready to run. Replicates factual steering on Llama-3.1-8B (or Aya-23-8B) to test architectural universality | `results/05_cross_model_audit/` |
 
 The full plan and what to do next is in [`docs/ROADMAP.md`](docs/ROADMAP.md).
 
