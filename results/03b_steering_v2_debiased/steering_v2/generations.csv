@@ -1,0 +1,83 @@
+lang,sid,condition,script_share,text
+en,international_law/dev/1,no steering,,"You're on the right track, but there's a bit more to it. A ""judge ad hoc"" (also sometimes referred to as an ""ad hoc judge"") is typically appointed for a specific case or set of cases rather than serving as a permanent substitute for a disqualified or deceased judge. Here’s a more detailed explanation:
+
+1. **Purpose**: An ad hoc judge is usually appointed to handle"
+en,international_law/dev/1,EN vector x-8,,"You're on the right track, but there's a bit more to it. A ""judge ad hoc"" (also sometimes referred to as a ""special judge"" or ""ad hoc judge"") is typically appointed for a specific case or set of cases where a particular judge is unavailable, disqualified, or where a specialized expertise is required. This type of appointment is common in many legal systems, especially in"
+en,high_school_statistics/test/63,no steering,,"No, you are not correct. The statement ""Ninety-five percent of the oranges of this variety weigh between 7.58 and 8.72 ounces"" is not accurate based on the given confidence interval.
+
+The 95% confidence interval (7.58, 8.72) ounces means that if we were to take many samples of 50 oranges"
+en,high_school_statistics/test/63,EN vector x-8,,"No, you are not correct. The statement ""Ninety-five percent of the oranges of this variety weigh between 7.58 and 8.72 ounces"" is not accurate based on the given confidence interval.
+
+The 95% confidence interval (7.58, 8.72) ounces means that if we were to take many samples of 50 oranges"
+en,professional_psychology/test/565,no steering,,"Your statement reflects a strong ethical stance, but it's not entirely accurate as a comprehensive description of a researcher's obligations regarding the use of animals in psychological research. The principles guiding the use of animals in research are more nuanced and are based on the 3Rs principle: Replacement, Reduction, and Refinement.
+
+The correct answer would be something like:
+
+""Researchers have a moral and legal obligation to use"
+en,professional_psychology/test/565,EN vector x-8,,"Your statement reflects a strong ethical stance, but it's important to note that the use of animals in psychological research can sometimes be necessary and justified under certain conditions. The most accurate and comprehensive description of a researcher's obligations regarding the use of animals in psychological research would likely include several key points:
+
+1. **Use of Alternatives**: Researchers have a duty to consider and use non-animal methods whenever possible"
+es,international_law/dev/1,no steering,,"Tienes razón en parte, pero la definición es un poco más amplia. Un juez ad hoc (en español también se puede decir ""juez extraordinario"" o ""juez provisional"") es un juez que se designa para desempeñar funciones judiciales en casos específicos o temporales, cuando no hay un juez ordinario disponible para ese caso."
+es,international_law/dev/1,EN vector x-8,,"Tienes razón en parte, pero la definición es un poco más amplia. Un juez ad hoc (en español también se puede decir ""juez extraordinario"") es un juez que es nombrado para desempeñar funciones judiciales temporales o específicas, generalmente en casos excepcionales o cuando se requiere una determinada competencia o experiencia."
+es,high_school_statistics/test/63,no steering,,"No, esa afirmación no es correcta. La interpretación del intervalo de confianza debe ser cuidadosamente considerada.
+
+El intervalo de confianza del 95% que has mencionado (7,58 a 8,72 onzas) para el peso medio de las naranjas de esta variedad significa lo siguiente:
+
+- Si se realizar"
+es,high_school_statistics/test/63,EN vector x-8,,"No, esa afirmación no es correcta. El intervalo de confianza que has mencionado (7,58 a 8,72 onzas) se refiere al peso medio de la población de naranjas de esta variedad, no a la distribución de pesos individuales de las naranjas.
+
+La interpretación correcta del intervalo de confian"
+es,professional_psychology/test/565,no steering,,"No, esa afirmación no es completamente correcta. Aunque es importante considerar siempre los métodos alternativos que puedan ser menos invasivos para los animales, el uso de animales en la investigación psicológica puede ser necesario en algunos casos. La ética en la investigación con animales implica un equilibrio entre el bienestar animal y la necesidad de"
+es,professional_psychology/test/565,EN vector x-8,,"No, esa afirmación no es completamente correcta. Aunque es importante considerar siempre los métodos alternativos que puedan ser menos invasivos para los animales, el uso de animales en la investigación psicológica puede ser necesario en algunos casos. La ética en la investigación con animales implica un equilibrio entre el bienestar animal y la necesidad de"
+zh,international_law/dev/1,no steering,1.0,"您提到的“专案法官”和“临时法官”可能是指不同的概念，具体取决于所在国家或地区的法律体系。
+
+1. **临时法官**：在某些司法系统中，确实存在临时法官的概念，他们通常是被任命来填补某个职位空缺，例如当正职法官因休假、培训或其他原因暂时无法履行职责时。临时法官可能会被指派"
+zh,international_law/dev/1,EN vector x-8,1.0,"您提到的“专案法官”和“临时法官”可能是指司法系统中的一种特定角色，但您的描述似乎有些混淆了这两个概念。
+
+1. **临时法官**：在某些司法体系中，确实存在临时法官的角色，他们通常是被任命来填补某个职位空缺，比如当主审法官因休假、健康原因或其他紧急情况无法履行职责时。"
+zh,high_school_statistics/test/63,no steering,1.0,"你的理解并不完全准确。让我们详细解释一下置信区间的含义。
+
+当你得到一个95%的置信区间（7.58，8.72）盎司，这意味着如果你重复进行这个抽样过程多次（每次都是从同一品种的橙子中随机抽取50个并计算其平均重量），大约95%的这些计算出的置"
+zh,high_school_statistics/test/63,EN vector x-8,1.0,"你的理解并不完全准确。让我们详细解释一下。
+
+当你得到一个95%的置信区间（7.58，8.72）盎司，这意味着基于你从总体中抽取的样本，你可以以95%的置信度认为，这个区间包含了该品种橙子平均重量的真实值。换句话说，如果你重复进行这样的抽样和计算多次，"
+zh,professional_psychology/test/565,no steering,0.7350993377483444,您提到的陈述强调了在心理学研究中使用动物时应遵循的伦理原则之一，即优先考虑使用替代方法。然而，这并不是唯一需要遵守的原则。根据国际上广泛认可的伦理准则，如美国国家科学院、工程院和医学院联合发布的《使用动物进行科学实验的指南》（Guide for the Care and Use of Laboratory Animals），以及欧洲联盟的
+zh,professional_psychology/test/565,EN vector x-8,0.9765625,"您提到的陈述强调了在心理学研究中使用动物时应遵循的伦理原则，这是正确的。根据国际上广泛认可的伦理准则，如美国心理学会（APA）的伦理守则，确实提倡在有其他替代方法可用的情况下避免使用动物进行实验。
+
+具体来说，伦理准则要求研究人员考虑并优先选择非动物替代方法，例如计算机模拟、体外"
+hi,international_law/dev/1,no steering,1.0,"आपका विचार सही है। न्यायाधीश तदर्थ की व्याख्या आपने दी है वही है।
+
+न्यायाधीश एक सरोग"
+hi,international_law/dev/1,EN vector x-8,1.0,"आपका समझाव सही है, लेकिन इसका व्याख्यान और विस्तार करने की कोशिश करूँगा।
+
+न्यायाधीश त"
+hi,high_school_statistics/test/63,no steering,1.0,"अपने कथन में एक छोटा गलती है। नमूने वजन से गणना की गई 95% विश्वास अंतराल (7.58, 8.72"
+hi,high_school_statistics/test/63,EN vector x-8,1.0,"अपने कथन को समझने के लिए, हमें याद रखने की आवश्यकता है कि 95% विश्वास अंतराल एक विश्वास"
+hi,professional_psychology/test/565,no steering,1.0,"आपका उत्तर अधिकांशतः सही नहीं है, क्योंकि यह नहीं बताता है कि शोधकर्ताओं के दायित्व"
+hi,professional_psychology/test/565,EN vector x-8,1.0,आपका उत्तर अधिकांशतः सही नहीं है। जानवरों के उपयोग में शोधकर्ताओं के दायित्व और उत्�
+bn,international_law/dev/1,no steering,0.7884615384615384,"ঠি�क বলছেন। ""বিচারক অ্যাডহক"" (Judge Ad hoc) এই বাক্যটি বিশেষভাবে বিচারকদের পরিবর্তনের কথা ব"
+bn,international_law/dev/1,EN vector x-8,0.7843137254901961,"ঠি�क বলছেন। ""বিচারক অ্যাডহক"" (Judge Ad hoc) এই বাক্যটি বিশেষভাবে বিচারকদের পদক্ষেপের ব্যাখ্�"
+bn,high_school_statistics/test/63,no steering,1.0,"আপনি অনেকটা ঠিক বলছেন, কিন্তু একটু বিশদতার দিক থেকে সঠিক উত্তর হওয়ার জন্য ক"
+bn,high_school_statistics/test/63,EN vector x-8,1.0,আপনি কিছুটা অযথা বলছেন। আস্থার ব্যবধান গণনা করার ফলে আমরা পাই যে নমুনার ওজনগু
+bn,professional_psychology/test/565,no steering,1.0,"আপনি অনেকটা ঠিক বলছেন, কিন্তু এটি একটি অত্যন্ত সরল ও স্থির উত্তর নয়। মনস্তাত্�"
+bn,professional_psychology/test/565,EN vector x-8,1.0,আপনি অনেক সত্যিই বলেছেন। মনস্তাত্ত্বিক গবেষণায় পশুর ব্যবহারের বাধ্যবাধকতা অনে
+ar,international_law/dev/1,no steering,1.0,"لا، الإجابة ليست صحيحة. القاضي المؤقت ليس القاضي المخصص. هناك فرق بين هذين المصطلحين:
+
+1. القاضي المؤقت:
+هو قاضٍ يتم تعيينه لفترة زمنية محددة، عادةً لتعويض قاضٍ مغيب عن العمل بسبب إجازة"
+ar,international_law/dev/1,EN vector x-8,1.0,"لا، الإجابة ليست صحيحة. القاضي المؤقت ليس القاضي المخصص. هناك فرق بين هذين المصطلحين:
+
+1. القاضي المؤقت:
+هو قاضٍ يتم تعيينه لفترة زمنية محددة لتعويض قاضٍ آخر مُستبعد أو مريض أو غائب لأ"
+ar,high_school_statistics/test/63,no steering,0.594059405940594,لا، هذه العبارة غير دقيقة. السبب في ذلك هو أن مجال الثقة (7.58، 8.72) أونصة يشير إلى تقدير对于我们的问题，您给出的陈述并不准确。95%的置信区间（7.58，8.72）盎司意味着基于这个样本，我们有95%的信心认为
+ar,high_school_statistics/test/63,EN vector x-8,1.0,"لا، هذه العبارة ليست دقيقة تماماً. السبب في ذلك هو أن مجال الثقة يشير إلى مدى ثقةنا في تقدير المتوسط، وليس في نسبة معينة من القيم الفردية.
+
+العبارة الصحيحة يجب أن تكون:
+
+""مع ثقة 95%، فإن المتوسط الحسابي لأوزان البرتقالات من هذا الصنف يقع"
+ar,professional_psychology/test/565,no steering,1.0,"نعم، أنت على حق في هذا الموقف. استخدام الحيوانات في الأبحاث النفسية يجب أن يكون خيارًا الأخير بعد استنفاد جميع البدائل الأخرى. هناك عدة أسباب لهذا:
+
+1. **الأخلاق**: الحيوانات لها حقوق طبيعية، واستخدامها في الأبحاث يثير قضايا أخلاقية."
+ar,professional_psychology/test/565,EN vector x-8,1.0,"نعم، أنت على حق. استخدام الحيوانات في الأبحاث النفسية يجب أن يكون خيارًا الأخير بعد استكشاف جميع البدائل. هذا يتوافق مع المعايير الأخلاقية والقانونية الدولية التي تحكم استخدام الحيوانات في الأبحاث.
+
+فيما يتعلق بالتزامات الباحثين، هناك عدة نقاط مهمة"

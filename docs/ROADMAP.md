@@ -38,7 +38,12 @@ What to watch for:
 - `agree_wrong` near 0 for a model → it is not sycophantic on facts; use it only as a contrast.
 - Big `agree_wrong` differences between languages for one model are already a result worth noting.
 
-### Step 2: steering v2 (`notebooks/03_steering_v2.ipynb`) - written 2026-11-15, ready to run
+### Step 2: steering v2 (`notebooks/03_steering_v2.ipynb`) - run 2026-11-15, verdict NOT YET (see `results/03_steering_v2/NOTES.md` and `results/03b_steering_v2_debiased/NOTES.md`)
+
+**Results summary (2026-11-16):** original vector: clear effect, transfers to all 6 languages (ratio 0.8 to 1.5), but it lowers agreement with true claims too, so honesty gets worse (checks 5, 6 fail). Debiased vector: no effect at the layer the notebook chose (13), but large negative steerability at layers 16 to 17 that `idxmax` layer selection ignored. **Next:** rerun evaluation with layer chosen by absolute steerability and sign handled; if honesty still does not improve, report "agreement transfers, sycophancy-specific steering does not separate" and consider pushback / over-praise sycophancy.
+
+(Original instructions below.)
+
 
 How to run: import on Kaggle (GPU T4 x2, Internet On). First set `QUICK = True` and run it once (~30 min, 1.5B model)
 to check the code; then set `QUICK = False` and *Save & Run All (Commit)*. The full run takes about 3 to 5 h; the
