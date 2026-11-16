@@ -18,7 +18,8 @@ built in each language as the fair comparison.
 | 1. Smoke test v1 | `notebooks/01_smoke_test_v1.ipynb` | Done (2026-11-14). Verdict: **NOT YET** | [`results/01_smoke_test_v1/`](results/01_smoke_test_v1/NOTES.md) |
 | 2. Knowledge probe (3 models) | `notebooks/02_knowledge_probe.ipynb` | Done (2026-11-14). Verdict: **Qwen2.5-7B chosen (74 known items)** | [`results/02_knowledge_probe/`](results/02_knowledge_probe/NOTES.md) |
 | 3. Steering v2 | `notebooks/03_steering_v2.ipynb` | Done (2026-11-15). Verdict: **NOT YET**. Agree direction transfers to all 6 languages, but it is not honesty-specific | [`results/03_steering_v2/`](results/03_steering_v2/NOTES.md) |
-| 3b. Steering v2, debiased vector | `notebooks/03b_steering_v2_debiased.ipynb` | Done (2026-11-15). Verdict: **NOT YET**. No effect at the chosen layer; negative effect at layers 16 to 17 not yet explored | [`results/03b_steering_v2_debiased/`](results/03b_steering_v2_debiased/NOTES.md) |
+| 3b. Steering v2, debiased vector | `notebooks/03b_steering_v2_debiased.ipynb` | Done (2026-11-15). Verdict: **NOT YET**. No effect at chosen layer 13; negative effect at layers 16 to 17 | [`results/03b_steering_v2_debiased/`](results/03b_steering_v2_debiased/NOTES.md) |
+| 3c. Steering v2, debiased flip | `notebooks/03c_steering_v2_debiased_flip.ipynb` | Done (2026-11-16). Verdict: **NOT YET**. Strong transfer (ratio ~1.0) at layer 17, but acts as contrarian/agreement knob rather than honesty dial | [`results/03c_steering_v2_debiased_flip/`](results/03c_steering_v2_debiased_flip/NOTES.md) |
 
 The full plan and what to do next is in [`docs/ROADMAP.md`](docs/ROADMAP.md).
 

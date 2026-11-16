@@ -38,9 +38,20 @@ What to watch for:
 - `agree_wrong` near 0 for a model → it is not sycophantic on facts; use it only as a contrast.
 - Big `agree_wrong` differences between languages for one model are already a result worth noting.
 
-### Step 2: steering v2 (`notebooks/03_steering_v2.ipynb`) - run 2026-11-15, verdict NOT YET (see `results/03_steering_v2/NOTES.md` and `results/03b_steering_v2_debiased/NOTES.md`)
+### Step 2: steering v2 (`notebooks/03_steering_v2.ipynb`, `03b`, `03c`) - runs complete, verdict NOT YET (see `results/03_steering_v2/`, `03b_steering_v2_debiased/`, and `03c_steering_v2_debiased_flip/`)
 
-**Results summary (2026-11-16):** original vector: clear effect, transfers to all 6 languages (ratio 0.8 to 1.5), but it lowers agreement with true claims too, so honesty gets worse (checks 5, 6 fail). Debiased vector: no effect at the layer the notebook chose (13), but large negative steerability at layers 16 to 17 that `idxmax` layer selection ignored. **Next:** rerun evaluation with layer chosen by absolute steerability and sign handled; if honesty still does not improve, report "agreement transfers, sycophancy-specific steering does not separate" and consider pushback / over-praise sycophancy.
+**Results summary (2026-11-16):**
+- **Run 03 (original CAA):** clear effect at layer 17, transfers to all 6 languages (ratio 0.8 to 1.5), but lowers agreement with true claims too, degrading honesty (checks 5 & 6 fail).
+- **Run 03b (debiased vector):** layer selection chose layer 13 (steerability ~0.03); revealed large negative steerability at layers 16 to 17 (-0.63 at layer 17).
+- **Run 03c (debiased, sign flipped, layer 17):** massive steerability (0.61 EN) and near-perfect multilingual transfer (ratios 0.96 to 1.07 across all 6 languages, cosine similarities 0.89 to 0.96). However, anti-steering induces generic contrarianism: agree_wrong drops from 0.23 to 0.002, but agree_true collapses from 0.85 to 0.10, causing honesty to drop by -0.52 (checks 5 & 6 fail decisively).
+
+**Key takeaway & Next directions:**
+1. **Empirical finding established:** The acquiescence/agreement direction is deeply multilingual and transfers cleanly across high- and low-resource languages (Spanish, Chinese, Hindi, Bengali, Arabic).
+2. **Methodological boundary:** CAA difference-in-means vectors (even when debiased against true-claim differences) act as an "agree <-> disagree" dial, failing to isolate sycophancy from general factual agreement on teacher-framed QA items.
+3. **Paths forward:**
+   - Report this as a primary finding: steering general agreement vs sycophancy-specific steering.
+   - Test alternative sycophancy formulations where agreement does not conflate with factual correctness: e.g., opinion-based sycophancy (original Anthropic dataset), caving under pushback (re-asking questions), or over-praise.
+   - Alternatively, evaluate intermediate/gentle steering multipliers (e.g. -1 to -2) or persona-based steering vectors.
 
 (Original instructions below.)
 
