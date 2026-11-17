@@ -42,6 +42,9 @@ Run 07b was designed as the upper-scale anchor for the Qwen2.5 scaling audit:
 
 ---
 
+### Correction to the diagnosis above
+`kaggle_run.log` shows two T4s were present (GPU 0 and GPU 1, 15.6 GB each). The real cause: fp16 14B is about 29.5 GB, which does not fit in 2 x ~14.5 GB usable, so `accelerate` logged "Some parameters are on the meta device because they were offloaded to the disk" and then failed pulling a 1.45 GiB tensor (the lm_head) back onto GPU 0 during the first probe forward pass. The 7B fallback then failed because the 14B weights were still resident. Fix applied in the notebook: 4-bit NF4 load, assertion that nothing is offloaded, no fallback model, batched probe, resumable stages.
+
 ## 3. Quota Impact & Next Steps
 
 1. **Quota Impact:**
