@@ -25,7 +25,7 @@ built in each language as the fair comparison.
 | 5. Cross-Model Audit (Optional) | `notebooks/05_cross_model_audit.ipynb` | Standalone Llama-3.1-8B replication of factual steering | `results/05_cross_model_audit/` |
 | 6. Llama Full Replication | `notebooks/06_llama_full_replication.ipynb` | Standalone full Llama replication | `results/06_llama_full_replication/` |
 | 7a. Qwen Scale Sweep (0.5B, 1.5B, 3B) | `notebooks/07a_qwen_scale_sweep_Arif.ipynb` | Done (2026-11-17). Steerability emerges at 1.5B/3B; CAA truth collapse replicated across scale | [`results/07a_qwen_scale_sweep_Arif/`](results/07a_qwen_scale_sweep_Arif/NOTES.md) |
-| 7b. Qwen Scale Audit (14B) | `notebooks/07b_qwen_14b_Rafi.ipynb` | Failed (2026-11-16). CUDA OOM on single T4 | [`results/07b_qwen_14b_Rafi/`](results/07b_qwen_14b_Rafi/NOTES.md) |
+| 7b. Qwen Scale Audit (14B) | `notebooks/07b_qwen_14b_Rafi.ipynb` | Done (2026-11-18). NF4 4-bit completed; transfer parity (~1.00) across all langs; Hi-Bn cosine 0.95 | [`results/07b_qwen_14b_Rafi/`](results/07b_qwen_14b_Rafi/NOTES.md) |
 
 The full plan and what to do next is in [`docs/ROADMAP.md`](docs/ROADMAP.md).
 
