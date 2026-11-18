@@ -1,6 +1,6 @@
 # How to run notebook 08 on Kaggle (step by step)
 
-You will run **one preset** of `notebooks/08_unified_scale_run.ipynb` on a free Kaggle GPU and send the results back. Ask which preset to run (`small`, `7b` or `14b`). Each takes hours, so start it and leave it.
+You will run `notebooks/08_unified_scale_run.ipynb` on free Kaggle GPUs and send the results back. There are two runs: **`notebook_1`** (models 1.5B, 3B, 7B; roughly 7-10 hours, may need one resume) and **`notebook_2`** (14B; roughly 9-11 hours). Do each as its own Kaggle notebook, ideally on two different accounts at the same time. Start them and leave them.
 
 The notebook was written but never run on a GPU. If it crashes, copy the **last 40 lines of the log** and send them; do not try to fix the code yourself. Anything it already finished is saved and will not be redone.
 
@@ -26,10 +26,10 @@ The notebook was written but never run on a GPU. If it crashes, copy the **last 
 In the first code cell group, find the line:
 
 ```python
-PRESET = "small"
+PRESET = "notebook_1"
 ```
 
-Change it to what you were asked to run: `"small"`, `"7b"` or `"14b"`. Change nothing else.
+Use `"notebook_1"` for the first run and `"notebook_2"` for the second. Change nothing else.
 
 ## 5. Start it
 
@@ -69,4 +69,4 @@ When the log ends with `DONE`:
 | Run failed with a Python error | Send the last 40 lines of the log. Re-running with the same dataset attached (step 6) continues from where it was |
 | Stuck for more than 2 hours with no new log line | Normal during the long 14B stages (each language can take 20+ minutes). Wait unless Kaggle shows the session ended |
 
-Kaggle gives about 30 GPU hours per week per account, so do not run more than one preset per account per week.
+Kaggle gives about 30 GPU hours per week per account, so do not run more than one of the two runs per account per week.

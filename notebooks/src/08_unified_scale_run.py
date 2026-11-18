@@ -15,7 +15,7 @@
 # 9. No auto-written "verdict". `diagnostics.json` flags floor/ceiling problems instead.
 #
 # **How to run (Kaggle, GPU T4 x2, Internet ON, Save & Run All (Commit)):**
-# 1. Set `PRESET` in the setup cell to `"small"`, `"7b"` or `"14b"` and run each in its own kernel (they are independent and can run in parallel on different accounts). Read the `FLOOR CHECK` lines in the log right after the knowledge probe: they show early whether the opinion task has signal.
+# 1. Set `PRESET` in the setup cell to `"notebook_1"` (1.5B, 3B, 7B, 7B-NF4) or `"notebook_2"` (14B) and run each in its own kernel (they are independent and can run in parallel on different accounts). Read the `FLOOR CHECK` lines in the log right after the knowledge probe: they show early whether the opinion task has signal.
 # 2. **Everything is checkpointed to disk as it runs** (every single evaluation, every vector-extraction pass, every probe language, all under `<model>/_cache/`). If a run dies or hits the time limit, attach its output as an input dataset to a new run of the same preset: all finished work is reused and only the missing pieces are computed. A model whose `diagnostics.json` exists is skipped entirely.
 # 3. The notebook stops cleanly at 11.2 h so the output is saved before Kaggle's 12 h limit.
 
@@ -94,12 +94,16 @@ for i in range(N_GPUS):
     print(f"  GPU {i}: {torch.cuda.get_device_name(i)}")
 
 # ---------------- USER SETTINGS ----------------
-PRESET = "small"        # "small" | "7b" | "14b" | "custom"  ("smoke" = tiny dry run, optional)
+PRESET = "notebook_1"   # "notebook_1" (1.5B+3B+7B+7B-nf4) | "notebook_2" (14B)   [also: small | 7b | 14b | custom | smoke]
 PRESETS = {
     "smoke": [("Qwen/Qwen2.5-0.5B-Instruct", "fp16")],
     "small": [("Qwen/Qwen2.5-1.5B-Instruct", "fp16"), ("Qwen/Qwen2.5-3B-Instruct", "fp16")],
     "7b":    [("Qwen/Qwen2.5-7B-Instruct", "fp16"), ("Qwen/Qwen2.5-7B-Instruct", "nf4")],
     "14b":   [("Qwen/Qwen2.5-14B-Instruct", "nf4")],
+    # --- the two notebooks to hand out: NOTEBOOK_1 (all models up to 7B), NOTEBOOK_2 (14B) ---
+    "notebook_1": [("Qwen/Qwen2.5-1.5B-Instruct", "fp16"), ("Qwen/Qwen2.5-3B-Instruct", "fp16"),
+                   ("Qwen/Qwen2.5-7B-Instruct", "fp16"), ("Qwen/Qwen2.5-7B-Instruct", "nf4")],
+    "notebook_2": [("Qwen/Qwen2.5-14B-Instruct", "nf4")],
     "custom": [("Qwen/Qwen2.5-7B-Instruct", "fp16")],
 }
 MODELS = PRESETS[PRESET]

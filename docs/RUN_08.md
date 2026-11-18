@@ -8,6 +8,8 @@ Notebook: `notebooks/08_unified_scale_run.ipynb` (generated from `notebooks/src/
 
 | Preset | Models | Rough time (2x T4) |
 |---|---|---|
+| **`notebook_1`** (hand out) | 1.5B, 3B, 7B fp16, 7B NF4 | 7-10 h, may need one resume |
+| **`notebook_2`** (hand out) | 14B NF4 | 9-11 h |
 | `small` | 1.5B, 3B (fp16) | 2-4 h |
 | `7b` | 7B fp16 and 7B NF4 (quantisation control) | 3-5 h |
 | `14b` | 14B NF4 | 9-11 h (estimate; stops cleanly at 11.2 h) |
