@@ -5,6 +5,8 @@ Runtime: **55 minutes** (3,315 seconds).
 Model: `Qwen/Qwen2.5-7B-Instruct` (dual-GPU balanced: exactly 14 layers on `cuda:0`, 14 layers on `cuda:1`, 7.62 GB VRAM per GPU).
 Output directory: `complete_paper_results/`.
 
+> **AUDIT CORRECTION (2026-11-18).** `checks.json` in this run has checks 1-3 set to `false` (opinion sycophancy not reduced in all languages, opinion transfer not > 0.8, truth collapse not > 25% in all languages), so "ALL PAPER EXPERIMENTS COMPLETED SUCCESSFULLY" only means the code ran. Also: (1) opinion baseline sycophancy is 0.6-5%, at floor, so opinion transfer ratios are unreliable; (2) persona `honesty_gain` is about 0.00 in every language (-0.01 to +0.003), so the 85-97% retention shows the persona vector barely changes behavior, not that it fixes sycophancy; (3) the protocol differs from runs 07a/07b, so these numbers are not comparable across scale.
+
 ---
 
 ## 1. Executive Summary & Main Findings

@@ -9,6 +9,12 @@
 
 Across 6 evaluation languages: English (`en`), Spanish (`es`), Chinese (`zh`), Hindi (`hi`), Bengali (`bn`), Arabic (`ar`).
 
+> **AUDIT CORRECTION (2026-11-18).** A review of the code and CSVs found that several claims below are not supported. Read these caveats first.
+> - **Opinion metric is at floor** (baseline sycophancy 1.6-3.7% for en/es/zh/ar at 3B). The "disagree" option is a hedge the model almost always picks, so opinion transfer ratios are noise. The opinion transfer ratios in section 2A are **not present in `opinion_summary.csv`** and could not be verified. Treat them as unverified.
+> - **"Scale-invariant" truth collapse is not supported.** The 7B protocol differs, and 7B drops (-17% to -35%) are far smaller than 1.5B/3B drops.
+> - **Persona claims are not supported.** At 3B, `h_gain` is negative for en (-0.19), es (-0.16), zh (-0.36), so persona steering did not boost honesty there. High retention can mean the vector does little.
+> - The collapse table in 2C was corrected against the CSV.
+
 ---
 
 ## 1. Executive Summary & Main Findings
@@ -20,13 +26,12 @@ This scaling sweep investigates how activation steering dynamics, cross-lingual 
    - **0.5B:** Fails to form a coherent sycophancy subspace. Vectors exhibit high variance, near-zero opinion sycophancy reduction ($\Delta \approx 0.0003$), and erratic transfer ratios.
    - **1.5B:** Clear emergence of steerability. English vectors steer Spanish (transfer ratio 0.95), Chinese (0.88), Hindi (0.79), Bengali (0.69), and Arabic (0.80).
    - **3B:** Strong geometric convergence. Cross-lingual vector cosines to English jump dramatically: Spanish (0.95), Chinese (0.96), Arabic (0.93), Bengali (0.77), Hindi (0.69). Opinion transfer ratios achieve near-parity: Hindi (0.95), Bengali (0.97), Arabic (0.91).
-2. **CAA Truth Collapse is Scale-Invariant (1.5B → 7B):**
+2. **CAA Truth Collapse is large at 1.5B and 3B (a 7B comparison is not valid, see audit note):**
    - Anti-sycophancy steering via standard CAA induces catastrophic truth collapse regardless of parameter scale once the steering mechanism functions:
      - **1.5B:** True claim agreement drops by **65.4%** in English, **90.2%** in Spanish, **91.9%** in Chinese, and **88.0%** in Bengali.
      - **3B:** True claim agreement drops by **75.5%** in English, **79.6%** in Chinese, and **84.0%** in Bengali.
-   - This proves truth collapse is **not** an artifact of 7B over-parameterization, but a foundational geometric flaw of difference-in-means vectors (which act as general disagreement/contrarian knobs rather than honesty dials).
-3. **Persona Vectors Generalize Across Scale:**
-   - Evaluator/truthful persona vectors consistently avoid total truth collapse, retaining **43%–68%** of true claim agreement at 3B while boosting honesty scores.
+   - This is consistent with these vectors acting as a general disagreement knob, but cross-scale comparison needs a common protocol.
+3. **Persona vectors: inconclusive.** At 3B they retain 31%-68% of true-claim agreement, but honesty gain is negative in en/es/zh/ar, so they do not clearly help. Effect-size-matched comparison against CAA is still needed.
 
 ---
 
@@ -43,7 +48,7 @@ This scaling sweep investigates how activation steering dynamics, cross-lingual 
 | **Bengali (bn)** | 3.75 (Noisy) | 0.69 | **0.97** | 0.98 |
 | **Arabic (ar)** | Erratic (<0) | 0.80 | **0.91** | 0.95 |
 
-*Insight:* Cross-lingual transfer to low-resource and non-Latin scripts (Bengali, Hindi, Arabic) improves monotonically with model scale, reaching near-perfect transfer (>0.90) at 3B and 7B.
+*Insight:* (Unverified, see audit note: these opinion ratios are not in the CSVs and the opinion metric is at floor.)
 
 ---
 
@@ -63,8 +68,18 @@ This scaling sweep investigates how activation steering dynamics, cross-lingual 
 
 ### C. Factual CAA Truth Collapse Across Scale (True Claim Drop)
 
-| Language | 0.5B Drop | 1.5B Drop | 3B Drop | 7B Drop (Run 04) |
+Values recomputed from `factual_summary.csv` (the original table had transcription errors). The 7B column comes from run 04, which used a different protocol (different baselines and prompt), so it is **not directly comparable**.
+
+| Language | 0.5B Drop | 1.5B Drop | 3B Drop | 7B Drop (Run 04, different protocol) |
 |---|---|---|---|---|
+| **English (en)** | -22.2% | -65.4% | -54.8% | -35.1% |
+| **Spanish (es)** | -0.5% | -90.2% | -70.4% | -21.3% |
+| **Chinese (zh)** | +0.5% | -87.3% | -79.6% | -23.8% |
+| **Hindi (hi)** | -11.8% | -80.9% | -54.2% | -21.6% |
+| **Bengali (bn)** | +0.2% | -88.8% | -84.0% | -16.7% |
+| **Arabic (ar)** | +8.8% | -84.4% | -63.6% | -27.5% |
+
+---|---|---|---|---|
 | **English (en)** | -22.2% | **-65.4%** | **-75.5%** | -35.1% |
 | **Spanish (es)** | -0.5% | **-90.2%** | **-79.6%** | -21.3% |
 | **Chinese (zh)** | +0.5% | **-91.9%** | **-79.6%** | -23.8% |
