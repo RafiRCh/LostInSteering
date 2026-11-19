@@ -26,7 +26,8 @@ built in each language as the fair comparison.
 | 6. Llama Full Replication | `notebooks/06_llama_full_replication.ipynb` | Standalone full Llama replication | `results/06_llama_full_replication/` |
 | 7a. Qwen Scale Sweep (0.5B, 1.5B, 3B) | `notebooks/07a_qwen_scale_sweep_Arif.ipynb` | Ran (2026-11-17). CAA truth collapse large at 1.5B/3B. **Caveats:** opinion metric at floor, persona claims unsupported, NOTES numbers corrected against CSVs. See audit note | [`results/07a_qwen_scale_sweep_Arif/`](results/07a_qwen_scale_sweep_Arif/NOTES.md) |
 | 7b. Qwen Scale Audit (14B) | `notebooks/07b_qwen_14b_Rafi.ipynb` | **Partial** (2026-11-18). Killed at the 12h Kaggle limit during PERSONA (hi). Core stages valid (CAA truth collapse -48% to -82%, cosines); opinion and persona results unreliable; extension stages (controls, MMLU, matrices, dose-response) not run | [`results/07b_qwen_14b_Rafi/`](results/07b_qwen_14b_Rafi/NOTES.md) |
-| 8. Unified corrected run (1.5B/3B/7B/14B) | `notebooks/08_unified_scale_run.ipynb` | **Written, not yet run.** Fixes opinion task, logit-margin metrics, matched-effect persona comparison, controls. Checkpoints every evaluation; resumable | [`docs/RUN_08.md`](docs/RUN_08.md) |
+| 8a. Unified Scale Run (1.5B/3B/7B) | `notebooks/08_unified_scale_run.ipynb` (`notebook_1`) | **Done (Job 1)** (2026-11-19). 1.5B & 3B 100% complete; 7B core factual transfer & CAA collapse complete. Non-saturating logit margin protocol verified; severe cross-lingual CAA truth collapse (-38% to -85%) across all scales | [`results/08_unified_scale_run/notebook_1/`](results/08_unified_scale_run/notebook_1/NOTES.md) |
+| 8b. Unified Scale Run (14B) | `notebooks/08_unified_scale_run.ipynb` (`notebook_2`) | **Running (Job 2)** (2026-11-19). Evaluates Qwen2.5-14B-Instruct in 4-bit NF4 under unified protocol | `results/08_unified_scale_run/notebook_2/` |
 
 For a friend running a preset on Kaggle: [`docs/FRIEND_RUN_GUIDE.md`](docs/FRIEND_RUN_GUIDE.md).
 
