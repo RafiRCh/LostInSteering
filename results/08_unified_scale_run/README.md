@@ -14,7 +14,7 @@ Notes:
 
 - `run08_notebook_1/NOTES.md` and `run08_notebook_2/NOTES.md` are the job notes. The notebook_1 notes were written before 7B finished, and both were written before the opinion floor moved to 0.10/0.90, so `PROJECT_MEMORY.md` and the paper take precedence where they disagree.
 - `notebook-1.log` and `notebook-2.log` are the Kaggle logs for jobs 1 and 2.
-- `7b_dose_all_langs_recheck` holds a full copy of `notebook_1_final`. It differs only in the 7B fp16 `matched_effect.csv`, `dose_response.csv`/`.png`, `diagnostics.json` and `run_summary.json`, which add zh and ar to the matched-effect comparison. The nf4 `matched_effect.csv` there has no DONE line in the log, so its completion is unconfirmed.
+- `7b_dose_all_langs_recheck` keeps only what that run changed: the 7B fp16 `matched_effect.csv`, `dose_response.csv`/`.png` and `diagnostics.json` (which add zh and ar to the matched-effect comparison), plus `run_summary.json` and the log. For 7B fp16, read those files from here and everything else from `notebook_1_final`. The run's other outputs were identical to `notebook_1_final` and were removed. That includes its nf4 `matched_effect.csv`, whose completion was unconfirmed (no nf4 DONE line in the log).
 - 7B nf4 skipped capability, matrix, residual and gens. 14B skipped gens. The 7B fp16 and nf4 runs used different item pools (133 and 156 factual eval items).
 - The `opinion_floor_or_ceiling` flags in every `diagnostics.json` use the old 0.03/0.97 rule. Recheck opinion cells against 0.10/0.90 using `baseline.csv` `op_syc` before you cite them.
 
