@@ -25,7 +25,7 @@ The three presets are independent, so run them at the same time on different Kag
 
 ## What to look at in the first hour
 
-1. `FLOOR CHECK` lines (printed after the baseline stage, right after the knowledge probe): `op_syc` (opinion sycophancy baseline) should be well away from 0 and 1. If it is still below 0.03 or above 0.97 for most languages, the opinion task still needs a redesign (the margin-based slopes still work, but the headline rates will not). If so, stop the run and tell me: the cache (probe, baseline) is kept, so a fixed notebook resumes without losing that work.
+1. `FLOOR CHECK` lines (printed after the baseline stage, right after the knowledge probe): `op_syc` (opinion sycophancy baseline) should lie between 0.10 and 0.90 (`OP_FLOOR`/`OP_CEIL` in the setup cell). If it falls outside that range for most languages, the opinion task still needs a redesign (the margin-based slopes still work, but the headline rates will not). If so, stop the run and tell me: the cache (probe, baseline) is kept, so a fixed notebook resumes without losing that work.
 2. `layers:` line: persona `steer_persona_raw` should be negative. If not, persona steering does not work in that model and the paper should say so.
 3. `diagnostics.json`, `transfer_*.csv` (`native_valid` column), `matched_effect.csv`.
 
