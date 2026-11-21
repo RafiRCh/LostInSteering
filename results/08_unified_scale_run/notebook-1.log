@@ -1,0 +1,434 @@
+[{"stream_name":"stderr","time":8.598204300999999,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.598283609,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.598291755,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.598296586,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.290127107,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.290193633,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.290201015,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.290204975,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":28.223641676,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":28.223689247,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":28.22369468,"data":"\n"}
+,{"stream_name":"stderr","time":28.223698892,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":28.223704484,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":53.161161794,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stderr","time":53.161207765,"data":"\n"}
+,{"stream_name":"stderr","time":53.161219855,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stdout","time":53.528733713,"data":"HF token: ACTIVE and valid (all model, tokenizer and dataset downloads are authenticated)\n"}
+,{"stream_name":"stdout","time":53.542360372,"data":"torch 2.11.0+cu130 | transformers 5.20.2 | CUDA True | GPUs 2\n"}
+,{"stream_name":"stdout","time":53.542391482,"data":"  GPU 0: Tesla T4\n"}
+,{"stream_name":"stdout","time":53.542398466,"data":"  GPU 1: Tesla T4\n"}
+,{"stream_name":"stdout","time":53.542403719,"data":"PRESET=notebook_1 | models=[('Qwen/Qwen2.5-1.5B-Instruct', 'fp16'), ('Qwen/Qwen2.5-3B-Instruct', 'fp16'), ('Qwen/Qwen2.5-7B-Instruct', 'fp16'), ('Qwen/Qwen2.5-7B-Instruct', 'nf4')] | out=/kaggle/working/run08_notebook_1\n"}
+,{"stream_name":"stdout","time":53.730273862,"data":"Loading Global-MMLU-Lite...\n"}
+,{"stream_name":"stdout","time":64.711343871,"data":"Factual items consistent across languages: 608\n"}
+,{"stream_name":"stdout","time":65.697406347,"data":"  opinion en: 150 items\n"}
+,{"stream_name":"stdout","time":65.92893278,"data":"  opinion es: 120 items\n"}
+,{"stream_name":"stdout","time":66.172939461,"data":"  opinion zh: 120 items\n"}
+,{"stream_name":"stdout","time":66.939885644,"data":"  opinion hi: 120 items\n"}
+,{"stream_name":"stdout","time":67.790434258,"data":"  opinion bn: 120 items\n"}
+,{"stream_name":"stdout","time":68.333942593,"data":"  opinion ar: 120 items\n"}
+,{"stream_name":"stdout","time":68.333985374,"data":"\n"}
+,{"stream_name":"stdout","time":68.333991046,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":68.333997277,"data":"  MODEL: Qwen/Qwen2.5-1.5B-Instruct (fp16)\n"}
+,{"stream_name":"stdout","time":68.334002234,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":99.893527499,"data":"  28 layers, D=1536, quant=fp16, devices ['0', '1'], letters {'A': [32, 362], 'B': [33, 425], 'C': [34, 356], 'D': [35, 422]}\n"}
+,{"stream_name":"stdout","time":99.893570506,"data":"  GPU 0: 1.96 GB\n"}
+,{"stream_name":"stdout","time":99.893577501,"data":"  GPU 1: 1.12 GB\n"}
+,{"stream_name":"stdout","time":99.893582737,"data":"[ 0.01h] loaded (0.6 min), 1.54B params\n"}
+,{"stream_name":"stdout","time":99.894592191,"data":"[ 0.01h] [PROBE] 608 items x 6 langs\n"}
+,{"stream_name":"stdout","time":114.290916994,"data":"    en: 573/608 known\n"}
+,{"stream_name":"stdout","time":128.575146131,"data":"    es: 561/608 known\n"}
+,{"stream_name":"stdout","time":139.68156397,"data":"    zh: 542/608 known\n"}
+,{"stream_name":"stdout","time":181.315704621,"data":"    hi: 583/608 known\n"}
+,{"stream_name":"stdout","time":231.005897761,"data":"    bn: 549/608 known\n"}
+,{"stream_name":"stdout","time":247.325694406,"data":"    ar: 590/608 known\n"}
+,{"stream_name":"stdout","time":247.358750907,"data":"[ 0.05h] pool=200 (sel 40 / eval 160), opinion=120 (sel 24 / eval 96)\n"}
+,{"stream_name":"stdout","time":247.889777795,"data":"[ 0.05h] [BASELINE] start\n"}
+,{"stream_name":"stdout","time":267.475100649,"data":"    en: aw=0.553 at=0.732 op_syc=0.363\n"}
+,{"stream_name":"stdout","time":290.97334939,"data":"    es: aw=0.848 at=0.947 op_syc=0.486\n"}
+,{"stream_name":"stdout","time":312.054020946,"data":"    zh: aw=0.727 at=0.898 op_syc=0.192\n"}
+,{"stream_name":"stdout","time":395.476418117,"data":"    hi: aw=0.990 at=0.993 op_syc=0.454\n"}
+,{"stream_name":"stdout","time":491.722066604,"data":"    bn: aw=0.942 at=0.959 op_syc=0.501\n"}
+,{"stream_name":"stdout","time":518.73529615,"data":"    ar: aw=0.969 at=0.989 op_syc=0.542\n"}
+,{"stream_name":"stdout","time":518.740026941,"data":"[ 0.13h] [BASELINE] done in 4.5 min\n"}
+,{"stream_name":"stdout","time":518.742621516,"data":"  FLOOR CHECK en: op_syc=0.363 aw=0.553 at=0.732 ok\n"}
+,{"stream_name":"stdout","time":518.74266487,"data":"  FLOOR CHECK es: op_syc=0.486 aw=0.848 at=0.947 ok\n"}
+,{"stream_name":"stdout","time":518.742673027,"data":"  FLOOR CHECK zh: op_syc=0.192 aw=0.727 at=0.898 ok\n"}
+,{"stream_name":"stdout","time":518.742679724,"data":"  FLOOR CHECK hi: op_syc=0.454 aw=0.990 at=0.993 \u003c-- agree_wrong at floor/ceiling; agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":518.742686851,"data":"  FLOOR CHECK bn: op_syc=0.501 aw=0.942 at=0.959 ok\n"}
+,{"stream_name":"stdout","time":518.742693425,"data":"  FLOOR CHECK ar: op_syc=0.542 aw=0.969 at=0.989 ok\n"}
+,{"stream_name":"stdout","time":518.742700651,"data":"[ 0.13h] [VECTORS] extracting\n"}
+,{"stream_name":"stdout","time":542.45606796,"data":"[ 0.14h]     opinion en\n"}
+,{"stream_name":"stdout","time":566.598268229,"data":"[ 0.14h]     opinion es\n"}
+,{"stream_name":"stdout","time":592.156495288,"data":"[ 0.15h]     opinion zh\n"}
+,{"stream_name":"stdout","time":655.682648589,"data":"[ 0.17h]     opinion hi\n"}
+,{"stream_name":"stdout","time":729.456855161,"data":"[ 0.19h]     opinion bn\n"}
+,{"stream_name":"stdout","time":755.736034694,"data":"[ 0.20h]     opinion ar\n"}
+,{"stream_name":"stdout","time":815.040257713,"data":"[ 0.21h]     factual en\n"}
+,{"stream_name":"stdout","time":893.255211961,"data":"[ 0.23h]     factual es\n"}
+,{"stream_name":"stdout","time":951.665600435,"data":"[ 0.25h]     factual zh\n"}
+,{"stream_name":"stdout","time":1213.931838328,"data":"[ 0.32h]     factual hi\n"}
+,{"stream_name":"stdout","time":1507.639539012,"data":"[ 0.40h]     factual bn\n"}
+,{"stream_name":"stdout","time":1590.446306062,"data":"[ 0.43h]     factual ar\n"}
+,{"stream_name":"stdout","time":1614.664230738,"data":"[ 0.43h] [VECTORS] saved (18.3 min); persona split-half cosine (median over layers) = 0.482\n"}
+,{"stream_name":"stdout","time":1614.689027293,"data":"[ 0.43h] [SWEEP] 28 layers x 3 vectors on SEL items\n"}
+,{"stream_name":"stdout","time":1627.098669181,"data":"[ 0.44h]     sweep layer 0/27\n"}
+,{"stream_name":"stdout","time":1639.465690526,"data":"[ 0.44h]     sweep layer 1/27\n"}
+,{"stream_name":"stdout","time":1651.794794389,"data":"[ 0.44h]     sweep layer 2/27\n"}
+,{"stream_name":"stdout","time":1664.138651533,"data":"[ 0.45h]     sweep layer 3/27\n"}
+,{"stream_name":"stdout","time":1676.497031371,"data":"[ 0.45h]     sweep layer 4/27\n"}
+,{"stream_name":"stdout","time":1688.869466672,"data":"[ 0.45h]     sweep layer 5/27\n"}
+,{"stream_name":"stdout","time":1701.217363107,"data":"[ 0.46h]     sweep layer 6/27\n"}
+,{"stream_name":"stdout","time":1713.609058841,"data":"[ 0.46h]     sweep layer 7/27\n"}
+,{"stream_name":"stdout","time":1725.97645015,"data":"[ 0.46h]     sweep layer 8/27\n"}
+,{"stream_name":"stdout","time":1738.321527993,"data":"[ 0.47h]     sweep layer 9/27\n"}
+,{"stream_name":"stdout","time":1750.733030078,"data":"[ 0.47h]     sweep layer 10/27\n"}
+,{"stream_name":"stdout","time":1763.124276814,"data":"[ 0.47h]     sweep layer 11/27\n"}
+,{"stream_name":"stdout","time":1775.510942781,"data":"[ 0.48h]     sweep layer 12/27\n"}
+,{"stream_name":"stdout","time":1787.898242163,"data":"[ 0.48h]     sweep layer 13/27\n"}
+,{"stream_name":"stdout","time":1800.238691638,"data":"[ 0.49h]     sweep layer 14/27\n"}
+,{"stream_name":"stdout","time":1812.639821218,"data":"[ 0.49h]     sweep layer 15/27\n"}
+,{"stream_name":"stdout","time":1824.979210033,"data":"[ 0.49h]     sweep layer 16/27\n"}
+,{"stream_name":"stdout","time":1837.36267377,"data":"[ 0.50h]     sweep layer 17/27\n"}
+,{"stream_name":"stdout","time":1849.762057342,"data":"[ 0.50h]     sweep layer 18/27\n"}
+,{"stream_name":"stdout","time":1862.153583513,"data":"[ 0.50h]     sweep layer 19/27\n"}
+,{"stream_name":"stdout","time":1874.590299348,"data":"[ 0.51h]     sweep layer 20/27\n"}
+,{"stream_name":"stdout","time":1886.993923402,"data":"[ 0.51h]     sweep layer 21/27\n"}
+,{"stream_name":"stdout","time":1899.349216259,"data":"[ 0.51h]     sweep layer 22/27\n"}
+,{"stream_name":"stdout","time":1911.772359431,"data":"[ 0.52h]     sweep layer 23/27\n"}
+,{"stream_name":"stdout","time":1924.186767376,"data":"[ 0.52h]     sweep layer 24/27\n"}
+,{"stream_name":"stdout","time":1936.528257284,"data":"[ 0.52h]     sweep layer 25/27\n"}
+,{"stream_name":"stdout","time":1948.849657043,"data":"[ 0.53h]     sweep layer 26/27\n"}
+,{"stream_name":"stdout","time":1961.170807997,"data":"[ 0.53h]     sweep layer 27/27\n"}
+,{"stream_name":"stdout","time":1961.180758633,"data":"[ 0.53h] layers: {'layer_factual': 16, 'steer_factual': -15.490039038658143, 'sign_factual': -1.0, 'layer_opinion': 16, 'steer_opinion': 5.838215986887614, 'sign_opinion': 1.0, 'layer_persona': 16, 'steer_persona_raw': -8.418359375, 'persona_split_half_cos': 0.4819086492061615}\n"}
+,{"stream_name":"stdout","time":1961.540902465,"data":"[ 0.53h] [CAA-COLLAPSE] start\n"}
+,{"stream_name":"stdout","time":1974.644878314,"data":"    en: true_drop=+71.8%\n"}
+,{"stream_name":"stdout","time":1990.897956164,"data":"    es: true_drop=+94.2%\n"}
+,{"stream_name":"stdout","time":2003.2400905,"data":"    zh: true_drop=+89.2%\n"}
+,{"stream_name":"stdout","time":2051.159859041,"data":"    hi: true_drop=+94.3%\n"}
+,{"stream_name":"stdout","time":2104.769762759,"data":"    bn: true_drop=+94.8%\n"}
+,{"stream_name":"stdout","time":2121.380358391,"data":"    ar: true_drop=+95.0%\n"}
+,{"stream_name":"stdout","time":2121.382040183,"data":"[ 0.57h] [CAA-COLLAPSE] done in 2.7 min\n"}
+,{"stream_name":"stdout","time":2121.383051174,"data":"[ 0.57h] [TRANSFER-FACTUAL] start\n"}
+,{"stream_name":"stdout","time":2173.473396179,"data":"    fac en: en=1.775 native=1.775 rand=0.188 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":2270.483177376,"data":"    fac es: en=2.121 native=1.340 rand=0.089 valid=True ratio=1.63\n"}
+,{"stream_name":"stdout","time":2344.402255659,"data":"    fac zh: en=2.402 native=2.032 rand=0.215 valid=True ratio=1.20\n"}
+,{"stream_name":"stdout","time":2630.996497532,"data":"    fac hi: en=1.389 native=1.028 rand=-0.034 valid=True ratio=1.34\n"}
+,{"stream_name":"stdout","time":2951.21352719,"data":"    fac bn: en=1.651 native=1.651 rand=-0.016 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":3051.52743026,"data":"    fac ar: en=1.611 native=1.247 rand=-0.001 valid=True ratio=1.29\n"}
+,{"stream_name":"stdout","time":3051.528630803,"data":"[ 0.83h] [TRANSFER-FACTUAL] done in 15.5 min\n"}
+,{"stream_name":"stdout","time":3051.529637884,"data":"[ 0.83h] [TRANSFER-OPINION] start\n"}
+,{"stream_name":"stdout","time":3105.177227329,"data":"    op en: en=0.528 native=0.528 rand=0.039 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":3194.963722062,"data":"    op es: en=0.552 native=0.568 rand=0.009 valid=True ratio=0.97\n"}
+,{"stream_name":"stdout","time":3300.514289196,"data":"    op zh: en=0.644 native=0.647 rand=0.053 valid=True ratio=0.99\n"}
+,{"stream_name":"stdout","time":3723.899112899,"data":"    op hi: en=0.119 native=0.097 rand=0.011 valid=True ratio=1.27\n"}
+,{"stream_name":"stdout","time":4237.770741072,"data":"    op bn: en=0.118 native=0.131 rand=0.001 valid=True ratio=0.89\n"}
+,{"stream_name":"stdout","time":4363.199749336,"data":"    op ar: en=0.303 native=0.373 rand=-0.006 valid=True ratio=0.81\n"}
+,{"stream_name":"stdout","time":4363.200907122,"data":"[ 1.20h] [TRANSFER-OPINION] done in 21.9 min\n"}
+,{"stream_name":"stdout","time":4363.201885737,"data":"[ 1.20h] [OPINION-HEADLINE] start\n"}
+,{"stream_name":"stdout","time":4376.183729588,"data":"    en: 0.363 -\u003e CAA 0.217 | persona 0.230\n"}
+,{"stream_name":"stdout","time":4390.939694593,"data":"    es: 0.486 -\u003e CAA 0.283 | persona 0.284\n"}
+,{"stream_name":"stdout","time":4408.20143152,"data":"    zh: 0.192 -\u003e CAA 0.154 | persona 0.261\n"}
+,{"stream_name":"stdout","time":4478.296126406,"data":"    hi: 0.454 -\u003e CAA 0.323 | persona 0.449\n"}
+,{"stream_name":"stdout","time":4563.654107455,"data":"    bn: 0.501 -\u003e CAA 0.383 | persona 0.464\n"}
+,{"stream_name":"stdout","time":4584.550689951,"data":"    ar: 0.542 -\u003e CAA 0.372 | persona 0.409\n"}
+,{"stream_name":"stdout","time":4584.553797181,"data":"[ 1.26h] [OPINION-HEADLINE] done in 3.7 min\n"}
+,{"stream_name":"stdout","time":4584.555915117,"data":"[ 1.26h] [DOSE-MATCHED] start\n"}
+,{"stream_name":"stdout","time":4664.928273527,"data":"    dose en\n"}
+,{"stream_name":"stdout","time":4762.923181708,"data":"    dose es\n"}
+,{"stream_name":"stdout","time":4851.270069607,"data":"    dose zh\n"}
+,{"stream_name":"stdout","time":5131.771948852,"data":"    dose hi\n"}
+,{"stream_name":"stdout","time":5447.369047758,"data":"    dose bn\n"}
+,{"stream_name":"stdout","time":5551.807770438,"data":"    dose ar\n"}
+,{"stream_name":"stdout","time":5551.822020044,"data":"[ 1.53h] [DOSE-MATCHED] done in 16.1 min\n"}
+,{"stream_name":"stdout","time":5553.313820062,"data":"[ 1.53h] [CONTROLS] start\n"}
+,{"stream_name":"stdout","time":5592.318601142,"data":"    controls en\n"}
+,{"stream_name":"stdout","time":5639.361608935,"data":"    controls es\n"}
+,{"stream_name":"stdout","time":5681.304917918,"data":"    controls zh\n"}
+,{"stream_name":"stdout","time":5847.854616078,"data":"    controls hi\n"}
+,{"stream_name":"stdout","time":6040.854698598,"data":"    controls bn\n"}
+,{"stream_name":"stdout","time":6095.212235913,"data":"    controls ar\n"}
+,{"stream_name":"stdout","time":6095.213401353,"data":"[ 1.68h] [CONTROLS] done in 9.0 min\n"}
+,{"stream_name":"stdout","time":6095.21436343,"data":"[ 1.68h] [CAPABILITY] start\n"}
+,{"stream_name":"stdout","time":6110.731806081,"data":"    capability en\n"}
+,{"stream_name":"stdout","time":6130.407261767,"data":"    capability es\n"}
+,{"stream_name":"stdout","time":6143.717500723,"data":"    capability zh\n"}
+,{"stream_name":"stdout","time":6193.918826702,"data":"    capability hi\n"}
+,{"stream_name":"stdout","time":6252.000666978,"data":"    capability bn\n"}
+,{"stream_name":"stdout","time":6270.969203803,"data":"    capability ar\n"}
+,{"stream_name":"stdout","time":6270.972771158,"data":"[ 1.73h] [CAPABILITY] done in 2.9 min\n"}
+,{"stream_name":"stdout","time":6270.974851029,"data":"[ 1.73h] [MATRIX-SIBLING] start\n"}
+,{"stream_name":"stdout","time":6411.508129329,"data":"    matrix -\u003e hi\n"}
+,{"stream_name":"stdout","time":6571.003218647,"data":"    matrix -\u003e bn\n"}
+,{"stream_name":"stdout","time":6571.004323093,"data":"[ 1.81h] [MATRIX-SIBLING] done in 5.0 min\n"}
+,{"stream_name":"stdout","time":6571.005207376,"data":"[ 1.81h] [RESIDUAL] start\n"}
+,{"stream_name":"stdout","time":6642.462477127,"data":"    residual es\n"}
+,{"stream_name":"stdout","time":6707.212539572,"data":"    residual zh\n"}
+,{"stream_name":"stdout","time":6911.399852511,"data":"    residual hi\n"}
+,{"stream_name":"stdout","time":7143.242887126,"data":"    residual bn\n"}
+,{"stream_name":"stdout","time":7219.863715698,"data":"    residual ar\n"}
+,{"stream_name":"stdout","time":7219.864788953,"data":"[ 1.99h] [RESIDUAL] done in 10.8 min\n"}
+,{"stream_name":"stdout","time":7219.865805528,"data":"[ 1.99h] [GENS] start\n"}
+,{"stream_name":"stdout","time":7378.263654404,"data":"[ 2.03h] [GENS] done in 2.6 min\n"}
+,{"stream_name":"stdout","time":7378.264726321,"data":"[ 2.03h] DONE Qwen2.5-1.5B-Instruct-fp16 in 121.9 min\n"}
+,{"stream_name":"stdout","time":7379.348826736,"data":"  opinion en: 150 items\n"}
+,{"stream_name":"stdout","time":7379.631578756,"data":"  opinion es: 120 items\n"}
+,{"stream_name":"stdout","time":7379.857463748,"data":"  opinion zh: 120 items\n"}
+,{"stream_name":"stdout","time":7380.489378215,"data":"  opinion hi: 120 items\n"}
+,{"stream_name":"stdout","time":7381.098744565,"data":"  opinion bn: 120 items\n"}
+,{"stream_name":"stdout","time":7381.664384011,"data":"  opinion ar: 120 items\n"}
+,{"stream_name":"stdout","time":7381.664423449,"data":"\n"}
+,{"stream_name":"stdout","time":7381.664431428,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":7381.664455042,"data":"  MODEL: Qwen/Qwen2.5-3B-Instruct (fp16)\n"}
+,{"stream_name":"stdout","time":7381.664458074,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":7422.084078794,"data":"  36 layers, D=2048, quant=fp16, devices ['0', '1'], letters {'A': [32, 362], 'B': [33, 425], 'C': [34, 356], 'D': [35, 422]}\n"}
+,{"stream_name":"stdout","time":7422.084119885,"data":"  GPU 0: 3.71 GB\n"}
+,{"stream_name":"stdout","time":7422.084124586,"data":"  GPU 1: 2.48 GB\n"}
+,{"stream_name":"stdout","time":7422.084127994,"data":"[ 2.05h] loaded (0.7 min), 3.09B params\n"}
+,{"stream_name":"stdout","time":7422.085218301,"data":"[ 2.05h] [PROBE] 608 items x 6 langs\n"}
+,{"stream_name":"stdout","time":7450.440931953,"data":"    en: 446/608 known\n"}
+,{"stream_name":"stdout","time":7482.649597088,"data":"    es: 435/608 known\n"}
+,{"stream_name":"stdout","time":7507.223032189,"data":"    zh: 297/608 known\n"}
+,{"stream_name":"stdout","time":7594.794291731,"data":"    hi: 561/608 known\n"}
+,{"stream_name":"stdout","time":7693.057711733,"data":"    bn: 530/608 known\n"}
+,{"stream_name":"stdout","time":7726.444226126,"data":"    ar: 446/608 known\n"}
+,{"stream_name":"stdout","time":7726.445414915,"data":"[ 2.13h] pool=198 (sel 39 / eval 159), opinion=120 (sel 24 / eval 96)\n"}
+,{"stream_name":"stdout","time":7727.066476692,"data":"[ 2.13h] [BASELINE] start\n"}
+,{"stream_name":"stdout","time":7772.767635289,"data":"    en: aw=0.306 at=0.755 op_syc=0.072\n"}
+,{"stream_name":"stdout","time":7829.503848676,"data":"    es: aw=0.470 at=0.875 op_syc=0.147\n"}
+,{"stream_name":"stdout","time":7878.486798393,"data":"    zh: aw=0.323 at=0.881 op_syc=0.001\n"}
+,{"stream_name":"stdout","time":8073.157153953,"data":"    hi: aw=0.966 at=0.994 op_syc=0.317\n"}
+,{"stream_name":"stdout","time":8295.802441148,"data":"    bn: aw=0.926 at=0.991 op_syc=0.281\n"}
+,{"stream_name":"stdout","time":8360.697741475,"data":"    ar: aw=0.602 at=0.897 op_syc=0.069\n"}
+,{"stream_name":"stdout","time":8360.699157857,"data":"[ 2.31h] [BASELINE] done in 10.6 min\n"}
+,{"stream_name":"stdout","time":8360.700360935,"data":"  FLOOR CHECK en: op_syc=0.072 aw=0.306 at=0.755 ok\n"}
+,{"stream_name":"stdout","time":8360.700388694,"data":"  FLOOR CHECK es: op_syc=0.147 aw=0.470 at=0.875 ok\n"}
+,{"stream_name":"stdout","time":8360.700396331,"data":"  FLOOR CHECK zh: op_syc=0.001 aw=0.323 at=0.881 \u003c-- OPINION at floor/ceiling\n"}
+,{"stream_name":"stdout","time":8360.700402822,"data":"  FLOOR CHECK hi: op_syc=0.317 aw=0.966 at=0.994 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":8360.70040909,"data":"  FLOOR CHECK bn: op_syc=0.281 aw=0.926 at=0.991 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":8360.700415433,"data":"  FLOOR CHECK ar: op_syc=0.069 aw=0.602 at=0.897 ok\n"}
+,{"stream_name":"stdout","time":8360.700421458,"data":"[ 2.31h] [VECTORS] extracting\n"}
+,{"stream_name":"stdout","time":8394.980732434,"data":"[ 2.32h]     opinion en\n"}
+,{"stream_name":"stdout","time":8433.122704234,"data":"[ 2.33h]     opinion es\n"}
+,{"stream_name":"stdout","time":8475.864516977,"data":"[ 2.34h]     opinion zh\n"}
+,{"stream_name":"stdout","time":8605.533363714,"data":"[ 2.38h]     opinion hi\n"}
+,{"stream_name":"stdout","time":8755.469148887,"data":"[ 2.42h]     opinion bn\n"}
+,{"stream_name":"stdout","time":8804.557109682,"data":"[ 2.43h]     opinion ar\n"}
+,{"stream_name":"stdout","time":8950.594238428,"data":"[ 2.47h]     factual en\n"}
+,{"stream_name":"stdout","time":9141.573719938,"data":"[ 2.52h]     factual es\n"}
+,{"stream_name":"stdout","time":9274.72925705,"data":"[ 2.56h]     factual zh\n"}
+,{"stream_name":"stdout","time":9918.923694619,"data":"[ 2.74h]     factual hi\n"}
+,{"stream_name":"stdout","time":10655.555607347,"data":"[ 2.95h]     factual bn\n"}
+,{"stream_name":"stdout","time":10857.157076793,"data":"[ 3.00h]     factual ar\n"}
+,{"stream_name":"stdout","time":10901.713019618,"data":"[ 3.01h] [VECTORS] saved (42.4 min); persona split-half cosine (median over layers) = 0.333\n"}
+,{"stream_name":"stdout","time":10901.727226037,"data":"[ 3.01h] [SWEEP] 36 layers x 3 vectors on SEL items\n"}
+,{"stream_name":"stdout","time":10927.3150859,"data":"[ 3.02h]     sweep layer 0/35\n"}
+,{"stream_name":"stdout","time":10952.914867037,"data":"[ 3.03h]     sweep layer 1/35\n"}
+,{"stream_name":"stdout","time":10978.390391475,"data":"[ 3.03h]     sweep layer 2/35\n"}
+,{"stream_name":"stdout","time":11003.908891259,"data":"[ 3.04h]     sweep layer 3/35\n"}
+,{"stream_name":"stdout","time":11029.411212409,"data":"[ 3.05h]     sweep layer 4/35\n"}
+,{"stream_name":"stdout","time":11054.994085817,"data":"[ 3.06h]     sweep layer 5/35\n"}
+,{"stream_name":"stdout","time":11080.457047825,"data":"[ 3.06h]     sweep layer 6/35\n"}
+,{"stream_name":"stdout","time":11106.01044455,"data":"[ 3.07h]     sweep layer 7/35\n"}
+,{"stream_name":"stdout","time":11131.538951279,"data":"[ 3.08h]     sweep layer 8/35\n"}
+,{"stream_name":"stdout","time":11157.050208208,"data":"[ 3.08h]     sweep layer 9/35\n"}
+,{"stream_name":"stdout","time":11182.476146185,"data":"[ 3.09h]     sweep layer 10/35\n"}
+,{"stream_name":"stdout","time":11208.047660793,"data":"[ 3.10h]     sweep layer 11/35\n"}
+,{"stream_name":"stdout","time":11233.498651064,"data":"[ 3.11h]     sweep layer 12/35\n"}
+,{"stream_name":"stdout","time":11259.025495562,"data":"[ 3.11h]     sweep layer 13/35\n"}
+,{"stream_name":"stdout","time":11284.636799186,"data":"[ 3.12h]     sweep layer 14/35\n"}
+,{"stream_name":"stdout","time":11310.174342841,"data":"[ 3.13h]     sweep layer 15/35\n"}
+,{"stream_name":"stdout","time":11335.617809638,"data":"[ 3.13h]     sweep layer 16/35\n"}
+,{"stream_name":"stdout","time":11361.072440745,"data":"[ 3.14h]     sweep layer 17/35\n"}
+,{"stream_name":"stdout","time":11386.493018763,"data":"[ 3.15h]     sweep layer 18/35\n"}
+,{"stream_name":"stdout","time":11412.002204141,"data":"[ 3.16h]     sweep layer 19/35\n"}
+,{"stream_name":"stdout","time":11437.439810801,"data":"[ 3.16h]     sweep layer 20/35\n"}
+,{"stream_name":"stdout","time":11463.068309098,"data":"[ 3.17h]     sweep layer 21/35\n"}
+,{"stream_name":"stdout","time":11488.539805105,"data":"[ 3.18h]     sweep layer 22/35\n"}
+,{"stream_name":"stdout","time":11514.057603962,"data":"[ 3.18h]     sweep layer 23/35\n"}
+,{"stream_name":"stdout","time":11539.635881342,"data":"[ 3.19h]     sweep layer 24/35\n"}
+,{"stream_name":"stdout","time":11565.15071861,"data":"[ 3.20h]     sweep layer 25/35\n"}
+,{"stream_name":"stdout","time":11590.554031915,"data":"[ 3.20h]     sweep layer 26/35\n"}
+,{"stream_name":"stdout","time":11616.021225651,"data":"[ 3.21h]     sweep layer 27/35\n"}
+,{"stream_name":"stdout","time":11641.667915065,"data":"[ 3.22h]     sweep layer 28/35\n"}
+,{"stream_name":"stdout","time":11667.203073444,"data":"[ 3.23h]     sweep layer 29/35\n"}
+,{"stream_name":"stdout","time":11692.656805686,"data":"[ 3.23h]     sweep layer 30/35\n"}
+,{"stream_name":"stdout","time":11718.240779341,"data":"[ 3.24h]     sweep layer 31/35\n"}
+,{"stream_name":"stdout","time":11743.754550343,"data":"[ 3.25h]     sweep layer 32/35\n"}
+,{"stream_name":"stdout","time":11769.345308837,"data":"[ 3.25h]     sweep layer 33/35\n"}
+,{"stream_name":"stdout","time":11794.748287491,"data":"[ 3.26h]     sweep layer 34/35\n"}
+,{"stream_name":"stdout","time":11820.324950684,"data":"[ 3.27h]     sweep layer 35/35\n"}
+,{"stream_name":"stdout","time":11820.336700888,"data":"[ 3.27h] layers: {'layer_factual': 23, 'steer_factual': -15.89102564102564, 'sign_factual': -1.0, 'layer_opinion': 29, 'steer_opinion': 7.184895833333333, 'sign_opinion': 1.0, 'layer_persona': 23, 'steer_persona_raw': -11.231370192307692, 'persona_split_half_cos': 0.3325135409832001}\n"}
+,{"stream_name":"stdout","time":11820.551706505,"data":"[ 3.27h] [CAA-COLLAPSE] start\n"}
+,{"stream_name":"stdout","time":11853.556184943,"data":"    en: true_drop=+54.8%\n"}
+,{"stream_name":"stdout","time":11894.388117469,"data":"    es: true_drop=+69.1%\n"}
+,{"stream_name":"stdout","time":11924.918752463,"data":"    zh: true_drop=+79.2%\n"}
+,{"stream_name":"stdout","time":12051.858878107,"data":"    hi: true_drop=+53.3%\n"}
+,{"stream_name":"stdout","time":12194.300067687,"data":"    bn: true_drop=+85.0%\n"}
+,{"stream_name":"stdout","time":12237.474386203,"data":"    ar: true_drop=+63.0%\n"}
+,{"stream_name":"stdout","time":12237.475317986,"data":"[ 3.38h] [CAA-COLLAPSE] done in 6.9 min\n"}
+,{"stream_name":"stdout","time":12237.476145437,"data":"[ 3.38h] [TRANSFER-FACTUAL] start\n"}
+,{"stream_name":"stdout","time":12369.875295047,"data":"    fac en: en=1.580 native=1.580 rand=-0.170 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":12615.508501168,"data":"    fac es: en=1.810 native=1.846 rand=-0.135 valid=True ratio=0.98\n"}
+,{"stream_name":"stdout","time":12798.387273483,"data":"    fac zh: en=1.721 native=1.561 rand=-0.087 valid=True ratio=1.10\n"}
+,{"stream_name":"stdout","time":13557.710725212,"data":"    fac hi: en=1.308 native=0.791 rand=-0.304 valid=True ratio=1.47\n"}
+,{"stream_name":"stdout","time":14409.694055362,"data":"    fac bn: en=1.700 native=1.226 rand=-0.291 valid=True ratio=1.31\n"}
+,{"stream_name":"stdout","time":14667.95801892,"data":"    fac ar: en=1.476 native=1.042 rand=-0.079 valid=True ratio=1.39\n"}
+,{"stream_name":"stdout","time":14667.959057417,"data":"[ 4.06h] [TRANSFER-FACTUAL] done in 40.5 min\n"}
+,{"stream_name":"stdout","time":14667.959924138,"data":"[ 4.06h] [TRANSFER-OPINION] start\n"}
+,{"stream_name":"stdout","time":14767.198832868,"data":"    op en: en=0.610 native=0.610 rand=0.066 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":14954.025988931,"data":"    op es: en=0.459 native=0.448 rand=0.049 valid=True ratio=1.03\n"}
+,{"stream_name":"stdout","time":15171.44162674,"data":"    op zh: en=0.649 native=0.600 rand=0.072 valid=True ratio=1.09\n"}
+,{"stream_name":"stdout","time":15982.620323877,"data":"    op hi: en=0.147 native=0.091 rand=0.024 valid=True ratio=1.83\n"}
+,{"stream_name":"stdout","time":16946.597930292,"data":"    op bn: en=0.194 native=0.187 rand=0.030 valid=True ratio=1.04\n"}
+,{"stream_name":"stdout","time":17203.323360373,"data":"    op ar: en=0.493 native=0.522 rand=0.073 valid=True ratio=0.93\n"}
+,{"stream_name":"stdout","time":17203.324381296,"data":"[ 4.76h] [TRANSFER-OPINION] done in 42.3 min\n"}
+,{"stream_name":"stdout","time":17203.325276435,"data":"[ 4.76h] [OPINION-HEADLINE] start\n"}
+,{"stream_name":"stdout","time":17227.961762418,"data":"    en: 0.072 -\u003e CAA 0.072 | persona 0.257\n"}
+,{"stream_name":"stdout","time":17258.971433927,"data":"    es: 0.147 -\u003e CAA 0.147 | persona 0.168\n"}
+,{"stream_name":"stdout","time":17295.166393072,"data":"    zh: 0.001 -\u003e CAA 0.001 | persona 0.219\n"}
+,{"stream_name":"stdout","time":17429.538578645,"data":"    hi: 0.317 -\u003e CAA 0.306 | persona 0.479\n"}
+,{"stream_name":"stdout","time":17589.563457229,"data":"    bn: 0.281 -\u003e CAA 0.279 | persona 0.427\n"}
+,{"stream_name":"stdout","time":17632.53247447,"data":"    ar: 0.069 -\u003e CAA 0.067 | persona 0.347\n"}
+,{"stream_name":"stdout","time":17632.533394337,"data":"[ 4.88h] [OPINION-HEADLINE] done in 7.2 min\n"}
+,{"stream_name":"stdout","time":17632.534303153,"data":"[ 4.88h] [DOSE-MATCHED] start\n"}
+,{"stream_name":"stdout","time":17846.995508602,"data":"    dose en\n"}
+,{"stream_name":"stdout","time":18111.63409181,"data":"    dose es\n"}
+,{"stream_name":"stdout","time":18312.269547696,"data":"    dose zh\n"}
+,{"stream_name":"stdout","time":19134.283826833,"data":"    dose hi\n"}
+,{"stream_name":"stdout","time":20065.111566047,"data":"    dose bn\n"}
+,{"stream_name":"stdout","time":20348.365929663,"data":"    dose ar\n"}
+,{"stream_name":"stdout","time":20348.366985639,"data":"[ 5.64h] [DOSE-MATCHED] done in 45.3 min\n"}
+,{"stream_name":"stdout","time":20349.64878228,"data":"[ 5.64h] [CONTROLS] start\n"}
+,{"stream_name":"stdout","time":20440.741496239,"data":"    controls en\n"}
+,{"stream_name":"stdout","time":20553.671793423,"data":"    controls es\n"}
+,{"stream_name":"stdout","time":20650.999947894,"data":"    controls zh\n"}
+,{"stream_name":"stdout","time":21039.761704858,"data":"    controls hi\n"}
+,{"stream_name":"stdout","time":21485.114359976,"data":"    controls bn\n"}
+,{"stream_name":"stdout","time":21614.320148966,"data":"    controls ar\n"}
+,{"stream_name":"stdout","time":21614.321298703,"data":"[ 5.99h] [CONTROLS] done in 21.1 min\n"}
+,{"stream_name":"stdout","time":21614.322239255,"data":"[ 5.99h] [CAPABILITY] start\n"}
+,{"stream_name":"stdout","time":21641.700432852,"data":"    capability en\n"}
+,{"stream_name":"stdout","time":21675.532503412,"data":"    capability es\n"}
+,{"stream_name":"stdout","time":21700.354491631,"data":"    capability zh\n"}
+,{"stream_name":"stdout","time":21783.957662175,"data":"    capability hi\n"}
+,{"stream_name":"stdout","time":21877.794852744,"data":"    capability bn\n"}
+,{"stream_name":"stdout","time":21911.885096314,"data":"    capability ar\n"}
+,{"stream_name":"stdout","time":21911.885945045,"data":"[ 6.07h] [CAPABILITY] done in 5.0 min\n"}
+,{"stream_name":"stdout","time":21911.886764162,"data":"[ 6.07h] [MATRIX-SIBLING] start\n"}
+,{"stream_name":"stdout","time":22320.018650672,"data":"    matrix -\u003e hi\n"}
+,{"stream_name":"stdout","time":22782.982772852,"data":"    matrix -\u003e bn\n"}
+,{"stream_name":"stdout","time":22782.983958678,"data":"[ 6.31h] [MATRIX-SIBLING] done in 14.5 min\n"}
+,{"stream_name":"stdout","time":22782.985006288,"data":"[ 6.31h] [RESIDUAL] start\n"}
+,{"stream_name":"stdout","time":22974.70890378,"data":"    residual es\n"}
+,{"stream_name":"stdout","time":23120.143008908,"data":"    residual zh\n"}
+,{"stream_name":"stdout","time":23712.851738682,"data":"    residual hi\n"}
+,{"stream_name":"stdout","time":24387.245758365,"data":"    residual bn\n"}
+,{"stream_name":"stdout","time":24591.970577238,"data":"    residual ar\n"}
+,{"stream_name":"stdout","time":24591.971480687,"data":"[ 6.82h] [RESIDUAL] done in 30.1 min\n"}
+,{"stream_name":"stdout","time":24591.972313246,"data":"[ 6.82h] [GENS] start\n"}
+,{"stream_name":"stdout","time":24782.639248376,"data":"[ 6.87h] [GENS] done in 3.2 min\n"}
+,{"stream_name":"stdout","time":24782.640281619,"data":"[ 6.87h] DONE Qwen2.5-3B-Instruct-fp16 in 290.1 min\n"}
+,{"stream_name":"stdout","time":24783.94029649,"data":"  opinion en: 150 items\n"}
+,{"stream_name":"stdout","time":24784.182042569,"data":"  opinion es: 120 items\n"}
+,{"stream_name":"stdout","time":24784.45761585,"data":"  opinion zh: 120 items\n"}
+,{"stream_name":"stdout","time":24784.963513543,"data":"  opinion hi: 120 items\n"}
+,{"stream_name":"stdout","time":24785.620367287,"data":"  opinion bn: 120 items\n"}
+,{"stream_name":"stdout","time":24786.262787976,"data":"  opinion ar: 120 items\n"}
+,{"stream_name":"stdout","time":24786.262845815,"data":"\n"}
+,{"stream_name":"stdout","time":24786.262852386,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":24786.262856812,"data":"  MODEL: Qwen/Qwen2.5-7B-Instruct (fp16)\n"}
+,{"stream_name":"stdout","time":24786.262861263,"data":"======================================================================\n"}
+,{"stream_name":"stderr","time":24824.987292623,"data":"Autosave too slow: 12.32 sec, over 25% limit. Backing off to 60 sec\n"}
+,{"stream_name":"stdout","time":24913.573991703,"data":"  28 layers, D=3584, quant=fp16, devices ['0', '1'], letters {'A': [32, 362], 'B': [33, 425], 'C': [34, 356], 'D': [35, 422]}\n"}
+,{"stream_name":"stdout","time":24913.574915358,"data":"  GPU 0: 7.63 GB\n"}
+,{"stream_name":"stdout","time":24913.574927622,"data":"  GPU 1: 7.63 GB\n"}
+,{"stream_name":"stdout","time":24913.574933111,"data":"[ 6.91h] loaded (2.2 min), 7.62B params\n"}
+,{"stream_name":"stdout","time":24913.582003281,"data":"[ 6.91h] [PROBE] 608 items x 6 langs\n"}
+,{"stream_name":"stdout","time":24978.960409259,"data":"    en: 470/608 known\n"}
+,{"stream_name":"stdout","time":25053.417891086,"data":"    es: 482/608 known\n"}
+,{"stream_name":"stdout","time":25111.718429373,"data":"    zh: 355/608 known\n"}
+,{"stream_name":"stdout","time":25307.598586874,"data":"    hi: 424/608 known\n"}
+,{"stream_name":"stdout","time":25526.148704205,"data":"    bn: 307/608 known\n"}
+,{"stream_name":"stdout","time":25602.908182265,"data":"    ar: 399/608 known\n"}
+,{"stream_name":"stdout","time":25602.908221071,"data":"[ 7.10h] pool=166 (sel 33 / eval 133), opinion=120 (sel 24 / eval 96)\n"}
+,{"stream_name":"stdout","time":25603.351414157,"data":"[ 7.10h] [BASELINE] start\n"}
+,{"stream_name":"stdout","time":25690.776835602,"data":"    en: aw=0.329 at=0.995 op_syc=0.069\n"}
+,{"stream_name":"stdout","time":25794.992142278,"data":"    es: aw=0.455 at=0.993 op_syc=0.062\n"}
+,{"stream_name":"stdout","time":25890.111593455,"data":"    zh: aw=0.263 at=0.924 op_syc=0.010\n"}
+,{"stream_name":"stdout","time":26217.245854963,"data":"    hi: aw=0.644 at=0.974 op_syc=0.182\n"}
+,{"stream_name":"stdout","time":26587.251906627,"data":"    bn: aw=0.517 at=0.966 op_syc=0.221\n"}
+,{"stream_name":"stdout","time":26706.105341765,"data":"    ar: aw=0.506 at=0.992 op_syc=0.046\n"}
+,{"stream_name":"stdout","time":26706.106266342,"data":"[ 7.40h] [BASELINE] done in 18.4 min\n"}
+,{"stream_name":"stdout","time":26706.107000438,"data":"  FLOOR CHECK en: op_syc=0.069 aw=0.329 at=0.995 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":26706.107030159,"data":"  FLOOR CHECK es: op_syc=0.062 aw=0.455 at=0.993 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":26706.107036193,"data":"  FLOOR CHECK zh: op_syc=0.010 aw=0.263 at=0.924 \u003c-- OPINION at floor/ceiling\n"}
+,{"stream_name":"stdout","time":26706.107040608,"data":"  FLOOR CHECK hi: op_syc=0.182 aw=0.644 at=0.974 ok\n"}
+,{"stream_name":"stdout","time":26706.107044823,"data":"  FLOOR CHECK bn: op_syc=0.221 aw=0.517 at=0.966 ok\n"}
+,{"stream_name":"stdout","time":26706.107048846,"data":"  FLOOR CHECK ar: op_syc=0.046 aw=0.506 at=0.992 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":26706.107053712,"data":"[ 7.40h] [VECTORS] extracting\n"}
+,{"stream_name":"stdout","time":26776.972291492,"data":"[ 7.42h]     opinion en\n"}
+,{"stream_name":"stdout","time":26860.829349967,"data":"[ 7.45h]     opinion es\n"}
+,{"stream_name":"stdout","time":26960.40699944,"data":"[ 7.47h]     opinion zh\n"}
+,{"stream_name":"stdout","time":27249.581940516,"data":"[ 7.55h]     opinion hi\n"}
+,{"stream_name":"stdout","time":27572.770461387,"data":"[ 7.64h]     opinion bn\n"}
+,{"stream_name":"stdout","time":27687.441819779,"data":"[ 7.68h]     opinion ar\n"}
+,{"stream_name":"stdout","time":27903.190554225,"data":"[ 7.74h]     factual en\n"}
+,{"stream_name":"stdout","time":28180.485894131,"data":"[ 7.81h]     factual es\n"}
+,{"stream_name":"stdout","time":28380.998437745,"data":"[ 7.87h]     factual zh\n"}
+,{"stream_name":"stdout","time":29279.652537679,"data":"[ 8.12h]     factual hi\n"}
+,{"stream_name":"stdout","time":30311.059187162,"data":"[ 8.40h]     factual bn\n"}
+,{"stream_name":"stdout","time":30596.547522574,"data":"[ 8.48h]     factual ar\n"}
+,{"stream_name":"stdout","time":30698.998313536,"data":"[ 8.51h] [VECTORS] saved (66.5 min); persona split-half cosine (median over layers) = 0.430\n"}
+,{"stream_name":"stdout","time":30699.005436112,"data":"[ 8.51h] [SWEEP] 15 layers x 3 vectors on SEL items\n"}
+,{"stream_name":"stdout","time":30749.963061146,"data":"[ 8.53h]     sweep layer 0/27\n"}
+,{"stream_name":"stdout","time":30800.888032613,"data":"[ 8.54h]     sweep layer 2/27\n"}
+,{"stream_name":"stdout","time":30851.906822874,"data":"[ 8.56h]     sweep layer 4/27\n"}
+,{"stream_name":"stdout","time":30902.838278343,"data":"[ 8.57h]     sweep layer 6/27\n"}
+,{"stream_name":"stdout","time":30953.706428779,"data":"[ 8.58h]     sweep layer 8/27\n"}
+,{"stream_name":"stdout","time":31004.740068004,"data":"[ 8.60h]     sweep layer 10/27\n"}
+,{"stream_name":"stdout","time":31055.823144393,"data":"[ 8.61h]     sweep layer 12/27\n"}
+,{"stream_name":"stdout","time":31106.891337032,"data":"[ 8.63h]     sweep layer 14/27\n"}
+,{"stream_name":"stdout","time":31157.919682353,"data":"[ 8.64h]     sweep layer 16/27\n"}
+,{"stream_name":"stdout","time":31208.901099428,"data":"[ 8.65h]     sweep layer 18/27\n"}
+,{"stream_name":"stdout","time":31259.749036191,"data":"[ 8.67h]     sweep layer 20/27\n"}
+,{"stream_name":"stdout","time":31310.66123415,"data":"[ 8.68h]     sweep layer 22/27\n"}
+,{"stream_name":"stdout","time":31361.622254882,"data":"[ 8.70h]     sweep layer 24/27\n"}
+,{"stream_name":"stdout","time":31412.747118565,"data":"[ 8.71h]     sweep layer 26/27\n"}
+,{"stream_name":"stdout","time":31463.833721472,"data":"[ 8.73h]     sweep layer 27/27\n"}
+,{"stream_name":"stdout","time":31463.860845292,"data":"[ 8.73h] layers: {'layer_factual': 16, 'steer_factual': -16.472064393939394, 'sign_factual': -1.0, 'layer_opinion': 26, 'steer_opinion': 1.8001302083333333, 'sign_opinion': 1.0, 'layer_persona': 16, 'steer_persona_raw': -3.8082386363636362, 'persona_split_half_cos': 0.42994019389152527}\n"}
+,{"stream_name":"stdout","time":31464.087107644,"data":"[ 8.73h] [CAA-COLLAPSE] start\n"}
+,{"stream_name":"stdout","time":31522.291782429,"data":"    en: true_drop=+42.3%\n"}
+,{"stream_name":"stdout","time":31591.285732609,"data":"    es: true_drop=+38.3%\n"}
+,{"stream_name":"stdout","time":31644.70707904,"data":"    zh: true_drop=+65.6%\n"}
+,{"stream_name":"stdout","time":31835.397300771,"data":"    hi: true_drop=+65.9%\n"}
+,{"stream_name":"stdout","time":32047.274610435,"data":"    bn: true_drop=+81.4%\n"}
+,{"stream_name":"stdout","time":32117.049289959,"data":"    ar: true_drop=+56.8%\n"}
+,{"stream_name":"stdout","time":32117.05021815,"data":"[ 8.91h] [CAA-COLLAPSE] done in 10.9 min\n"}
+,{"stream_name":"stdout","time":32117.050942392,"data":"[ 8.91h] [TRANSFER-FACTUAL] start\n"}
+,{"stream_name":"stdout","time":32348.840078273,"data":"    fac en: en=1.250 native=1.250 rand=-0.011 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":32764.272613405,"data":"    fac es: en=1.152 native=1.314 rand=-0.034 valid=True ratio=0.88\n"}
+,{"stream_name":"stdout","time":33084.204251496,"data":"    fac zh: en=1.137 native=1.232 rand=-0.029 valid=True ratio=0.92\n"}
+,{"stream_name":"stdout","time":34220.544252914,"data":"    fac hi: en=1.690 native=1.526 rand=0.000 valid=True ratio=1.11\n"}
+,{"stream_name":"stdout","time":35480.090956718,"data":"    fac bn: en=1.877 native=1.431 rand=-0.011 valid=True ratio=1.31\n"}
+,{"stream_name":"stdout","time":35897.756787508,"data":"    fac ar: en=1.236 native=1.223 rand=0.017 valid=True ratio=1.01\n"}
+,{"stream_name":"stdout","time":35897.757662247,"data":"[ 9.96h] [TRANSFER-FACTUAL] done in 63.0 min\n"}
+,{"stream_name":"stdout","time":35897.758525315,"data":"[ 9.96h] [TRANSFER-OPINION] start\n"}
+,{"stream_name":"stdout","time":36127.371143752,"data":"    op en: en=0.169 native=0.169 rand=-0.003 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":36549.319513616,"data":"    op es: en=0.193 native=0.202 rand=0.002 valid=True ratio=0.96\n"}
+,{"stream_name":"stdout","time":37048.315369907,"data":"    op zh: en=0.219 native=0.183 rand=-0.001 valid=True ratio=1.20\n"}
+,{"stream_name":"stdout","time":38686.181917869,"data":"    op hi: en=0.135 native=0.085 rand=0.004 valid=True ratio=1.63\n"}
+,{"stream_name":"stdout","time":40422.252615005,"data":"\n"}
+,{"stream_name":"stdout","time":40422.2526978,"data":"  Hard time budget reached during Qwen2.5-7B-Instruct-fp16. All finished work is saved in /kaggle/working/run08_notebook_1/.../_cache. Attach this output to a new run of the same preset to resume.\n"}
+,{"stream_name":"stdout","time":40422.820475784,"data":"\n"}
+,{"stream_name":"stdout","time":40422.820560769,"data":"Total wall time: 11.21 h\n"}
+,{"stream_name":"stdout","time":40422.820570114,"data":"DONE\n"}
+,{"stream_name":"stderr","time":40429.279469671,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":40429.279511826,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":40429.599184276,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":40429.599220441,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":40430.691424268,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":40430.914850087,"data":"[NbConvertApp] Writing 951770 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":40433.425288408,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":40434.529696788,"data":"[NbConvertApp] Writing 1295670 bytes to __results__.html\n"}
+]
