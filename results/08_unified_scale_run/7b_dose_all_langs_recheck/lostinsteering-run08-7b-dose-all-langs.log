@@ -1,0 +1,82 @@
+[{"stream_name":"stderr","time":11.882972101,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.883040035,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.88304676,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.883050537999999,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.632458845,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.632497361,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.632504278999999,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.63250914,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":42.781171679,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":42.781209377,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":42.781215103,"data":"\n"}
+,{"stream_name":"stderr","time":42.781227256,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":42.781231838,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":76.463666535,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stderr","time":76.463709302,"data":"\n"}
+,{"stream_name":"stderr","time":76.463714147,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stdout","time":76.795838453,"data":"HF token: ACTIVE and valid (all model, tokenizer and dataset downloads are authenticated)\n"}
+,{"stream_name":"stdout","time":76.999137732,"data":"torch 2.11.0+cu130 | transformers 5.20.2 | CUDA True | GPUs 2\n"}
+,{"stream_name":"stdout","time":76.999196955,"data":"  GPU 0: Tesla T4\n"}
+,{"stream_name":"stdout","time":76.999204593,"data":"  GPU 1: Tesla T4\n"}
+,{"stream_name":"stdout","time":190.969737055,"data":"Resumed: copied 1029 cached files from /kaggle/input/lostinsteering/run08_notebook_1\n"}
+,{"stream_name":"stdout","time":190.969802656,"data":"PRESET=notebook_1 | models=[('Qwen/Qwen2.5-7B-Instruct', 'fp16')] | out=/kaggle/working/run08_notebook_1\n"}
+,{"stream_name":"stdout","time":190.983055389,"data":"Extension B reset in /kaggle/working/run08_notebook_1/Qwen2.5-7B-Instruct-fp16: removed ['diagnostics.json', 'dose_response.csv', 'dose_response.png', 'matched_effect.csv']\n"}
+,{"stream_name":"stdout","time":190.983080066,"data":"_cache files available: 560 | vectors.pt present: True\n"}
+,{"stream_name":"stdout","time":191.153959193,"data":"Loading Global-MMLU-Lite...\n"}
+,{"stream_name":"stdout","time":205.020100538,"data":"Factual items consistent across languages: 608\n"}
+,{"stream_name":"stdout","time":205.691019964,"data":"  opinion en: 150 items\n"}
+,{"stream_name":"stdout","time":205.934025246,"data":"  opinion es: 120 items\n"}
+,{"stream_name":"stdout","time":206.154278769,"data":"  opinion zh: 120 items\n"}
+,{"stream_name":"stdout","time":206.595552727,"data":"  opinion hi: 120 items\n"}
+,{"stream_name":"stdout","time":206.999779808,"data":"  opinion bn: 120 items\n"}
+,{"stream_name":"stdout","time":207.52821133,"data":"  opinion ar: 120 items\n"}
+,{"stream_name":"stdout","time":207.52823768,"data":"\n"}
+,{"stream_name":"stdout","time":207.528242308,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":207.528251758,"data":"  MODEL: Qwen/Qwen2.5-7B-Instruct (fp16)\n"}
+,{"stream_name":"stdout","time":207.52825455,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":316.130976157,"data":"  28 layers, D=3584, quant=fp16, devices ['0', '1'], letters {'A': [32, 362], 'B': [33, 425], 'C': [34, 356], 'D': [35, 422]}\n"}
+,{"stream_name":"stdout","time":316.131053989,"data":"  GPU 0: 7.62 GB\n"}
+,{"stream_name":"stdout","time":316.131061674,"data":"  GPU 1: 7.62 GB\n"}
+,{"stream_name":"stdout","time":316.131066982,"data":"[ 0.03h] loaded (1.8 min), 7.62B params\n"}
+,{"stream_name":"stdout","time":316.132028382,"data":"[ 0.03h] [PROBE] cached pool\n"}
+,{"stream_name":"stdout","time":316.139767483,"data":"[ 0.03h] pool=166 (sel 33 / eval 133), opinion=120 (sel 24 / eval 96)\n"}
+,{"stream_name":"stdout","time":316.581643192,"data":"[ 0.03h] [BASELINE] cached\n"}
+,{"stream_name":"stdout","time":316.693045327,"data":"  FLOOR CHECK en: op_syc=0.069 aw=0.329 at=0.995 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":316.693073214,"data":"  FLOOR CHECK es: op_syc=0.062 aw=0.455 at=0.993 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":316.693077929,"data":"  FLOOR CHECK zh: op_syc=0.010 aw=0.263 at=0.924 \u003c-- OPINION at floor/ceiling\n"}
+,{"stream_name":"stdout","time":316.693082233,"data":"  FLOOR CHECK hi: op_syc=0.182 aw=0.644 at=0.974 ok\n"}
+,{"stream_name":"stdout","time":316.69308636,"data":"  FLOOR CHECK bn: op_syc=0.221 aw=0.517 at=0.966 ok\n"}
+,{"stream_name":"stdout","time":316.693090339,"data":"  FLOOR CHECK ar: op_syc=0.046 aw=0.506 at=0.992 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":316.693094597,"data":"[ 0.03h] [VECTORS] loaded\n"}
+,{"stream_name":"stdout","time":316.783178595,"data":"[ 0.03h] [SWEEP] cached\n"}
+,{"stream_name":"stdout","time":316.801802327,"data":"[ 0.03h] layers: {'layer_factual': 16, 'steer_factual': -16.472064393939394, 'sign_factual': -1.0, 'layer_opinion': 26, 'steer_opinion': 1.8001302083333333, 'sign_opinion': 1.0, 'layer_persona': 16, 'steer_persona_raw': -3.808238636363636, 'persona_split_half_cos': 0.42994019389152527}\n"}
+,{"stream_name":"stdout","time":317.155424909,"data":"[ 0.04h] [CAA-COLLAPSE] cached\n"}
+,{"stream_name":"stdout","time":317.158797278,"data":"[ 0.04h] [TRANSFER-FACTUAL] cached\n"}
+,{"stream_name":"stdout","time":317.165498006,"data":"[ 0.04h] [TRANSFER-OPINION] cached\n"}
+,{"stream_name":"stdout","time":317.168308148,"data":"[ 0.04h] [OPINION-HEADLINE] cached\n"}
+,{"stream_name":"stdout","time":317.170790718,"data":"[ 0.04h] [DOSE-MATCHED] start\n"}
+,{"stream_name":"stdout","time":317.193065068,"data":"    dose en\n"}
+,{"stream_name":"stdout","time":317.215005151,"data":"    dose es\n"}
+,{"stream_name":"stdout","time":754.624758178,"data":"    dose zh\n"}
+,{"stream_name":"stdout","time":754.637820277,"data":"    dose hi\n"}
+,{"stream_name":"stdout","time":754.657813289,"data":"    dose bn\n"}
+,{"stream_name":"stdout","time":1356.989727543,"data":"    dose ar\n"}
+,{"stream_name":"stdout","time":1357.007775162,"data":"[ 0.32h] [DOSE-MATCHED] done in 17.3 min\n"}
+,{"stream_name":"stdout","time":1358.328373465,"data":"[ 0.32h] [CONTROLS] cached\n"}
+,{"stream_name":"stdout","time":1358.331147717,"data":"[ 0.32h] [CAPABILITY] cached\n"}
+,{"stream_name":"stdout","time":1358.333453947,"data":"[ 0.32h] [MATRIX-SIBLING] cached\n"}
+,{"stream_name":"stdout","time":1358.335976588,"data":"[ 0.32h] [RESIDUAL] cached\n"}
+,{"stream_name":"stdout","time":1358.338262219,"data":"[ 0.32h] [GENS] cached\n"}
+,{"stream_name":"stdout","time":1358.342260503,"data":"[ 0.32h] DONE Qwen2.5-7B-Instruct-fp16 in 19.2 min\n"}
+,{"stream_name":"stdout","time":1359.363270235,"data":"\n"}
+,{"stream_name":"stdout","time":1359.363323343,"data":"Total wall time: 0.32 h\n"}
+,{"stream_name":"stdout","time":1359.363332173,"data":"DONE\n"}
+,{"stream_name":"stderr","time":1365.729089451,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1365.729149139,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1365.985599817,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1365.985636178,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1366.954955033,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1367.112897027,"data":"[NbConvertApp] Writing 706819 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1369.68184542,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1370.604388631,"data":"[NbConvertApp] Writing 1105256 bytes to __results__.html\n"}
+]

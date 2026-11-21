@@ -1,0 +1,13 @@
+lang,method,target_aw_reduction,reachable,mult_needed,at_at_target,retention
+en,CAA,0.5,True,3.4576555557578503,0.9042421555814087,0.9044498013487824
+en,CAA,0.8,True,6.426928081470177,0.6660079293870101,0.6661608682062422
+en,Persona,0.5,False,,,
+en,Persona,0.8,False,,,
+en,Random,0.5,False,,,
+en,Random,0.8,False,,,
+hi,CAA,0.5,True,3.5215551499670394,0.7616204820102783,0.7650628234445888
+hi,CAA,0.8,True,7.484383828026143,0.3793126532754981,0.38102705525623537
+hi,Persona,0.5,False,,,
+hi,Persona,0.8,False,,,
+hi,Random,0.5,False,,,
+hi,Random,0.8,False,,,

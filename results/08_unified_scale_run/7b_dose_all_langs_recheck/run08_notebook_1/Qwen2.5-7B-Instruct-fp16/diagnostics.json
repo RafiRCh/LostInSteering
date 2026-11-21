@@ -1,0 +1,94 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "quant": "fp16",
+  "n_params_B": 7.62,
+  "n_layers": 28,
+  "hidden": 3584,
+  "n_pool": 166,
+  "n_eval_factual": 133,
+  "n_opinion": 120,
+  "n_eval_opinion": 96,
+  "selected": {
+    "layer_factual": 16,
+    "steer_factual": -16.472064393939394,
+    "sign_factual": -1.0,
+    "layer_opinion": 26,
+    "steer_opinion": 1.8001302083333333,
+    "sign_opinion": 1.0,
+    "layer_persona": 16,
+    "steer_persona_raw": -3.808238636363636,
+    "persona_split_half_cos": 0.42994019389152527
+  },
+  "runtime_min": 19.2,
+  "stage_minutes": {
+    "DOSE-MATCHED": 17.3
+  },
+  "floor_ceiling_flags": {
+    "en": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": true
+    },
+    "es": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": true
+    },
+    "zh": {
+      "opinion_floor_or_ceiling": true,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": false
+    },
+    "hi": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": false
+    },
+    "bn": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": false
+    },
+    "ar": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": true
+    }
+  },
+  "transfer_native_valid_factual": {
+    "en": true,
+    "es": true,
+    "zh": true,
+    "hi": true,
+    "bn": true,
+    "ar": true
+  },
+  "transfer_native_valid_opinion": {
+    "en": true,
+    "es": true,
+    "zh": true,
+    "hi": true,
+    "bn": true,
+    "ar": true
+  },
+  "persona_works": true,
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "python": "3.13.16"
+  },
+  "settings": {
+    "K": 5,
+    "STEP_FRAC": 0.01,
+    "M_SWEEP": 6.0,
+    "M_ANTI": 8.0,
+    "TR_MULTS": [
+      2.0,
+      4.0
+    ],
+    "RESP_CHARS": 300,
+    "SEED": 42,
+    "PRESET": "notebook_1",
+    "smoke": false
+  }
+}

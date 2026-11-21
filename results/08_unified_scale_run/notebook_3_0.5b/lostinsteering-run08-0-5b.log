@@ -1,0 +1,181 @@
+[{"stream_name":"stderr","time":8.748607096,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.748718539,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.748729716,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.748733927,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.418122377,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.41817263,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.41817758,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.418181409,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":26.746417286,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":26.746452916,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":26.746458116,"data":"\n"}
+,{"stream_name":"stderr","time":26.746462511,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":26.746467589,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":50.083330093,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stderr","time":50.083376144,"data":"\n"}
+,{"stream_name":"stderr","time":50.083382391,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stdout","time":50.452731628,"data":"HF token: ACTIVE and valid (all model, tokenizer and dataset downloads are authenticated)\n"}
+,{"stream_name":"stdout","time":50.466125414,"data":"torch 2.11.0+cu130 | transformers 5.20.2 | CUDA True | GPUs 2\n"}
+,{"stream_name":"stdout","time":50.466156737,"data":"  GPU 0: Tesla T4\n"}
+,{"stream_name":"stdout","time":50.466162546,"data":"  GPU 1: Tesla T4\n"}
+,{"stream_name":"stdout","time":50.466169131,"data":"PRESET=notebook_3 | models=[('Qwen/Qwen2.5-0.5B-Instruct', 'fp16')] | out=/kaggle/working/run08_notebook_3\n"}
+,{"stream_name":"stdout","time":50.655144549,"data":"Loading Global-MMLU-Lite...\n"}
+,{"stream_name":"stdout","time":64.176063075,"data":"Factual items consistent across languages: 608\n"}
+,{"stream_name":"stdout","time":65.006637241,"data":"  opinion en: 150 items\n"}
+,{"stream_name":"stdout","time":65.310134006,"data":"  opinion es: 120 items\n"}
+,{"stream_name":"stdout","time":65.618930064,"data":"  opinion zh: 120 items\n"}
+,{"stream_name":"stdout","time":65.995824769,"data":"  opinion hi: 120 items\n"}
+,{"stream_name":"stdout","time":66.458303592,"data":"  opinion bn: 120 items\n"}
+,{"stream_name":"stdout","time":67.095990969,"data":"  opinion ar: 120 items\n"}
+,{"stream_name":"stdout","time":67.096017009,"data":"\n"}
+,{"stream_name":"stdout","time":67.096021508,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":67.096025954,"data":"  MODEL: Qwen/Qwen2.5-0.5B-Instruct (fp16)\n"}
+,{"stream_name":"stdout","time":67.096029687,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":80.722788155,"data":"  24 layers, D=896, quant=fp16, devices ['0', '1'], letters {'A': [32, 362], 'B': [33, 425], 'C': [34, 356], 'D': [35, 422]}\n"}
+,{"stream_name":"stdout","time":80.722833217,"data":"  GPU 0: 0.78 GB\n"}
+,{"stream_name":"stdout","time":80.722837754,"data":"  GPU 1: 0.21 GB\n"}
+,{"stream_name":"stdout","time":80.722841244,"data":"[ 0.01h] loaded (0.3 min), 0.49B params\n"}
+,{"stream_name":"stdout","time":80.725607573,"data":"[ 0.01h] [PROBE] 608 items x 6 langs\n"}
+,{"stream_name":"stdout","time":88.299856591,"data":"    en: 388/608 known\n"}
+,{"stream_name":"stdout","time":94.284032913,"data":"    es: 599/608 known\n"}
+,{"stream_name":"stdout","time":99.137019803,"data":"    zh: 581/608 known\n"}
+,{"stream_name":"stdout","time":114.315887789,"data":"    hi: 520/608 known\n"}
+,{"stream_name":"stdout","time":131.33018337,"data":"    bn: 604/608 known\n"}
+,{"stream_name":"stdout","time":137.210659912,"data":"    ar: 603/608 known\n"}
+,{"stream_name":"stdout","time":137.222826577,"data":"[ 0.02h] pool=200 (sel 40 / eval 160), opinion=120 (sel 24 / eval 96)\n"}
+,{"stream_name":"stdout","time":137.708497109,"data":"[ 0.02h] [BASELINE] start\n"}
+,{"stream_name":"stdout","time":148.359954401,"data":"    en: aw=0.790 at=0.818 op_syc=0.496\n"}
+,{"stream_name":"stdout","time":159.933145122,"data":"    es: aw=0.761 at=0.771 op_syc=0.483\n"}
+,{"stream_name":"stdout","time":170.732418897,"data":"    zh: aw=0.720 at=0.740 op_syc=0.464\n"}
+,{"stream_name":"stdout","time":210.360855666,"data":"    hi: aw=0.694 at=0.698 op_syc=0.524\n"}
+,{"stream_name":"stdout","time":256.700493125,"data":"    bn: aw=0.594 at=0.592 op_syc=0.532\n"}
+,{"stream_name":"stdout","time":269.017082841,"data":"    ar: aw=0.652 at=0.664 op_syc=0.491\n"}
+,{"stream_name":"stdout","time":269.0181593,"data":"[ 0.06h] [BASELINE] done in 2.2 min\n"}
+,{"stream_name":"stdout","time":269.020623381,"data":"  FLOOR CHECK en: op_syc=0.496 aw=0.790 at=0.818 ok\n"}
+,{"stream_name":"stdout","time":269.020652536,"data":"  FLOOR CHECK es: op_syc=0.483 aw=0.761 at=0.771 ok\n"}
+,{"stream_name":"stdout","time":269.020677944,"data":"  FLOOR CHECK zh: op_syc=0.464 aw=0.720 at=0.740 ok\n"}
+,{"stream_name":"stdout","time":269.020686653,"data":"  FLOOR CHECK hi: op_syc=0.524 aw=0.694 at=0.698 ok\n"}
+,{"stream_name":"stdout","time":269.020692459,"data":"  FLOOR CHECK bn: op_syc=0.532 aw=0.594 at=0.592 ok\n"}
+,{"stream_name":"stdout","time":269.020699036,"data":"  FLOOR CHECK ar: op_syc=0.491 aw=0.652 at=0.664 ok\n"}
+,{"stream_name":"stdout","time":269.020705539,"data":"[ 0.06h] [VECTORS] extracting\n"}
+,{"stream_name":"stdout","time":282.653723513,"data":"[ 0.06h]     opinion en\n"}
+,{"stream_name":"stdout","time":296.72504585,"data":"[ 0.07h]     opinion es\n"}
+,{"stream_name":"stdout","time":310.899232712,"data":"[ 0.07h]     opinion zh\n"}
+,{"stream_name":"stdout","time":338.600929521,"data":"[ 0.08h]     opinion hi\n"}
+,{"stream_name":"stdout","time":368.479297756,"data":"[ 0.09h]     opinion bn\n"}
+,{"stream_name":"stdout","time":383.112402588,"data":"[ 0.09h]     opinion ar\n"}
+,{"stream_name":"stdout","time":408.916776138,"data":"[ 0.10h]     factual en\n"}
+,{"stream_name":"stdout","time":441.327029796,"data":"[ 0.11h]     factual es\n"}
+,{"stream_name":"stdout","time":464.165415171,"data":"[ 0.11h]     factual zh\n"}
+,{"stream_name":"stdout","time":578.787330563,"data":"[ 0.15h]     factual hi\n"}
+,{"stream_name":"stdout","time":710.88129516,"data":"[ 0.18h]     factual bn\n"}
+,{"stream_name":"stdout","time":743.721065237,"data":"[ 0.19h]     factual ar\n"}
+,{"stream_name":"stdout","time":757.413382535,"data":"[ 0.20h] [VECTORS] saved (8.1 min); persona split-half cosine (median over layers) = 0.167\n"}
+,{"stream_name":"stdout","time":757.43462053,"data":"[ 0.20h] [SWEEP] 24 layers x 3 vectors on SEL items\n"}
+,{"stream_name":"stdout","time":763.677900888,"data":"[ 0.20h]     sweep layer 0/23\n"}
+,{"stream_name":"stdout","time":769.947551945,"data":"[ 0.20h]     sweep layer 1/23\n"}
+,{"stream_name":"stdout","time":776.429985687,"data":"[ 0.20h]     sweep layer 2/23\n"}
+,{"stream_name":"stdout","time":782.920433857,"data":"[ 0.20h]     sweep layer 3/23\n"}
+,{"stream_name":"stdout","time":789.279161581,"data":"[ 0.21h]     sweep layer 4/23\n"}
+,{"stream_name":"stdout","time":795.656744768,"data":"[ 0.21h]     sweep layer 5/23\n"}
+,{"stream_name":"stdout","time":802.097776149,"data":"[ 0.21h]     sweep layer 6/23\n"}
+,{"stream_name":"stdout","time":808.513473193,"data":"[ 0.21h]     sweep layer 7/23\n"}
+,{"stream_name":"stdout","time":814.821951948,"data":"[ 0.21h]     sweep layer 8/23\n"}
+,{"stream_name":"stdout","time":821.111879625,"data":"[ 0.21h]     sweep layer 9/23\n"}
+,{"stream_name":"stdout","time":827.444662224,"data":"[ 0.22h]     sweep layer 10/23\n"}
+,{"stream_name":"stdout","time":833.806476484,"data":"[ 0.22h]     sweep layer 11/23\n"}
+,{"stream_name":"stdout","time":840.172314476,"data":"[ 0.22h]     sweep layer 12/23\n"}
+,{"stream_name":"stdout","time":846.527746367,"data":"[ 0.22h]     sweep layer 13/23\n"}
+,{"stream_name":"stdout","time":852.996895509,"data":"[ 0.22h]     sweep layer 14/23\n"}
+,{"stream_name":"stdout","time":859.424086226,"data":"[ 0.22h]     sweep layer 15/23\n"}
+,{"stream_name":"stdout","time":865.842001764,"data":"[ 0.23h]     sweep layer 16/23\n"}
+,{"stream_name":"stdout","time":872.243184815,"data":"[ 0.23h]     sweep layer 17/23\n"}
+,{"stream_name":"stdout","time":878.496602771,"data":"[ 0.23h]     sweep layer 18/23\n"}
+,{"stream_name":"stdout","time":884.880307932,"data":"[ 0.23h]     sweep layer 19/23\n"}
+,{"stream_name":"stdout","time":891.270456485,"data":"[ 0.23h]     sweep layer 20/23\n"}
+,{"stream_name":"stdout","time":897.578375057,"data":"[ 0.24h]     sweep layer 21/23\n"}
+,{"stream_name":"stdout","time":903.872998839,"data":"[ 0.24h]     sweep layer 22/23\n"}
+,{"stream_name":"stdout","time":910.159118664,"data":"[ 0.24h]     sweep layer 23/23\n"}
+,{"stream_name":"stdout","time":910.179782182,"data":"[ 0.24h] layers: {'layer_factual': 13, 'steer_factual': -1.1758754253387451, 'sign_factual': -1.0, 'layer_opinion': 11, 'steer_opinion': 0.32617247104644775, 'sign_opinion': 1.0, 'layer_persona': 14, 'steer_persona_raw': -0.8934645891189575, 'persona_split_half_cos': 0.16737259924411774}\n"}
+,{"stream_name":"stdout","time":910.466236874,"data":"[ 0.24h] [CAA-COLLAPSE] start\n"}
+,{"stream_name":"stdout","time":916.537769048,"data":"    en: true_drop=+13.4%\n"}
+,{"stream_name":"stdout","time":923.378908232,"data":"    es: true_drop=+15.0%\n"}
+,{"stream_name":"stdout","time":928.895283469,"data":"    zh: true_drop=+16.0%\n"}
+,{"stream_name":"stdout","time":949.497222213,"data":"    hi: true_drop=+10.3%\n"}
+,{"stream_name":"stdout","time":972.61990434,"data":"    bn: true_drop=+6.4%\n"}
+,{"stream_name":"stdout","time":979.321295189,"data":"    ar: true_drop=+18.0%\n"}
+,{"stream_name":"stdout","time":979.323205918,"data":"[ 0.26h] [CAA-COLLAPSE] done in 1.1 min\n"}
+,{"stream_name":"stdout","time":979.325055407,"data":"[ 0.26h] [TRANSFER-FACTUAL] start\n"}
+,{"stream_name":"stdout","time":1003.428033696,"data":"    fac en: en=0.097 native=0.097 rand=-0.025 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":1044.034918202,"data":"    fac es: en=0.088 native=0.141 rand=-0.026 valid=True ratio=0.68\n"}
+,{"stream_name":"stdout","time":1077.946436714,"data":"    fac zh: en=0.118 native=0.096 rand=-0.024 valid=True ratio=1.19\n"}
+,{"stream_name":"stdout","time":1199.168056037,"data":"    fac hi: en=0.050 native=0.076 rand=0.006 valid=True ratio=0.62\n"}
+,{"stream_name":"stdout","time":1337.256384501,"data":"    fac bn: en=0.028 native=0.015 rand=0.004 valid=True ratio=2.23\n"}
+,{"stream_name":"stdout","time":1378.368400715,"data":"    fac ar: en=0.245 native=0.203 rand=-0.049 valid=True ratio=1.16\n"}
+,{"stream_name":"stdout","time":1378.369396389,"data":"[ 0.37h] [TRANSFER-FACTUAL] done in 6.7 min\n"}
+,{"stream_name":"stdout","time":1378.370178619,"data":"[ 0.37h] [TRANSFER-OPINION] start\n"}
+,{"stream_name":"stdout","time":1418.966384464,"data":"    op en: en=0.029 native=0.029 rand=0.004 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":1480.715715732,"data":"    op es: en=0.017 native=0.017 rand=-0.003 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":1544.517686921,"data":"    op zh: en=0.020 native=0.004 rand=0.002 valid=False ratio=10.10\n"}
+,{"stream_name":"stdout","time":1780.159603839,"data":"    op hi: en=-0.001 native=-0.002 rand=0.002 valid=False ratio=0.92\n"}
+,{"stream_name":"stdout","time":2069.430758657,"data":"    op bn: en=-0.001 native=0.006 rand=0.002 valid=True ratio=-0.63\n"}
+,{"stream_name":"stdout","time":2138.631271351,"data":"    op ar: en=0.017 native=0.011 rand=-0.007 valid=False ratio=1.33\n"}
+,{"stream_name":"stdout","time":2138.632183607,"data":"[ 0.58h] [TRANSFER-OPINION] done in 12.7 min\n"}
+,{"stream_name":"stdout","time":2138.633081485,"data":"[ 0.58h] [OPINION-HEADLINE] start\n"}
+,{"stream_name":"stdout","time":2148.552956232,"data":"    en: 0.496 -\u003e CAA 0.453 | persona 0.477\n"}
+,{"stream_name":"stdout","time":2158.70163208,"data":"    es: 0.483 -\u003e CAA 0.457 | persona 0.444\n"}
+,{"stream_name":"stdout","time":2169.190783413,"data":"    zh: 0.464 -\u003e CAA 0.426 | persona 0.457\n"}
+,{"stream_name":"stdout","time":2208.378863904,"data":"    hi: 0.524 -\u003e CAA 0.525 | persona 0.518\n"}
+,{"stream_name":"stdout","time":2256.690331264,"data":"    bn: 0.532 -\u003e CAA 0.531 | persona 0.505\n"}
+,{"stream_name":"stdout","time":2268.131204988,"data":"    ar: 0.491 -\u003e CAA 0.476 | persona 0.478\n"}
+,{"stream_name":"stdout","time":2268.132325338,"data":"[ 0.62h] [OPINION-HEADLINE] done in 2.2 min\n"}
+,{"stream_name":"stdout","time":2268.134221474,"data":"[ 0.62h] [DOSE-MATCHED] start\n"}
+,{"stream_name":"stdout","time":2308.281779301,"data":"    dose en\n"}
+,{"stream_name":"stdout","time":2354.972611002,"data":"    dose es\n"}
+,{"stream_name":"stdout","time":2393.318221001,"data":"    dose zh\n"}
+,{"stream_name":"stdout","time":2541.735813315,"data":"    dose hi\n"}
+,{"stream_name":"stdout","time":2712.582402795,"data":"    dose bn\n"}
+,{"stream_name":"stdout","time":2761.259852332,"data":"    dose ar\n"}
+,{"stream_name":"stdout","time":2761.262296211,"data":"[ 0.75h] [DOSE-MATCHED] done in 8.2 min\n"}
+,{"stream_name":"stdout","time":2762.559141897,"data":"[ 0.75h] [CONTROLS] start\n"}
+,{"stream_name":"stdout","time":2784.153284008,"data":"    controls en\n"}
+,{"stream_name":"stdout","time":2807.808902126,"data":"    controls es\n"}
+,{"stream_name":"stdout","time":2829.757751656,"data":"    controls zh\n"}
+,{"stream_name":"stdout","time":2909.415061438,"data":"    controls hi\n"}
+,{"stream_name":"stdout","time":3003.846660506,"data":"    controls bn\n"}
+,{"stream_name":"stdout","time":3028.977949119,"data":"    controls ar\n"}
+,{"stream_name":"stdout","time":3028.980733503,"data":"[ 0.83h] [CONTROLS] done in 4.4 min\n"}
+,{"stream_name":"stdout","time":3028.984022618,"data":"[ 0.83h] [CAPABILITY] start\n"}
+,{"stream_name":"stdout","time":3034.89495661,"data":"    capability en\n"}
+,{"stream_name":"stdout","time":3041.729138286,"data":"    capability es\n"}
+,{"stream_name":"stdout","time":3046.945279008,"data":"    capability zh\n"}
+,{"stream_name":"stdout","time":3063.289213741,"data":"    capability hi\n"}
+,{"stream_name":"stdout","time":3082.611465814,"data":"    capability bn\n"}
+,{"stream_name":"stdout","time":3089.3085265,"data":"    capability ar\n"}
+,{"stream_name":"stdout","time":3089.309535156,"data":"[ 0.84h] [CAPABILITY] done in 1.0 min\n"}
+,{"stream_name":"stdout","time":3089.311780546,"data":"[ 0.84h] [MATRIX-SIBLING] start\n"}
+,{"stream_name":"stdout","time":3162.83877452,"data":"    matrix -\u003e hi\n"}
+,{"stream_name":"stdout","time":3247.187757151,"data":"    matrix -\u003e bn\n"}
+,{"stream_name":"stdout","time":3247.188962749,"data":"[ 0.89h] [MATRIX-SIBLING] done in 2.6 min\n"}
+,{"stream_name":"stdout","time":3247.189916505,"data":"[ 0.89h] [RESIDUAL] start\n"}
+,{"stream_name":"stdout","time":3281.256212539,"data":"    residual es\n"}
+,{"stream_name":"stdout","time":3309.147430236,"data":"    residual zh\n"}
+,{"stream_name":"stdout","time":3416.067612493,"data":"    residual hi\n"}
+,{"stream_name":"stdout","time":3538.651188743,"data":"    residual bn\n"}
+,{"stream_name":"stdout","time":3573.900357024,"data":"    residual ar\n"}
+,{"stream_name":"stdout","time":3573.901435232,"data":"[ 0.98h] [RESIDUAL] done in 5.4 min\n"}
+,{"stream_name":"stdout","time":3573.902599181,"data":"[ 0.98h] [GENS] start\n"}
+,{"stream_name":"stdout","time":3704.172392836,"data":"[ 1.01h] [GENS] done in 2.2 min\n"}
+,{"stream_name":"stdout","time":3704.1736193,"data":"[ 1.01h] DONE Qwen2.5-0.5B-Instruct-fp16 in 60.7 min\n"}
+,{"stream_name":"stdout","time":3704.662812246,"data":"\n"}
+,{"stream_name":"stdout","time":3704.662899798,"data":"Total wall time: 1.02 h\n"}
+,{"stream_name":"stdout","time":3704.662908163,"data":"DONE\n"}
+,{"stream_name":"stderr","time":3711.124908839,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3711.124949199,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3711.29960244,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3711.299642243,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3712.112901065,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3712.285388287,"data":"[NbConvertApp] Writing 684807 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3714.972894148,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3715.832559898,"data":"[NbConvertApp] Writing 1083389 bytes to __results__.html\n"}
+]

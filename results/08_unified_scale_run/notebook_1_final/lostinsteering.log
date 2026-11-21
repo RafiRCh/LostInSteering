@@ -1,0 +1,236 @@
+[{"stream_name":"stderr","time":6.385045526,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.385111691,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.385118302,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.385122152,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.937553235,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.937581589,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.937585025,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.937587882,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":22.35869896,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":22.358734717,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":22.358738581,"data":"\n"}
+,{"stream_name":"stderr","time":22.358741216,"data":"/usr/local/lib/python3.13/dist-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.\n"}
+,{"stream_name":"stderr","time":22.358744582,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":39.862644548,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stderr","time":39.862687458,"data":"\n"}
+,{"stream_name":"stderr","time":39.862695229,"data":"Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.\n"}
+,{"stream_name":"stdout","time":40.192068325,"data":"HF token: ACTIVE and valid (all model, tokenizer and dataset downloads are authenticated)\n"}
+,{"stream_name":"stdout","time":40.392131726,"data":"torch 2.11.0+cu130 | transformers 5.20.2 | CUDA True | GPUs 2\n"}
+,{"stream_name":"stdout","time":40.392182044,"data":"  GPU 0: Tesla T4\n"}
+,{"stream_name":"stdout","time":40.392189016,"data":"  GPU 1: Tesla T4\n"}
+,{"stream_name":"stdout","time":81.380361039,"data":"Resumed: copied 288 cached files from /kaggle/input/datasets/lynxsilver/lostinsteering-run08-nb1-resume/run08_notebook_1\n"}
+,{"stream_name":"stdout","time":81.380395796,"data":"PRESET=notebook_1 | models=[('Qwen/Qwen2.5-1.5B-Instruct', 'fp16'), ('Qwen/Qwen2.5-3B-Instruct', 'fp16'), ('Qwen/Qwen2.5-7B-Instruct', 'fp16'), ('Qwen/Qwen2.5-7B-Instruct', 'nf4')] | out=/kaggle/working/run08_notebook_1\n"}
+,{"stream_name":"stdout","time":81.546423708,"data":"Loading Global-MMLU-Lite...\n"}
+,{"stream_name":"stdout","time":93.038541086,"data":"Factual items consistent across languages: 608\n"}
+,{"stream_name":"stdout","time":93.498469619,"data":"Qwen2.5-1.5B-Instruct-fp16: complete (diagnostics.json found), skipping\n"}
+,{"stream_name":"stdout","time":93.715441149,"data":"Qwen2.5-3B-Instruct-fp16: complete (diagnostics.json found), skipping\n"}
+,{"stream_name":"stdout","time":94.210816876,"data":"  opinion en: 150 items\n"}
+,{"stream_name":"stdout","time":94.448661722,"data":"  opinion es: 120 items\n"}
+,{"stream_name":"stdout","time":94.701523401,"data":"  opinion zh: 120 items\n"}
+,{"stream_name":"stdout","time":95.073570345,"data":"  opinion hi: 120 items\n"}
+,{"stream_name":"stdout","time":95.405398311,"data":"  opinion bn: 120 items\n"}
+,{"stream_name":"stdout","time":95.856285398,"data":"  opinion ar: 120 items\n"}
+,{"stream_name":"stdout","time":95.856309969,"data":"\n"}
+,{"stream_name":"stdout","time":95.856314548,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":95.856318606,"data":"  MODEL: Qwen/Qwen2.5-7B-Instruct (fp16)\n"}
+,{"stream_name":"stdout","time":95.856322477,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":201.855531378,"data":"  28 layers, D=3584, quant=fp16, devices ['0', '1'], letters {'A': [32, 362], 'B': [33, 425], 'C': [34, 356], 'D': [35, 422]}\n"}
+,{"stream_name":"stdout","time":201.855580049,"data":"  GPU 0: 7.62 GB\n"}
+,{"stream_name":"stdout","time":201.855587046,"data":"  GPU 1: 7.62 GB\n"}
+,{"stream_name":"stdout","time":201.855592684,"data":"[ 0.03h] loaded (1.8 min), 7.62B params\n"}
+,{"stream_name":"stdout","time":201.857522369,"data":"[ 0.03h] [PROBE] cached pool\n"}
+,{"stream_name":"stdout","time":201.858433566,"data":"[ 0.03h] pool=166 (sel 33 / eval 133), opinion=120 (sel 24 / eval 96)\n"}
+,{"stream_name":"stdout","time":202.285813509,"data":"[ 0.03h] [BASELINE] cached\n"}
+,{"stream_name":"stdout","time":202.356837329,"data":"  FLOOR CHECK en: op_syc=0.069 aw=0.329 at=0.995 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":202.356870948,"data":"  FLOOR CHECK es: op_syc=0.062 aw=0.455 at=0.993 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":202.356875782,"data":"  FLOOR CHECK zh: op_syc=0.010 aw=0.263 at=0.924 \u003c-- OPINION at floor/ceiling\n"}
+,{"stream_name":"stdout","time":202.356880032,"data":"  FLOOR CHECK hi: op_syc=0.182 aw=0.644 at=0.974 ok\n"}
+,{"stream_name":"stdout","time":202.356884109,"data":"  FLOOR CHECK bn: op_syc=0.221 aw=0.517 at=0.966 ok\n"}
+,{"stream_name":"stdout","time":202.35688814,"data":"  FLOOR CHECK ar: op_syc=0.046 aw=0.506 at=0.992 \u003c-- agree_true at ceiling\n"}
+,{"stream_name":"stdout","time":202.35689227,"data":"[ 0.03h] [VECTORS] loaded\n"}
+,{"stream_name":"stdout","time":202.40714459,"data":"[ 0.03h] [SWEEP] cached\n"}
+,{"stream_name":"stdout","time":202.418059455,"data":"[ 0.03h] layers: {'layer_factual': 16, 'steer_factual': -16.472064393939394, 'sign_factual': -1.0, 'layer_opinion': 26, 'steer_opinion': 1.8001302083333333, 'sign_opinion': 1.0, 'layer_persona': 16, 'steer_persona_raw': -3.808238636363636, 'persona_split_half_cos': 0.42994019389152527}\n"}
+,{"stream_name":"stdout","time":202.690145154,"data":"[ 0.03h] [CAA-COLLAPSE] cached\n"}
+,{"stream_name":"stdout","time":202.693502193,"data":"[ 0.03h] [TRANSFER-FACTUAL] cached\n"}
+,{"stream_name":"stdout","time":202.698469325,"data":"[ 0.03h] [TRANSFER-OPINION] start\n"}
+,{"stream_name":"stdout","time":202.80114497,"data":"    op en: en=0.169 native=0.169 rand=-0.003 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":202.935343616,"data":"    op es: en=0.193 native=0.202 rand=0.002 valid=True ratio=0.96\n"}
+,{"stream_name":"stdout","time":203.069972088,"data":"    op zh: en=0.219 native=0.183 rand=-0.001 valid=True ratio=1.20\n"}
+,{"stream_name":"stdout","time":203.208164471,"data":"    op hi: en=0.135 native=0.085 rand=0.004 valid=True ratio=1.63\n"}
+,{"stream_name":"stdout","time":346.289900039,"data":"    op bn: en=0.130 native=0.081 rand=0.005 valid=True ratio=1.64\n"}
+,{"stream_name":"stdout","time":912.483910805,"data":"    op ar: en=0.220 native=0.185 rand=0.011 valid=True ratio=1.20\n"}
+,{"stream_name":"stdout","time":912.485020979,"data":"[ 0.23h] [TRANSFER-OPINION] done in 11.8 min\n"}
+,{"stream_name":"stdout","time":912.485977093,"data":"[ 0.23h] [OPINION-HEADLINE] start\n"}
+,{"stream_name":"stdout","time":968.36196133,"data":"    en: 0.069 -\u003e CAA 0.070 | persona 0.041\n"}
+,{"stream_name":"stdout","time":1036.543072982,"data":"    es: 0.062 -\u003e CAA 0.062 | persona 0.057\n"}
+,{"stream_name":"stdout","time":1116.953767987,"data":"    zh: 0.010 -\u003e CAA 0.010 | persona 0.007\n"}
+,{"stream_name":"stdout","time":1379.519748596,"data":"    hi: 0.182 -\u003e CAA 0.181 | persona 0.221\n"}
+,{"stream_name":"stdout","time":1682.529713107,"data":"    bn: 0.221 -\u003e CAA 0.220 | persona 0.358\n"}
+,{"stream_name":"stdout","time":1776.95456499,"data":"    ar: 0.046 -\u003e CAA 0.046 | persona 0.091\n"}
+,{"stream_name":"stdout","time":1776.955708202,"data":"[ 0.47h] [OPINION-HEADLINE] done in 14.4 min\n"}
+,{"stream_name":"stdout","time":1776.956657294,"data":"[ 0.47h] [DOSE-MATCHED] start\n"}
+,{"stream_name":"stdout","time":2189.125817939,"data":"    dose en\n"}
+,{"stream_name":"stdout","time":2672.659665207,"data":"    dose es\n"}
+,{"stream_name":"stdout","time":3915.305700039,"data":"    dose hi\n"}
+,{"stream_name":"stdout","time":5293.671353885,"data":"    dose bn\n"}
+,{"stream_name":"stdout","time":5293.672354511,"data":"[ 1.45h] [DOSE-MATCHED] done in 58.6 min\n"}
+,{"stream_name":"stdout","time":5294.549784531,"data":"[ 1.45h] [CONTROLS] start\n"}
+,{"stream_name":"stdout","time":5462.90002036,"data":"    controls en\n"}
+,{"stream_name":"stdout","time":5663.609124236,"data":"    controls es\n"}
+,{"stream_name":"stdout","time":5846.881514396,"data":"    controls zh\n"}
+,{"stream_name":"stdout","time":6476.472175204,"data":"    controls hi\n"}
+,{"stream_name":"stdout","time":7187.714264444,"data":"    controls bn\n"}
+,{"stream_name":"stdout","time":7416.473871109,"data":"    controls ar\n"}
+,{"stream_name":"stdout","time":7416.475150624,"data":"[ 2.04h] [CONTROLS] done in 35.4 min\n"}
+,{"stream_name":"stdout","time":7416.476259845,"data":"[ 2.04h] [CAPABILITY] start\n"}
+,{"stream_name":"stdout","time":7481.504841712,"data":"    capability en\n"}
+,{"stream_name":"stdout","time":7560.189227785,"data":"    capability es\n"}
+,{"stream_name":"stdout","time":7620.464093751,"data":"    capability zh\n"}
+,{"stream_name":"stdout","time":7819.52411065,"data":"    capability hi\n"}
+,{"stream_name":"stdout","time":8040.047201849,"data":"    capability bn\n"}
+,{"stream_name":"stdout","time":8119.528315651,"data":"    capability ar\n"}
+,{"stream_name":"stdout","time":8119.529473262,"data":"[ 2.23h] [CAPABILITY] done in 11.7 min\n"}
+,{"stream_name":"stdout","time":8119.530473135,"data":"[ 2.23h] [MATRIX-SIBLING] start\n"}
+,{"stream_name":"stdout","time":8735.474308891,"data":"    matrix -\u003e hi\n"}
+,{"stream_name":"stdout","time":9414.621523916,"data":"    matrix -\u003e bn\n"}
+,{"stream_name":"stdout","time":9414.622476062,"data":"[ 2.59h] [MATRIX-SIBLING] done in 21.6 min\n"}
+,{"stream_name":"stdout","time":9414.623247886,"data":"[ 2.59h] [RESIDUAL] start\n"}
+,{"stream_name":"stdout","time":9762.944745257,"data":"    residual es\n"}
+,{"stream_name":"stdout","time":10032.779641159,"data":"    residual zh\n"}
+,{"stream_name":"stdout","time":10929.00871345,"data":"    residual hi\n"}
+,{"stream_name":"stdout","time":11917.68075417,"data":"    residual bn\n"}
+,{"stream_name":"stdout","time":12273.029696788,"data":"    residual ar\n"}
+,{"stream_name":"stdout","time":12273.030229662,"data":"[ 3.39h] [RESIDUAL] done in 47.6 min\n"}
+,{"stream_name":"stdout","time":12273.031418248,"data":"[ 3.39h] [GENS] start\n"}
+,{"stream_name":"stdout","time":12466.128935894,"data":"[ 3.44h] [GENS] done in 3.2 min\n"}
+,{"stream_name":"stdout","time":12466.12995583,"data":"[ 3.44h] DONE Qwen2.5-7B-Instruct-fp16 in 206.2 min\n"}
+,{"stream_name":"stdout","time":12467.430717831,"data":"  opinion en: 150 items\n"}
+,{"stream_name":"stdout","time":12467.66795864,"data":"  opinion es: 120 items\n"}
+,{"stream_name":"stdout","time":12467.899315432,"data":"  opinion zh: 120 items\n"}
+,{"stream_name":"stdout","time":12468.305681437,"data":"  opinion hi: 120 items\n"}
+,{"stream_name":"stdout","time":12468.700515594,"data":"  opinion bn: 120 items\n"}
+,{"stream_name":"stdout","time":12469.255836475,"data":"  opinion ar: 120 items\n"}
+,{"stream_name":"stdout","time":12469.255855364,"data":"\n"}
+,{"stream_name":"stdout","time":12469.255859388,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":12469.255862703,"data":"  MODEL: Qwen/Qwen2.5-7B-Instruct (nf4)\n"}
+,{"stream_name":"stdout","time":12469.255865937,"data":"======================================================================\n"}
+,{"stream_name":"stdout","time":12486.81721736,"data":"  28 layers, D=3584, quant=nf4, devices ['0', '1'], letters {'A': [32, 362], 'B': [33, 425], 'C': [34, 356], 'D': [35, 422]}\n"}
+,{"stream_name":"stdout","time":12486.817263595,"data":"  GPU 0: 2.54 GB\n"}
+,{"stream_name":"stdout","time":12486.817285915,"data":"  GPU 1: 3.02 GB\n"}
+,{"stream_name":"stdout","time":12486.817292254,"data":"[ 3.45h] loaded (0.3 min), 4.35B params\n"}
+,{"stream_name":"stdout","time":12486.822691441,"data":"[ 3.45h] [PROBE] 608 items x 6 langs\n"}
+,{"stream_name":"stdout","time":12559.96304997,"data":"    en: 501/608 known\n"}
+,{"stream_name":"stdout","time":12644.365022743,"data":"    es: 504/608 known\n"}
+,{"stream_name":"stdout","time":12712.413090923,"data":"    zh: 381/608 known\n"}
+,{"stream_name":"stdout","time":12909.423664826,"data":"    hi: 499/608 known\n"}
+,{"stream_name":"stdout","time":13129.443576085,"data":"    bn: 313/608 known\n"}
+,{"stream_name":"stdout","time":13216.794966608,"data":"    ar: 440/608 known\n"}
+,{"stream_name":"stdout","time":13216.796282826,"data":"[ 3.65h] pool=195 (sel 39 / eval 156), opinion=120 (sel 24 / eval 96)\n"}
+,{"stream_name":"stdout","time":13217.241082939,"data":"[ 3.65h] [BASELINE] start\n"}
+,{"stream_name":"stdout","time":13330.689681484,"data":"    en: aw=0.423 at=0.978 op_syc=0.065\n"}
+,{"stream_name":"stdout","time":13461.189167867,"data":"    es: aw=0.548 at=0.986 op_syc=0.056\n"}
+,{"stream_name":"stdout","time":13581.802744099,"data":"    zh: aw=0.368 at=0.948 op_syc=0.005\n"}
+,{"stream_name":"stdout","time":13929.467623175,"data":"    hi: aw=0.766 at=0.968 op_syc=0.221\n"}
+,{"stream_name":"stdout","time":14322.625877281,"data":"    bn: aw=0.593 at=0.959 op_syc=0.217\n"}
+,{"stream_name":"stdout","time":14467.403410845,"data":"    ar: aw=0.612 at=0.985 op_syc=0.049\n"}
+,{"stream_name":"stdout","time":14467.404450001,"data":"[ 4.00h] [BASELINE] done in 20.8 min\n"}
+,{"stream_name":"stdout","time":14467.405344387,"data":"  FLOOR CHECK en: op_syc=0.065 aw=0.423 at=0.978 ok\n"}
+,{"stream_name":"stdout","time":14467.405357572,"data":"  FLOOR CHECK es: op_syc=0.056 aw=0.548 at=0.986 ok\n"}
+,{"stream_name":"stdout","time":14467.405373896,"data":"  FLOOR CHECK zh: op_syc=0.005 aw=0.368 at=0.948 \u003c-- OPINION at floor/ceiling\n"}
+,{"stream_name":"stdout","time":14467.405379769,"data":"  FLOOR CHECK hi: op_syc=0.221 aw=0.766 at=0.968 ok\n"}
+,{"stream_name":"stdout","time":14467.405383215,"data":"  FLOOR CHECK bn: op_syc=0.217 aw=0.593 at=0.959 ok\n"}
+,{"stream_name":"stdout","time":14467.405388277,"data":"  FLOOR CHECK ar: op_syc=0.049 aw=0.612 at=0.985 ok\n"}
+,{"stream_name":"stdout","time":14467.405391593,"data":"[ 4.00h] [VECTORS] extracting\n"}
+,{"stream_name":"stdout","time":14562.793413413,"data":"[ 4.02h]     opinion en\n"}
+,{"stream_name":"stdout","time":14670.779474171,"data":"[ 4.05h]     opinion es\n"}
+,{"stream_name":"stdout","time":14793.665151103,"data":"[ 4.09h]     opinion zh\n"}
+,{"stream_name":"stdout","time":15101.793182186,"data":"[ 4.17h]     opinion hi\n"}
+,{"stream_name":"stdout","time":15442.038208669,"data":"[ 4.27h]     opinion bn\n"}
+,{"stream_name":"stdout","time":15579.100676015,"data":"[ 4.30h]     opinion ar\n"}
+,{"stream_name":"stdout","time":15824.791459193,"data":"[ 4.37h]     factual en\n"}
+,{"stream_name":"stdout","time":16121.909094924,"data":"[ 4.46h]     factual es\n"}
+,{"stream_name":"stdout","time":16348.609031846,"data":"[ 4.52h]     factual zh\n"}
+,{"stream_name":"stdout","time":17152.588465071,"data":"[ 4.74h]     factual hi\n"}
+,{"stream_name":"stdout","time":18070.37841381,"data":"[ 5.00h]     factual bn\n"}
+,{"stream_name":"stdout","time":18376.492198502,"data":"[ 5.08h]     factual ar\n"}
+,{"stream_name":"stdout","time":18504.460628017,"data":"[ 5.12h] [VECTORS] saved (67.3 min); persona split-half cosine (median over layers) = 0.429\n"}
+,{"stream_name":"stdout","time":18504.486499548,"data":"[ 5.12h] [SWEEP] 15 layers x 3 vectors on SEL items\n"}
+,{"stream_name":"stdout","time":18564.480884391,"data":"[ 5.13h]     sweep layer 0/27\n"}
+,{"stream_name":"stdout","time":18624.371833917,"data":"[ 5.15h]     sweep layer 2/27\n"}
+,{"stream_name":"stdout","time":18684.34225789,"data":"[ 5.17h]     sweep layer 4/27\n"}
+,{"stream_name":"stdout","time":18744.272057479,"data":"[ 5.18h]     sweep layer 6/27\n"}
+,{"stream_name":"stdout","time":18804.303257178,"data":"[ 5.20h]     sweep layer 8/27\n"}
+,{"stream_name":"stdout","time":18864.236683989,"data":"[ 5.22h]     sweep layer 10/27\n"}
+,{"stream_name":"stdout","time":18924.377714003,"data":"[ 5.23h]     sweep layer 12/27\n"}
+,{"stream_name":"stdout","time":18984.485718163,"data":"[ 5.25h]     sweep layer 14/27\n"}
+,{"stream_name":"stdout","time":19044.469397702,"data":"[ 5.27h]     sweep layer 16/27\n"}
+,{"stream_name":"stdout","time":19104.47916485,"data":"[ 5.28h]     sweep layer 18/27\n"}
+,{"stream_name":"stdout","time":19164.388096857,"data":"[ 5.30h]     sweep layer 20/27\n"}
+,{"stream_name":"stdout","time":19224.547043847,"data":"[ 5.32h]     sweep layer 22/27\n"}
+,{"stream_name":"stdout","time":19284.669831657,"data":"[ 5.33h]     sweep layer 24/27\n"}
+,{"stream_name":"stdout","time":19344.861528942,"data":"[ 5.35h]     sweep layer 26/27\n"}
+,{"stream_name":"stdout","time":19404.944861785,"data":"[ 5.37h]     sweep layer 27/27\n"}
+,{"stream_name":"stdout","time":19404.947559969,"data":"[ 5.37h] layers: {'layer_factual': 16, 'steer_factual': -15.025340544871796, 'sign_factual': -1.0, 'layer_opinion': 26, 'steer_opinion': 2.6534830729166665, 'sign_opinion': 1.0, 'layer_persona': 16, 'steer_persona_raw': -4.00801282051282, 'persona_split_half_cos': 0.42939144372940063}\n"}
+,{"stream_name":"stdout","time":19405.172630592,"data":"[ 5.37h] [CAA-COLLAPSE] start\n"}
+,{"stream_name":"stdout","time":19478.709819061,"data":"    en: true_drop=+42.9%\n"}
+,{"stream_name":"stdout","time":19562.966480646,"data":"    es: true_drop=+30.8%\n"}
+,{"stream_name":"stdout","time":19631.389639827,"data":"    zh: true_drop=+64.0%\n"}
+,{"stream_name":"stdout","time":19830.474292282,"data":"    hi: true_drop=+66.2%\n"}
+,{"stream_name":"stdout","time":20053.119970656,"data":"    bn: true_drop=+83.9%\n"}
+,{"stream_name":"stdout","time":20140.00069133,"data":"    ar: true_drop=+53.3%\n"}
+,{"stream_name":"stdout","time":20140.001554144,"data":"[ 5.57h] [CAA-COLLAPSE] done in 12.2 min\n"}
+,{"stream_name":"stdout","time":20140.002258136,"data":"[ 5.57h] [TRANSFER-FACTUAL] start\n"}
+,{"stream_name":"stdout","time":20431.447161168,"data":"    fac en: en=1.282 native=1.282 rand=-0.005 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":20934.998682049,"data":"    fac es: en=1.148 native=1.299 rand=-0.010 valid=True ratio=0.88\n"}
+,{"stream_name":"stdout","time":21346.222955123,"data":"    fac zh: en=1.194 native=1.111 rand=-0.012 valid=True ratio=1.07\n"}
+,{"stream_name":"stdout","time":22533.746441172,"data":"    fac hi: en=1.467 native=1.145 rand=0.004 valid=True ratio=1.28\n"}
+,{"stream_name":"stdout","time":23863.092834979,"data":"    fac bn: en=1.548 native=1.263 rand=-0.016 valid=True ratio=1.22\n"}
+,{"stream_name":"stdout","time":24384.547846237,"data":"    fac ar: en=1.199 native=1.105 rand=0.013 valid=True ratio=1.09\n"}
+,{"stream_name":"stdout","time":24384.54893804,"data":"[ 6.75h] [TRANSFER-FACTUAL] done in 70.7 min\n"}
+,{"stream_name":"stdout","time":24384.549983071,"data":"[ 6.75h] [TRANSFER-OPINION] start\n"}
+,{"stream_name":"stdout","time":24686.114744501,"data":"    op en: en=0.232 native=0.232 rand=0.008 valid=True ratio=1.00\n"}
+,{"stream_name":"stdout","time":25213.309265124,"data":"    op es: en=0.256 native=0.250 rand=0.009 valid=True ratio=1.03\n"}
+,{"stream_name":"stdout","time":25810.356751784,"data":"    op zh: en=0.297 native=0.263 rand=0.010 valid=True ratio=1.14\n"}
+,{"stream_name":"stdout","time":27473.572690352,"data":"    op hi: en=0.141 native=0.075 rand=0.003 valid=True ratio=1.92\n"}
+,{"stream_name":"stdout","time":29377.015203932,"data":"    op bn: en=0.134 native=0.075 rand=0.008 valid=True ratio=1.87\n"}
+,{"stream_name":"stdout","time":30051.870398195,"data":"    op ar: en=0.231 native=0.154 rand=0.013 valid=True ratio=1.55\n"}
+,{"stream_name":"stdout","time":30051.871379685,"data":"[ 8.33h] [TRANSFER-OPINION] done in 94.5 min\n"}
+,{"stream_name":"stdout","time":30051.8722054,"data":"[ 8.33h] [OPINION-HEADLINE] start\n"}
+,{"stream_name":"stdout","time":30128.489522446,"data":"    en: 0.065 -\u003e CAA 0.065 | persona 0.032\n"}
+,{"stream_name":"stdout","time":30217.610586217,"data":"    es: 0.056 -\u003e CAA 0.056 | persona 0.042\n"}
+,{"stream_name":"stdout","time":30318.787798154,"data":"    zh: 0.005 -\u003e CAA 0.005 | persona 0.010\n"}
+,{"stream_name":"stdout","time":30604.802096237,"data":"    hi: 0.221 -\u003e CAA 0.220 | persona 0.318\n"}
+,{"stream_name":"stdout","time":30931.712363374,"data":"    bn: 0.217 -\u003e CAA 0.207 | persona 0.387\n"}
+,{"stream_name":"stdout","time":31046.180867993,"data":"    ar: 0.049 -\u003e CAA 0.048 | persona 0.129\n"}
+,{"stream_name":"stdout","time":31046.181703128,"data":"[ 8.60h] [OPINION-HEADLINE] done in 16.6 min\n"}
+,{"stream_name":"stdout","time":31046.182404264,"data":"[ 8.60h] [DOSE-MATCHED] start\n"}
+,{"stream_name":"stdout","time":31579.675796489,"data":"    dose en\n"}
+,{"stream_name":"stdout","time":32199.681261127,"data":"    dose es\n"}
+,{"stream_name":"stdout","time":33707.663267209,"data":"    dose hi\n"}
+,{"stream_name":"stdout","time":35400.581892923,"data":"    dose bn\n"}
+,{"stream_name":"stdout","time":35400.586619181,"data":"[ 9.81h] [DOSE-MATCHED] done in 72.6 min\n"}
+,{"stream_name":"stdout","time":35401.433070758,"data":"[ 9.81h] [CONTROLS] start\n"}
+,{"stream_name":"stdout","time":35628.305626936,"data":"    controls en\n"}
+,{"stream_name":"stdout","time":35889.764762902,"data":"    controls es\n"}
+,{"stream_name":"stdout","time":36130.74407529,"data":"    controls zh\n"}
+,{"stream_name":"stdout","time":36826.480671934,"data":"    controls hi\n"}
+,{"stream_name":"stdout","time":37612.748899372,"data":"    controls bn\n"}
+,{"stream_name":"stdout","time":37906.292015831,"data":"    controls ar\n"}
+,{"stream_name":"stdout","time":37906.29296922,"data":"[10.51h] [CONTROLS] done in 41.7 min\n"}
+,{"stream_name":"stdout","time":37906.293805178,"data":"[10.51h] [CAPABILITY] SKIPPED (time budget 10.3h)\n"}
+,{"stream_name":"stdout","time":37906.294691314,"data":"[10.51h] [MATRIX-SIBLING] SKIPPED (time budget 10.3h)\n"}
+,{"stream_name":"stdout","time":37906.29562417,"data":"[10.51h] [RESIDUAL] SKIPPED (time budget 10.3h)\n"}
+,{"stream_name":"stdout","time":37906.296541413,"data":"[10.51h] [GENS] SKIPPED (time budget 10.3h)\n"}
+,{"stream_name":"stdout","time":37906.297402963,"data":"[10.51h] DONE Qwen2.5-7B-Instruct-nf4 in 424.0 min\n"}
+,{"stream_name":"stdout","time":37906.992011006,"data":"\n"}
+,{"stream_name":"stdout","time":37906.992044058,"data":"Total wall time: 10.51 h\n"}
+,{"stream_name":"stdout","time":37906.992049893,"data":"DONE\n"}
+,{"stream_name":"stderr","time":37912.438581173,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":37912.438639107,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":37912.583568824,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":37912.5836242,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":37913.297448687,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":37913.462399662,"data":"[NbConvertApp] Writing 721709 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":37915.899213507,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":37916.72429072,"data":"[NbConvertApp] Writing 1112506 bytes to __results__.html\n"}
+]

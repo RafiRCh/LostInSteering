@@ -1,0 +1,104 @@
+{
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "quant": "nf4",
+  "n_params_B": 8.16,
+  "n_layers": 48,
+  "hidden": 5120,
+  "n_pool": 120,
+  "n_eval_factual": 96,
+  "n_opinion": 80,
+  "n_eval_opinion": 64,
+  "selected": {
+    "layer_factual": 26,
+    "steer_factual": -27.14306640625,
+    "sign_factual": -1.0,
+    "layer_opinion": 24,
+    "steer_opinion": 5.14453125,
+    "sign_opinion": 1.0,
+    "layer_persona": 28,
+    "steer_persona_raw": -4.507486979166667,
+    "persona_split_half_cos": 0.43887555599212646
+  },
+  "runtime_min": 649.3,
+  "stage_minutes": {
+    "BASELINE": 35.8,
+    "VECTORS": 114.6,
+    "SWEEP": 36.9,
+    "CAA-COLLAPSE": 22.0,
+    "TRANSFER-FACTUAL": 63.4,
+    "TRANSFER-OPINION": 81.1,
+    "OPINION-HEADLINE": 27.7,
+    "DOSE-MATCHED": 62.4,
+    "CONTROLS": 71.6,
+    "CAPABILITY": 23.3,
+    "MATRIX-SIBLING": 38.8,
+    "RESIDUAL": 38.8
+  },
+  "floor_ceiling_flags": {
+    "en": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": true
+    },
+    "es": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": true
+    },
+    "zh": {
+      "opinion_floor_or_ceiling": true,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": true
+    },
+    "hi": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": false
+    },
+    "bn": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": false
+    },
+    "ar": {
+      "opinion_floor_or_ceiling": false,
+      "agree_wrong_floor_or_ceiling": false,
+      "agree_true_ceiling": true
+    }
+  },
+  "transfer_native_valid_factual": {
+    "en": true,
+    "es": true,
+    "zh": true,
+    "hi": true,
+    "bn": true,
+    "ar": true
+  },
+  "transfer_native_valid_opinion": {
+    "en": false,
+    "es": true,
+    "zh": true,
+    "hi": false,
+    "bn": false,
+    "ar": true
+  },
+  "persona_works": true,
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "python": "3.13.16"
+  },
+  "settings": {
+    "K": 5,
+    "STEP_FRAC": 0.01,
+    "M_SWEEP": 6.0,
+    "M_ANTI": 8.0,
+    "TR_MULTS": [
+      4.0
+    ],
+    "RESP_CHARS": 300,
+    "SEED": 42,
+    "PRESET": "notebook_2",
+    "smoke": false
+  }
+}
