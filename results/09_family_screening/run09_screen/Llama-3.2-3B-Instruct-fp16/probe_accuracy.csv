@@ -1,0 +1,7 @@
+lang,total,known_old_rule,correct_orig,correct_rev,correct_both,correct_either,knowledge_share_est,guessed_share_strict_est,guessed_share_soft_est
+en,608,547,360,364,287,437,0.468,0.07,0.324
+es,608,286,330,290,208,412,0.363,0.116,0.412
+zh,608,419,305,274,185,394,0.316,0.14,0.462
+hi,608,91,250,217,129,338,0.185,0.24,0.641
+bn,608,87,213,200,81,332,0.134,0.406,0.694
+ar,608,576,214,191,85,320,0.12,0.393,0.731
