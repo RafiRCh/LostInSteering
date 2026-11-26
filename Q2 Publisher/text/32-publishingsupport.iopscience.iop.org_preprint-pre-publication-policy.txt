@@ -1,0 +1,18 @@
+Preprint policy
+ IOP Publishing Limited (“IOP”) supports the early sharing of research via preprint servers and other early sharing platforms and our authors are permitted to share a Preprint of their article anywhere at any time (see below for a definition of a Preprint). 
+The only restrictions are that authors must not transfer or assign copyright when sharing the Preprint, or make the Preprint available under any exclusive licence. 
+If your article is subsequently published in an IOP journal, or if you choose to post the Preprint after publication of the Final Published Version, then we strongly encourage you to add the following information to the Preprint in order to maximise the readership and citation of the final Version of Record: 
+Citation details of the Version of Record;
+A link from the preprint to the Version of Record via DOI (digital object identifier); and
+The wording as set out below: 
+‘This is the version of the article before peer review or editing, as submitted by an author to [INSERT NAME OF JOURNAL]. IOP Publishing Ltd is not responsible for any errors or omissions in this version of the manuscript or any version derived from it. The Version of Record is available online at [INSERT DOI]’ 
+Please note that authors may only post the peer-reviewed version of their article (also known as the Accepted Manuscript) under certain conditions. Further information is available on our Author Rights Policy page
+Is the sharing of preprints compatible with double-anonymous peer review?
+The early sharing of your work as a preprint does not prohibit submission to an IOP journal that operates a double-anonymous peer review process. However, the availability of a preprint may mean that author identities are easier to find online if reviewers try to find them. We ask our reviewers to undertake an objective review of an article and when agreeing to a double-anonymous review we trust that they will not go out of their way to undermine author anonymity.
+ Definitions: article versions 
+ It is important to understand which version of an article you are reading and what rights you have when you access our content. Is it the un-edited manuscript, the peer-reviewed manuscript, the final version or one that has been corrected post-publication? The following are our current definitions of the different versions of an article and apply to both subscription and gold open access articles.
+Author’s Original/Preprint is ‘the version of the article before peer review or editing, as submitted by an author to the journal’.
+Accepted Manuscript is ‘the version of the article accepted for publication including all changes made as a result of the peer review process, and which may also include the addition to the article by IOP of a header, an article ID, a cover sheet and/or an ‘Accepted Manuscript’ watermark, but excluding any other editing, typesetting or other changes made by IOP’.
+Final Published Version is ‘the peer reviewed, edited, formatted and typeset version of the article, including any tagging, indexing and other enhancements published by IOP’.
+Version of Record is ‘the Final Published Version, including any post publication corrections or enhancements and any other changes made by IOP’.
+ Back to top

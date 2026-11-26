@@ -1,0 +1,85 @@
+How to prepare and send in your reviewer report
+ Assessing the manuscript 
+ There is no one perfect way to review a manuscript. What is most important is to clearly explain and justify your reasoning.
+Editorial criteria vary across different IOP Publishing journals, and manuscript acceptance criteria vary. As a reviewer, you will be making a recommendation on whether the manuscript fulfils the requirements of that specific journal.
+We recommend that you read the journal’s scope before writing your reviewer report. This can help you judge whether the manuscript is suitable for that journal. To find the journal scope, please see the ‘About the journal’ section on the journal homepage: IOPscience – Journals.
+Before you accepted the review invitation, you might find it helpful to read through our Becoming a journal reviewer webpage. This link will take you to our webpage about After you have submitted your reviewer report.
+ Using ScholarOne 
+ We manage all our submissions and peer review through a web-based system called ScholarOne. It is really easy to set up your account and keep it up to date.
+Watch this video to find out how to set-up a ScholarOne account.
+ScholarOne now supports login and account creation via your ORCID iD. See our ScholarOne login and account creation via ORCID iD guide for further details.
+How to create an account on ScholarOne
+1) Follow this link to access ScholarOne
+2) Select ‘Create an Account’ on the toolbar:
+3) Associate an ORCID iD to your account. Then fill in your name and email address, then select ‘Next’:
+4) Enter details for your institution, then select ‘Next’:
+5) Enter a User ID and Password. Select your gender and level of academic experience. Select if you would like to be contacted by IOP Publishing. Check the box to be invited for peer review, then scroll down:
+6) Under ‘Unavailable Dates’, let us know when you are unavailable to prevent us from inviting you in this period of time. Fill in the section ‘Research Interests’. Read the IOP Publishing – Privacy Policy and the Clarivate – ScholarOne Privacy Notice, then check the box. Finally, select ‘Finish’:
+Watch this video to find out how to update an existing ScholarOne account.
+Updating your availability on ScholarOne
+If you are planning on being unavailable for a period of time, please enter the dates into the ‘Unavailable Dates’ section of the ‘User ID/Password & Other Information’ area of your ScholarOne account. This will help ensure we do not send you requests to review a manuscript while you are unavailable.
+Adding your research interests to ScholarOne
+We recommend making sure that your research interests are detailed and up to date. Use these tips to maximise your chances of being selected:
+Avoid abbreviations
+Use as many keywords as possible: try to use as broad a range of terms as possible, including any synonyms or closely related fields
+Separate each term with a comma, with no unnecessary commentary
+Here is an example of a good list of research interests:
+magnetic nanoparticle characterization, magnetic particle imaging, magnetic nanothermometer, measuring instruments, weak signal detecting, iron oxide nanoparticles, magnetic nanoparticle thermometer, magnetic nanoparticles, biofunctionalization, dc magnetic field, magnetic fluid, magnetic particle susceptibility imaging, magnetic susceptibility imaging, magnetonanothermometry, phase delay, real-time and quantitative abilities, signal bandwidth, spatial resolution
+How to submit your reviewer report on ScholarOne
+To submit your reviewer report, either click the link in the email you received with the paper attached, or log into your account on ScholarOne. If you have forgotten your log in details, click ‘Reset Password’ on the log in page. This video will take you through the stages of submitting your reviewer report.
+Watch this video to find out how to submit your reviewer report on ScholarOne.
+ How to write a reviewer report 
+ Writing your comments on the reviewer report
+Comments to the editor/s
+Please use this section of the reviewer report form to record any confidential comments intended for the editor only.
+Comments to the author/s
+Most of your reviewer report should go in this section. Please remember to use appropriate language in your comments for the author. IOP Publishing retains the right to make minor edits to reviewer reports if the reviewer has used language that is inappropriate or offensive, or if they have revealed their identity. In exceptional circumstances IOP Publishing has the right to withdraw reviewer reports; for example, if the reviewer has used unnecessary self-citations in their reviewer report.
+Please justify any literature reference(s) you suggest the author should cite, especially any to your own work. The editor reserves the right to exclude irrelevant citation suggestions from reports.
+How to write your reviewer report
+Structure
+Start your reviewer report by briefly summarising the purpose and results of the paper. This shows the author and editors of the journal that you have read and understood the work. The body of your reviewer report should concentrate on the quality of the manuscript. It can be helpful for the author if you number your points. You should comment on the strengths of the paper as well as what could be improved. Please provide full references to earlier work if you believe the research does not add anything new.
+Length
+Reviewers are not required to give a detailed summary of the paper. However, your reviewer report should be substantial and thorough. You should explain your thinking and give the author and editors enough reasoning to support your recommendation. If you are requesting the author to revise the manuscript, be clear about what is needed to bring the manuscript up to the required quality standards for publication.
+Occasionally, we receive very short reviewer reports that do not provide evidence to support the recommendation. In this case, we may contact the reviewer to request some additional comments, both to assist us with assessment and to assist the author with any potential revision.
+Tone
+Your reviewer report should be polite, objective and constructive. You should not make any personal comments. Think about what kind of comments you would like to receive. Please see our Ethical policies for reviewers for additional guidance.
+You may also upload a file containing your comments.
+Quality assessment
+When reviewing for an IOP Publishing journal, you will typically be asked to score the manuscript on a number of different criteria. Individual journal guidelines may vary, so do check the journal-specific guidance here for more information. You will usually be asked to assess the criteria using a rating system of Very Low, Low, Medium, High or Very High. Click here to see the full Quality Assessment Breakdown. The aspects you may be asked to comment on include:
+Originality: A measure of the novelty of the ideas and techniques reported in the manuscript compared to the existing literature. Please note – some of our journals do not ask for the assessment of a manuscript’s novelty. In these circumstances, we instead welcome manuscripts that demonstrate scientific validity and a strong methodology. In doing so, we aim to be more inclusive of the types of research we publish, including null and negative results, or replication studies.
+Scientific rigour: A measure of how well the research has been carried out; whether all necessary details of the method and results are presented in a way that they can be reproduced; and whether the results have been appropriately analysed and discussed. (This includes the testability of any theoretical predictions or modelling.)
+Significance: A measure of the level of advance and likely impact of the reported results and/or approach within the article’s immediate field (and possibly beyond).
+Clarity: A measure of the structure and quality of writing within the article, and how well the authors have conveyed the required information.
+What you do not need to check for
+Reviewers are not expected to correct spelling, grammar or use-of-English mistakes, as most journals have copy editors who can correct minor problems with the language. However, if the paper is written so poorly that you cannot clearly understand what the authors mean, or there are so many errors that reading the paper becomes very difficult, then that should be reported back to the editorial team.
+Use of Generative AI (including ChatGPT)
+Please ensure that you follow our policy on the use of generative AI when writing your review.
+Supplementary Information
+Please also make sure you check to see if there is any Supplementary Information associated with the manuscript. You can find the Supplementary Information by clicking on the “Files” tab above the PDF of the manuscript:
+If there is nothing in this section, then no Supplementary Information has been submitted for this manuscript.
+ Making your recommendation 
+ You will be asked to give a recommendation. The editor will take into account your recommendation along with those provided by any other reviewers. Your recommendation should be either:
+Accept: the manuscript is publishable as it is and no changes need to be made.
+Minor revisions: the manuscript will be publishable once the authors address some minor points.
+Major revisions: the manuscript requires more substantial amendments before it can be considered for publication. These might include a significant restructure of the information, additional analyses or a more thorough discussion.
+Reject: this manuscript is not suitable for publication in the journal.
+It is extremely rare that a manuscript is accepted with no revisions, so our editors would not expect an ‘Accept’ recommendation on the first draft of a manuscript.
+Make sure you explain the recommendation you have made in your reviewer report. You may see fewer recommendation options if you are reviewing a revised manuscript.
+ Reviewing a revised manuscript 
+ This is normally a quicker process than reviewing an original manuscript. The deadline for your comments will be 5–21 days, depending on the journal. If you need an extension please get in touch with the editorial office.
+When reviewing a revised manuscript, you are checking that the revisions are satisfactory. You will receive a copy of the revised manuscript as well as the author’s response to the reviewer reports.
+Please note that any author response attachments can be found by clicking on the “Details” tab above the PDF of the manuscript on the reviewer report:
+You will then need to scroll down to “Version History”, and click the blue text next to “Response”:
+If there is no link in this section, then the author response can be found in our initial invitation email with the previous reviewer reports.
+It is generally not appropriate to request additional changes (not mentioned in your original reviewer report) at this stage.
+If the author fails to answer your criticisms, please check the ‘Unsatisfactory Revision’ box on the reviewer report form and describe the areas that were not addressed in the revision in your comments.
+You will be invited to update the original quality assessment scores you provided with your original review. If you feel the paper has been improved, your scores should increase.
+You will be asked to give a recommendation. The editor will take into account your recommendation along with those provided by any other reviewers. Your recommendation should be either:
+Accept
+Amendments required before acceptance
+Unsatisfactory revision
+ Next step
+ After you have submitted your reviewer report 
+ Previous step
+ Becoming a journal reviewer 
+ Back to top

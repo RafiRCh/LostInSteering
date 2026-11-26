@@ -1,0 +1,54 @@
+Standard research data policy
+ Please note that the majority of IOP Publishing journals have adopted our research data availability policy. The ‘about the journal’ section on each journal’s website will confirm which research data policy applies.
+Authors are encouraged to share research data and encouraged to provide data availability statements but are not required to. The decision to accept an article for publication will not be affected by whether or not authors share their research data.
+Definition of research data
+Policy exceptions
+Embargoes
+Supplementary materials
+Data repositories
+Data citation
+Data licensing
+Data availability statements
+Data formats and standards
+Definition of research data
+This policy applies to the research data that would be required to verify the results of research reported in articles published in the journal. Research data include data produced by the authors (“primary data”) and data from other sources that are analysed by authors in their study (“secondary data”). Research data includes any recorded factual material that are used to produce the results in digital and non-digital form. This includes tabular data, code, software, images, audio, documents, video, maps, raw and/or processed data.
+Policy exceptions
+Research data that are not required to verify the results reported in articles are not covered by this policy. This policy does not require public sharing of quantitative or qualitative data that could identify a research participant (“personal data”) unless participants have consented to data release. The policy also does not require public sharing of other sensitive data, such as the locations of endangered species.
+Alternatives to public sharing of sensitive or personal data include:
+Deposition of research data in controlled access repositories
+Anonymisation or deidentification of data before public sharing
+Only sharing metadata about the research data
+Stating the procedures for accessing your research data in your article and managing data access requests from other researchers
+Embargoes
+Embargoes on data sharing are permitted.
+Supplementary materials
+Sharing research data as supplementary information files is discouraged.
+Data repositories
+The preferred mechanism for sharing research data is via data repositories. Authors are encouraged to deposit their research data in a repository that has been widely adopted within their research community but if none is available may use a general data repository.
+Examples of general data repositories include:
+Figshare (www.figshare.com)
+Dryad (www.datadryad.org)
+Harvard Dataverse (http://dataverse.harvard.edu/)
+Zenodo (www.zenodo.org)
+Further repositories can be found via https://repositoryfinder.datacite.org.
+Data citation
+The journal encourages authors to cite any publicly available research data in their reference list. References to datasets (data citations) must include a persistent identifier (such as a DOI). Citations of datasets, when they appear in the reference list, should include the minimum information recommended by DataCite and follow journal style.
+Data licensing
+The journal encourages research data to be made available under open licences that permit reuse freely. The journal does not enforce particular licenses for research data, where research data are deposited in third party repositories. The publisher of the journal does not claim copyright in research data.
+Data availability statements
+The journal encourages authors to include a data availability statement in any articles that report results derived from research data. This is not mandatory.
+Data availability statements are intended to indicate where data supporting the results reported in the article can be found including, where applicable, hyperlinks to publicly archived datasets analysed or generated during the study. Where research data are not publicly available, we recommend that this is stated in the manuscript along with any conditions for accessing the data. If provided, data availability statements must take one of the following forms (or a combination of more than one if required for multiple types of research data):
+The data that support the findings of this study are openly available at the following URL/DOI: [insert web link or DOI to the data].
+The data that support the findings of this study will be openly available following an embargo of [insert length of embargo] at the following URL/DOI: [insert pre-registered web link or DOI to the data].
+The data that support the findings of this study are available upon reasonable request from the authors.
+All data that support the findings of this study are included within the article (and any supplementary information files).
+No new data were created or analysed in this study.
+Authors are advised to place the data availability statement in a dedicated section of the manuscript after the acknowledgements under the heading ‘Data availability’.
+Data formats and standards
+The journal encourages authors to share research data using data formats and standards recognised by their research community. Please see www.FAIRsharing.org for more information on established data sharing formats and standards.
+The journal prefers research data to be shared in open file formats – those that do not require proprietary software to access – where possible. For example, tabular data should be shared as CSV files rather than XLS files.
+Back to top
+ Related information:
+ Research data policy
+ IOP Publishing research data availability policy
+ Back to top

@@ -1,0 +1,86 @@
+The review process on our journals
+ IOP Publishing is committed to providing a fair and impartial review process, and to providing the fastest possible service to authors. Here we describe the review process on our journals in detail.
+ Impartial review on IOP journals 
+ IOP journals are international in authorship and readership. Referees are carefully selected from the worldwide research community. Unbiased consideration is given to all manuscripts offered for publication regardless of whether or not the authors request publication on an open access basis and regardless of the race, gender, religious belief, ethnic origin, citizenship, political philosophy, sexual orientation, age or reputation of the authors.
+ Peer review models on IOP journals 
+ Please check the peer review model of a journal via the “About the Journal” section of our journal homepages.
+View Journals
+Double-anonymous peer review
+How does it work?
+Authors and reviewers are anonymous to each other.
+What should I do if I want my work to be reviewed using double-anonymous peer review? 
+Check the journal you are submitting to supports double-anonymous peer review.
+Authors are responsible for anonymising their manuscript before submitting their paper. Click here for more information on how to do this, including a checklist(also available in Chinese).
+You can still share your research results via preprint servers such as arXiv and other early sharing platforms. This does mean that author identities may be easier to find online if reviewers try to find them. We ask our reviewers to undertake an objective review of an article and when agreeing to a double-anonymous review we trust that they will not go out of their way to undermine author anonymity, however this can never be guaranteed.
+Read our double-anonymous FAQs
+Single anonymous peer review
+How does it work?
+Reviewers are anonymous to authors. Author identities are visible to reviewers.
+What should I do if I want my work to be reviewed using single-anonymous peer review? 
+Check the journal you are submitting to supports single-anonymous peer review.
+Your manuscript should contain a complete listing of all authors, including affiliations.
+Transparent peer review
+How does it work?
+The reviewer’s comments, author responses and editorial decision letters are published alongside the final published article, in citable form. The article may have been single or double anonymously peer reviewed before publication. We hope that this greater transparency will improve the quality of the review process, give more recognition to the work of reviewers and help with the teaching of best practice in peer review.
+What should I do if I want to opt-in to transparent peer review? 
+Check the journal you are submitting to supports transparent peer review (it is available on all of IOP’s fully Open Access journals).
+Both authors and reviewers can opt-out of transparent peer review should they wish to do so. The peer review history will only appear for articles where the author and (all) reviewers opt in. Reviewers who do opt-in can still choose to remain anonymous.
+What does transparent peer review look like?
+The peer review history is available only for articles displaying a Publons badge (above) at the top of the article (next to the title). Click on the badge to view further information. All peer review content displayed will be covered by a Creative Commons CC-BY 4.0 license.
+Some example articles published with transparent peer review content are available here:
+ERL: https://iopscience.iop.org/article/10.1088/1748-9326/ab5f96; https://iopscience.iop.org/article/10.1088/1748-9326/ab763f
+JNE: https://iopscience.iop.org/article/10.1088/1741-2552/ab5e08; https://iopscience.iop.org/article/10.1088/1741-2552/ab6cba
+JPMat: https://iopscience.iop.org/article/10.1088/2515-7639/ab749c
+Post publication review
+While we do not have any functionality on our site for post-publication review, we welcome comments on published work. This could be via social media (many of our journals have their own Twitter accounts, for example), or via an external website such as PubPeer. Some of our journals publish comments on previously published work. Check your journal instructions for more information.
+ Checklist for anonymising your manuscript for double-anonymous peer review 
+ A Chinese language version of this checklist is also available.
+We have created a Word template for double-anonymous submissions. This is not compulsory, but may help you ensure your work is fully anonymised.
+ 1
+ Do not include author names, affiliations or pictures of the authors anywhere in the manuscript, justification letter, or in any Supplementary Information files.
+ 2
+ Do not include any names in any file names and ensure document properties are also anonymised.
+ 3
+ Do not include any author names or institution information in the Acknowledgements section of your manuscript. Author names and Funding information should be removed and can be re-added later in the peer review process.
+ 4
+ If your submission requires an ethical statement, please do not include this on the manuscript (as it may reveal aspects of your identity). Instead please provide the ethical statement in the section provided on the submission system.
+ 5
+ When referring to your own work within the paper or reference list, avoid using terminology that might reveal your identity. Avoid phrases such as 'we have previously shown (reference)'. Instead use 'as previously shown (reference)'. Please anonymise any references to your own unpublished thesis work.'.
+ 6
+ At revision do not sign your author response, rebuttals, or appeals with author names.
+On journals currently operating double-anonymous peer review you may include author identifying information on your manuscript, but please be aware that we do not edit manuscripts before sending them out for review, therefore you include author information at your own risk and accept that this will be visible to reviewers.
+You can also view our Submission checklist to help with your submission(also available in Chinese language)
+ Review procedure on IOP journals 
+ Pre-review stage
+Upon receiving a new manuscript, the editorial office conducts initial pre-review checks to ensure the article is legible, complete, correctly formatted, original, within the scope of the journal in question, in the style of a scientific article, and written in clear English. Any article that has problems with any of the above criteria may be rejected at this stage.
+Some of our journals also conduct a pre-review quality assessment which may be carried out by a member of the journal’s Editorial Board. If an article receives a preliminary assessment by a member of the Editorial Board, the authors may receive a report from them as part of the journal’s decision.
+If the journal has a particular requirement for articles to be of exceptionally high interest or urgency (for example, if the article is being submitted as a Fast Track Communication or a Letter), then submissions that do not appear to meet these criteria may be rejected at the pre-review stage.
+Review stage
+Articles passing successfully through the pre-review stage then begin formal peer review.
+Research papers and reviews submitted for publication in the majority of IOP journals are sent to two independent reviewers who are asked to report on the quality, scientific rigour, novelty, significance to the field, and presentation. (Non-paper article types, such as notes, may differ.)
+Reviewers are selected from our reviewer database and we try to find the best combination of scientific expertise and reviewer experience for each paper.
+Authors are welcome to suggest reviewers for their paper on submission, but this is not required. In the interests of impartiality, if an author-suggested reviewer is used then we will complement this with a review from a second reviewer chosen by the journal from the general reviewer pool.
+IOP is committed to publishing high-quality material in its journals and most journals have quite high rejection rates, typically above 50%. Papers that reviewers deem to be technically sound, but of limited interest, are usually rejected. (Exceptions to this are Journal of Physics Communications and our Express journals—Materials Research Express and Biomedical Physics & Engineering Express—where papers are reviewed only to confirm they are original and technically sound.) Decisions are based not only on the content of the written reports, but also taking into consideration the quality assessment scores returned by each reviewer. The editorial office reserves the right to send any papers to journal Editorial Board members where they believe a paper’s quality might not meet the journal’s threshold for publication.
+ If there is sufficient agreement between the reviewers:
+ 1
+ The paper may be accepted in current form.
+ 2
+ The reviewers' reports may be sent to the authors for revision of the paper.
+ 3
+ The paper may be rejected.
+ 4
+ If the paper contains too many errors or problems for the reviewers to comment fully on the scientific content, the authors will be asked to make corrections and then resubmit the article.
+Use of an adjudicator
+If the reviewers’ reports are not in agreement, the paper and the reports are sent to an independent adjudicator (often a member of the journal’s Editorial Board) who is first asked to form their own opinion of the paper and then to read the reviewers’ reports and adjudicate between them. A decision is then made based on the adjudicator’s recommendation. If a reviewer is overruled by an adjudicator, we will normally notify the reviewer of this.
+Withdrawing articles
+In exceptional cases, some of our journals reserve the right to withdraw manuscripts from consideration when we are unable to find sufficient reviewers.
+ Review times on IOP journals 
+ The processing times on our journals are consistently among the fastest in the communities we serve. For more information, you can visit our journal-specific homepages for median decision times along with a list of decision types on our journals.
+If a reviewer proves unable to report, we will try to find an alternative referee as quickly as possible. However, if a referee requests a short extension to their deadline for providing a report, we will usually grant this if it is reasonable. We try to strike a balance between the needs of authors (who will often ask for as fast a review as possible) and those of referees (who will often prefer to have more time to thoroughly study the paper and compose their report).
+In those rare cases where an article’s review process has been delayed due to unexpected difficulties in obtaining reports, we make use of our Editorial Board members’ expertise to conclude the process swiftly.
+Authors can monitor the progress of their article using the Track My Article feature. If you still have any queries after checking the articles status you can contact the journal team quoting the Manuscript ID.
+ Next step
+ Getting a first decision on your article 
+ Previous step
+ How to submit your journal article 
+ Back to top

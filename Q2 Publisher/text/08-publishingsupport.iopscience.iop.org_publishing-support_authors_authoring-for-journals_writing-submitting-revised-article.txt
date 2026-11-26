@@ -1,0 +1,73 @@
+Writing and submitting your revised article
+ If you need help writing a revision please see the following guidance. At this stage we require your source files, and we also ask you to submit an online copyright form and to provide written permissions if required.
+ How to prepare your revised article 
+ It is common for our referees to request that authors make revisions to their articles. It is important that you read each referee report very carefully and address all of the referees’ comments and requests when preparing your revised article. Please be mindful of using inclusive or gender-neutral titles when addressing reviewers.
+In addition to submitting your article files, we require a list of all the changes made and a polite point-by-point response to each referee comment (even if you disagree) before we consider the revision. You should copy each referee comment into a separate document and add a response below each comment (and refer to the manuscript line numbers when referring to changes in the main text) to assist editors and referees with checking revisions as quickly as possible.
+For each point, take the time to detail exactly what you have changed (quote the exact text before and after) and where it has changed in the manuscript. You should justify your responses, and any additional material should appear in the manuscript. It may only be a new citation and a few new words (or removed words) in a sentence. If you disagree with a referee you should be extremely clear (and polite) about why you think you are right and they are wrong. This may require new evidence, clarification of points in new language, new maths, new experiments, or more references (ideally with the relevant text from that reference extracted in your response, for the convenience of the reviewer).
+Sometimes referees contradict each other. It is inadvisable to point out to a referee that their views are invalid just because they contradict the other referee. Try to be conciliatory and, when resolving conflicting reviews, express the view that both reviewers have a point and find some middle ground. Try to address both referees’ comments in some way.
+Please make sure that you send your revised article to us, and not simply the original version again. It is also helpful if you supply us with both a clean version of your revised article, and a marked-up version which shows the changes you have made. If you are using Microsoft Word, you can use the “tracked changes” function. If you are using LaTeX you can use the “latexdiff” command.
+By observing these guidelines, you will be assisting the referees who voluntarily give up their time to review manuscripts (we recommend that you thank the reviewers for their time and input). If the referee(s) and Editorial Board are not satisfied with the changes to your manuscript, it may still be rejected at this stage.
+ What files to submit for your revised article 
+ The files you need to submit for revised submissions are:
+ 1
+ A document (Word file) containing a list of all the changes made (if your changes are not highlighted in the manuscript) and a point-by-point response to each referee comment.
+ 2
+ A PDF of the complete revised manuscript (designated 'Complete Document for Review (PDF Only)'), containing the names and institutes of authors, and figures and tables embedded within the text (both a clean version of the revised manuscript, and also a version with the changes highlighted). The highlighted manuscript should be anonymised, should authors choose to follow the double anonymous peer review model.
+ 3
+ The latest set of source files, e.g. TeX/LaTeX files or a single Word file (which includes figure/table captions) and individual figure files. It is also possible to archive or compress large files as a zip file.
+ 4
+ Any supplementary data files, including video abstracts (if invited).
+ 5
+ Any permissions that you have already obtained at this stage.
+Here is a revision checklist which lists the files needed in more detail. Please ensure that the revised document can be easily read by reviewers and editors. If extensive changes have been made, we ask that authors do not use “Track Changes” to highlight their changes.
+ How to submit your revised article 
+ Please submit all revised submissions via the link in the e-mail you received informing you of the decision and asking you to make the revisions.
+When submitting a revised article, we require you to upload the revised PDF file (deleting the original version) and your latest set of the source files used to create the revised PDF (typically Word or LaTeX files). In addition, you will need to submit your point-by-point response to the referees and either a list of the changes made or a version of the manuscript with the changes highlighted.
+If you need to make any changes to the author list, please contact the journal explaining the change (see our section on what constitutes authorship). Note that all co-authors need to approve any changes made to the author list after submission.
+If you experience any problems submitting your article online, please contact the journal for assistance.
+You will subsequently be asked to complete and submit the online copyright form, if you have not done so already, and to provide written permissions if your article makes use of any previously published material or material for which you are not the copyright owner.
+ What happens after you have submitted your revised article? 
+ Your revised article and response to the referees will normally be sent back to one or more of the referees (minor revisions may be checked by our in-house staff). At this point, the referee(s) may recommend acceptance of your paper, or request further revisions. If the referee(s) are not satisfied with the changes made or are unable to report on the revised manuscript, we may consult an Editorial Board Member. (Occasionally, if the referee(s) and Editorial Board are not satisfied with the changes made to a manuscript, it may still be rejected at this stage.) Once your article is deemed to be acceptable for publication, you will receive a ‘provisional acceptance’ letter. This will be followed by a ‘formal acceptance’ letter when we have received from you everything we need to proceed with publication of your article (including your source files, completed copyright form and any permissions if necessary).
+ Completing the copyright form for your article 
+ For most IOP Publishing (IOP) hybrid journals (journals which offer the choice of publishing on a subscription basis or on a gold open access basis), we generally require you to transfer (assign) the copyright in your subscription article to IOP (or to the relevant publishing partner) before acceptance of the article. For articles published on a gold open access basis, we generally only require that IOP is granted a non-exclusive licence. Please ensure you check the terms of the specific journal’s copyright form, as this does vary in some journals.
+For most IOP fully gold open access journals (journals which only offer publication on a gold open access basis), we generally require you to grant a non-exclusive licence of the copyright in your article to IOP (or the relevant publishing partner) before acceptance of the article. However, please ensure you check the terms of the specific journal’s copyright form, as this does vary in some journals.
+Following submission of your revised article, we will ask you to submit electronically the journal’s copyright form via the Author Centre. IOP cannot formally accept your article for publication until your fully signed copyright form has been received, along with any required permissions (see next section).
+The transfer or licence of copyright in your article only takes effect from the date on which the article is accepted for publication. If you withdraw your article, or if it is not accepted, the transfer or licence does not take effect.
+ The main features of the copyright form are that:
+ 1
+ Authors transfer the worldwide copyright in the subscription-only article to IOP (or our publishing partner) in all formats and media (note that this applies to most of our hybrid journals).
+ 2
+ Authors grant a worldwide non-exclusive licence of the copyright in the gold open access article to IOP (or our publishing partner) in all formats and media.
+ 3
+ Authors assert their moral right to be identified as the authors of the article.
+ 4
+ For subscription-only articles, IOP grants back to authors certain rights; for details please see our Author Rights Policy.
+ 5
+ IOP currently publishes gold open access articles under the CC-BY licence.
+ 6
+ Provision is made for situations where copyright is not owned by the authors, for example an author’s employer, US government employees or Crown copyright.
+ 7
+ Provision is made for multi-author articles, in that only one author should submit the copyright form but they should have obtained the verbal agreement of all the other authors (and any other copyright owner) beforehand to its terms and submission of the form.
+As well as addressing matters of copyright, the copyright forms contain assertions that:
+The article is the original work of the authors.
+The article has not been published previously and is not currently under consideration for another journal.
+Each of the authors has made a material contribution to the article.
+All authors have received the final version of the article and have agreed to it being submitted.
+The content of the paper is not defamatory, fabricated or an infringement of third-party rights.
+All required permissions have been obtained in writing.
+For more details on the copyright form and how to complete it, please email permissions@ioppublishing.org.
+ Permissions for reproducing published material in your article 
+ If your article makes use of any previously published material (including figures/diagrams, or short extracts, or content taken from websites) then you must first obtain the written permission of the copyright owner. The copyright owner is usually the publisher (for material taken from journal or proceedings articles), website owner/company (for material taken from websites) or the author or their employer (if the work is unpublished). Some publishers will also require that you seek the permission of the original author (you will need to check the terms of the publisher’s permission).
+ We ask you to submit written evidence:
+ 1
+ That all necessary permissions have been obtained by providing the actual written permission granted by the copyright owner, or
+ 2
+ That permission is not required, e.g. where the material is available under one of the Creative Commons licences which allow commercial reuse and suits the purpose for which you want to reuse the content.
+We do not obtain permissions on your behalf. It is your responsibility as the author of the article to ensure that all required permissions have been obtained in writing and any permission fee paid in full (if the copyright owner charges a fee for reuse).
+IOP is a signatory to the STM Permissions Guidelines. This benefits you because if you are reusing content from another STM signatory publisher, you are usually allowed to use up to three figures in another article published by an STM signatory publisher free of charge (provided you are not adapting/changing the figure). If the STM signatory publisher has ticked the second column ‘Notification required’ in the list of signatory publishers then you must still obtain permission but you should receive the permission for free. For more information, please see the STM Permissions Guidelines page.
+Please refer to this page for a useful guide on how to obtain permission.
+ Next step
+ From acceptance through to publication of your article 
+ Previous step
+ Getting a first decision on your article 
+ Back to top

@@ -1,0 +1,74 @@
+{
+  "generated": "2026-11-24",
+  "prefix": "10.1088",
+  "publisher": "IOP Publishing",
+  "journals": [
+    {
+      "title": "Physics in Medicine and Biology",
+      "issn": "0031-9155",
+      "crossref_items_from_2024": 1899,
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": "Reports on Progress in Physics",
+      "issn": "0034-4885",
+      "crossref_items_from_2024": 325,
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": "Journal of Physics: Conference Series",
+      "issn": "1742-6596",
+      "crossref_items_from_2024": 32633,
+      "note": "includes proceedings; inflates count",
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": "Environmental Research Letters",
+      "issn": "1748-9326",
+      "crossref_items_from_2024": 2852,
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": "IOP Conference Series: Earth and Environmental Science",
+      "issn": "1755-1315",
+      "crossref_items_from_2024": 18585,
+      "note": "includes proceedings; inflates count",
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": "IOP Conference Series: Materials Science and Engineering",
+      "issn": "1757-899X",
+      "crossref_items_from_2024": 1953,
+      "note": "includes proceedings; inflates count",
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": "Quantum Science and Technology",
+      "issn": "2058-9565",
+      "crossref_items_from_2024": 814,
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": "Machine Learning: Science and Technology",
+      "issn": "2632-2153",
+      "crossref_items_from_2024": 998,
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    },
+    {
+      "title": null,
+      "issn": "2979-2584",
+      "crossref_items_from_2024": null,
+      "note": "not found in Crossref; title unknown; listed on the blocked homepage only",
+      "source": "Crossref REST API, accessed 2026-11-24",
+      "count_type": "registered DOIs published from 2024-01-01; not acceptances"
+    }
+  ]
+}

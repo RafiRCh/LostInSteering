@@ -1,0 +1,37 @@
+{
+  "generated": "2026-11-24",
+  "sources": [
+    {
+      "id": "S1",
+      "name": "IOP publishing-support pages (author, reviewer, OA, policies)",
+      "url": "https://publishingsupport.iopscience.iop.org/",
+      "robots": "allows all (Disallow empty for *)",
+      "method": "polite fetch, 2s delay",
+      "status": "used"
+    },
+    {
+      "id": "S2",
+      "name": "IOP legal and about pages",
+      "url": "https://ioppublishing.org/",
+      "robots": "allows except /info/, /wp-admin/, /wp-login.php; crawl-delay 600s",
+      "method": "polite fetch",
+      "status": "used"
+    },
+    {
+      "id": "S3",
+      "name": "IOPscience About and Terms",
+      "url": "https://iopscience.iop.org/page/aboutiopscience",
+      "robots": "Disallow / for generic crawlers",
+      "method": "two pages read, not crawled; terms prohibit systematic downloading",
+      "status": "read only"
+    },
+    {
+      "id": "S4",
+      "name": "Crossref REST API",
+      "url": "https://api.crossref.org/",
+      "robots": "public metadata API",
+      "method": "counts and 5 most recent titles per journal",
+      "status": "used"
+    }
+  ]
+}

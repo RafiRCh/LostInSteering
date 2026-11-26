@@ -1,0 +1,16 @@
+{
+  "id": "arifurrhmn/lostinsteering-run09-screening",
+  "title": "LostInSteering Run09 screening",
+  "code_file": "lostinsteering-run09-screening.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

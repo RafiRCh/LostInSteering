@@ -1,0 +1,56 @@
+After publication of your article
+ Here we describe what we do, and what you can do, to promote and raise the visibility of your published article. We also outline the various options and procedures for making post-publication corrections.
+ Promoting your article after it is published 
+ Introduction
+You will be informed by email when your paper is published online. Publication should be the start of the next important phase in communicating your research: promoting your paper. The true value and impact of your paper can be greatly enhanced by promotion. The more people who read, cite and benefit from your research, the more valuable your paper becomes and the greater your esteem as an author. This is more important than ever given that the impact of research papers is increasingly being scrutinized by funders and institutions. As a learned-society publisher, we are committed to working closely with you to ensure that your article reaches as wide an audience as possible.
+What we do to help increase the impact of your work
+IOP Publishing undertakes a number of initiatives to promote papers and make them widely available. We:
+Publicize selected papers as part of (print and online) subject collections and annual journal highlights collections
+Highlight particularly interesting work using social media (e.g. Twitter and Facebook)
+Give journalistic coverage to selected papers on our science news/community websites
+Press release particularly newsworthy papers
+Publish and promote authors’ video abstracts
+Display the number of downloads and citations each article receives, and also altmetrics such as number of tweets and blog entries, on the journal website (on IOPscience)
+Although we try to promote as many articles as possible as widely as we can, you as the author are often the best placed to ensure your article is seen by the most relevant audience.
+What you can do to promote your article
+Remember to update any citations to your article on pre-print servers or in documents/presentations where you have referred to this work. The IOP Publishing citation style is:
+[Author list] [Year] [Journal name] [Volume] [Article/Page number]
+For example:
+Cantillano C, Mukherjee S, Morales-Inostroza L, Real B, Cáceres-Aravena G, Hermann-Avigliano C, Thomson R R and Vicencio R A 2018 Observation of localized ground and excited orbitals in graphene photonic ribbons New J. Phys. 20 033028
+Every author should have a network of colleagues and key people in their field who they would like to read their work. This is what we recommend that you do to help your paper to be found, read and cited by your peers:
+Email people you have referenced in your paper, and other key colleagues in your field, with a link to your paper
+Use social media to tell people about your work through blogging or through other outlets such as Twitter or Facebook
+Update your profile on professional and academic networking sites (such as LinkedIn, ResearchGate and Mendeley) with a link to your published article (please do not post the actual published article)
+Update your institutional/departmental homepage and research group website with a link to your paper
+Contact your institution’s press office with a summary of your paper and ask for advice about promoting it to the media
+Write a lay summary of your paper (with a link to the full version) and send to blogs in your subject area
+Produce a video abstract giving an accessible introduction to your article (this can help to encourage people to read your paper)
+Use a service like Kudos to help more people find and understand your work
+Mention your publication at conferences when giving presentations, and have copies to hand out to colleagues
+Check major abstracting and indexing services (e.g. Web of Science and Scopus) to make sure that your published paper is listed with correct details
+Upload your Accepted Manuscript (not the final published version for non-open access articles) to institutional or subject-based repositories, in line with institutional/funder requirements and the publisher embargo period (usually 12 months).
+ Post-publication corrections to journal articles 
+ Corrections to Accepted Manuscripts
+Once an accepted manuscript or published article is available online, it is considered to be a part of the permanent scholarly record. As such, we take requests to make changes very seriously. Only minor, essential corrections to your article can be made at proof stage, and these will only be visible in the Version of Record. Minor changes are those that do not significantly affect either the scientific meaning of the article or its bibliographic identity. No changes can be made to authorship (other than those covered by our Name change policy, which is available at https://publishingsupport.iopscience.iop.org/questions/name-change-policy/) and references cannot be added or removed unless in response to a specific proof query. We reserve the right to deny correction requests from authors which we deem in breach of our ethical policy.
+Corrections to Version of Record
+Once the Version of Record is published, only major essential corrections can be made at this stage. There are a number of ways to make a correction, depending on the type and severity of change required.
+ If you notice an error in your published article, several courses of action are available:
+ A corrigendum
+ should be published when you (the author) have made an error in your article. 
+ An erratum
+ should be published when we (IOP Publishing) have made an error in your article. 
+ A post-publication change to the original article
+ can only be made where the error affects the discoverability, visibility and citability of the article. For example, corrections can be made to author names, titles and abstracts. We only allow changes to affiliations, footnotes and/or acknowledgments in order to meet the requirements of a funding body, or those related to legal issues. Please contact the journal email address to request changes in these categories.
+If you have changed your name and would like to update previously published articles, please refer to our specific policy relating to name changes in the related links below, which includes instructions on how to make a request. 
+In the case of a corrigendum or erratum, the PDF of the correction article will be attached to the online version of the original article, and a link created between the corrigendum/erratum article and the original article to make readers and other users/systems aware of the correction.
+When submitting a corrigendum, the article title should be in the following format: “Corrigendum: “original article title” (“original article reference”)”
+If a post-publication change is made, the online version of the article will be replaced and a dated note added to highlight the amendment that was made. Please note that in some cases it will not be possible to also correct any print versions.
+Please contact us in the first instance and we can provide guidance on the most suitable course of action. Please note you may be required to provide reasonable proof that you are the author of the article. The majority of post publication changes require agreement from all co-authors to proceed.
+ In cases where serious errors are identified, we may publish a retraction or expression of concern:
+ A retraction
+ should be published as a way to correct the scientific record by bringing fundamental flaws/errors in a paper to the attention of the readership. They are usually reserved for cases where there is clear evidence the findings are unreliable due to misconduct or honest error. When articles are retracted they are not removed from IOPScience, instead they are retained with a clear notice of retraction and bibliographic databases are notified, as per COPE guidelines. 
+ An expression of concern
+ should be issued when concerns about publications have not been conclusively proven but are sufficiently serious to warrant warning potential readers. 
+ Previous step
+ From acceptance through to publication of your article 
+ Back to top

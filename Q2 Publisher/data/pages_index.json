@@ -1,0 +1,380 @@
+[
+  {
+    "id": "P01",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/",
+    "raw_html": "pages/01-publishingsupport.iopscience.iop.org_publishing-support.html",
+    "text_file": "text/01-publishingsupport.iopscience.iop.org_publishing-support.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P02",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/",
+    "raw_html": "pages/02-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals.html",
+    "text_file": "text/02-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P03",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/choosing-right-journal-work/",
+    "raw_html": "pages/03-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_choosing-right-journal-work.html",
+    "text_file": "text/03-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_choosing-right-journal-work.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P04",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/writing-journal-article/",
+    "raw_html": "pages/04-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_writing-journal-article.html",
+    "text_file": "text/04-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_writing-journal-article.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P05",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/submit-journal-article/",
+    "raw_html": "pages/05-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_submit-journal-article.html",
+    "text_file": "text/05-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_submit-journal-article.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P06",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/review-process-journals/",
+    "raw_html": "pages/06-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_review-process-journals.html",
+    "text_file": "text/06-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_review-process-journals.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P07",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/getting-first-decision-article/",
+    "raw_html": "pages/07-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_getting-first-decision-article.html",
+    "text_file": "text/07-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_getting-first-decision-article.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P08",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/writing-submitting-revised-article/",
+    "raw_html": "pages/08-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_writing-submitting-revised-article.html",
+    "text_file": "text/08-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_writing-submitting-revised-article.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P09",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/acceptance-publication-article/",
+    "raw_html": "pages/09-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_acceptance-publication-article.html",
+    "text_file": "text/09-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_acceptance-publication-article.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P10",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/authoring-for-journals/after-publication-of-your-article/",
+    "raw_html": "pages/10-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_after-publication-of-your-article.html",
+    "text_file": "text/10-publishingsupport.iopscience.iop.org_publishing-support_authors_authoring-for-journals_after-publication-of-your-article.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P11",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/open-access/",
+    "raw_html": "pages/11-publishingsupport.iopscience.iop.org_publishing-support_authors_open-access.html",
+    "text_file": "text/11-publishingsupport.iopscience.iop.org_publishing-support_authors_open-access.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P12",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/copyright-and-permissions/",
+    "raw_html": "pages/12-publishingsupport.iopscience.iop.org_publishing-support_authors_copyright-and-permissions.html",
+    "text_file": "text/12-publishingsupport.iopscience.iop.org_publishing-support_authors_copyright-and-permissions.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P13",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/journal-information-authors/",
+    "raw_html": "pages/13-publishingsupport.iopscience.iop.org_publishing-support_authors_journal-information-authors.html",
+    "text_file": "text/13-publishingsupport.iopscience.iop.org_publishing-support_authors_journal-information-authors.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P14",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/conference-proceedings/",
+    "raw_html": "pages/14-publishingsupport.iopscience.iop.org_publishing-support_authors_conference-proceedings.html",
+    "text_file": "text/14-publishingsupport.iopscience.iop.org_publishing-support_authors_conference-proceedings.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P15",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/books/",
+    "raw_html": "pages/15-publishingsupport.iopscience.iop.org_publishing-support_authors_books.html",
+    "text_file": "text/15-publishingsupport.iopscience.iop.org_publishing-support_authors_books.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P16",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/author-services-tools/",
+    "raw_html": "pages/16-publishingsupport.iopscience.iop.org_publishing-support_authors_author-services-tools.html",
+    "text_file": "text/16-publishingsupport.iopscience.iop.org_publishing-support_authors_author-services-tools.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P17",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/authors/author-guidelines-example/",
+    "raw_html": "pages/17-publishingsupport.iopscience.iop.org_publishing-support_authors_author-guidelines-example.html",
+    "text_file": "text/17-publishingsupport.iopscience.iop.org_publishing-support_authors_author-guidelines-example.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P18",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/reviewers/",
+    "raw_html": "pages/18-publishingsupport.iopscience.iop.org_publishing-support_reviewers.html",
+    "text_file": "text/18-publishingsupport.iopscience.iop.org_publishing-support_reviewers.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P19",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/reviewers/becoming-a-journal-reviewer/",
+    "raw_html": "pages/19-publishingsupport.iopscience.iop.org_publishing-support_reviewers_becoming-a-journal-reviewer.html",
+    "text_file": "text/19-publishingsupport.iopscience.iop.org_publishing-support_reviewers_becoming-a-journal-reviewer.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P20",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/reviewers/assessing-an-article/",
+    "raw_html": "pages/20-publishingsupport.iopscience.iop.org_publishing-support_reviewers_assessing-an-article.html",
+    "text_file": "text/20-publishingsupport.iopscience.iop.org_publishing-support_reviewers_assessing-an-article.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P21",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/reviewers/after-you-have-submitted-your-review/",
+    "raw_html": "pages/21-publishingsupport.iopscience.iop.org_publishing-support_reviewers_after-you-have-submitted-your-review.html",
+    "text_file": "text/21-publishingsupport.iopscience.iop.org_publishing-support_reviewers_after-you-have-submitted-your-review.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P22",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/reviewers/recognition-for-reviewers/",
+    "raw_html": "pages/22-publishingsupport.iopscience.iop.org_publishing-support_reviewers_recognition-for-reviewers.html",
+    "text_file": "text/22-publishingsupport.iopscience.iop.org_publishing-support_reviewers_recognition-for-reviewers.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P23",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/journals/",
+    "raw_html": "pages/23-publishingsupport.iopscience.iop.org_publishing-support_journals.html",
+    "text_file": "text/23-publishingsupport.iopscience.iop.org_publishing-support_journals.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P24",
+    "url": "https://publishingsupport.iopscience.iop.org/publishing-support/organisers/",
+    "raw_html": "pages/24-publishingsupport.iopscience.iop.org_publishing-support_organisers.html",
+    "text_file": "text/24-publishingsupport.iopscience.iop.org_publishing-support_organisers.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P25",
+    "url": "https://publishingsupport.iopscience.iop.org/submission-checklist/",
+    "raw_html": "pages/25-publishingsupport.iopscience.iop.org_submission-checklist.html",
+    "text_file": "text/25-publishingsupport.iopscience.iop.org_submission-checklist.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P26",
+    "url": "https://publishingsupport.iopscience.iop.org/iop-publishing-standard-data-policy/",
+    "raw_html": "pages/26-publishingsupport.iopscience.iop.org_iop-publishing-standard-data-policy.html",
+    "text_file": "text/26-publishingsupport.iopscience.iop.org_iop-publishing-standard-data-policy.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P27",
+    "url": "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/",
+    "raw_html": "pages/27-publishingsupport.iopscience.iop.org_ethical-policy-journals.html",
+    "text_file": "text/27-publishingsupport.iopscience.iop.org_ethical-policy-journals.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P28",
+    "url": "https://publishingsupport.iopscience.iop.org/copyright-journals/",
+    "raw_html": "pages/28-publishingsupport.iopscience.iop.org_copyright-journals.html",
+    "text_file": "text/28-publishingsupport.iopscience.iop.org_copyright-journals.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P29",
+    "url": "https://publishingsupport.iopscience.iop.org/creative-commons-licences/",
+    "raw_html": "pages/29-publishingsupport.iopscience.iop.org_creative-commons-licences.html",
+    "text_file": "text/29-publishingsupport.iopscience.iop.org_creative-commons-licences.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P30",
+    "url": "https://publishingsupport.iopscience.iop.org/open_access/",
+    "raw_html": "pages/30-publishingsupport.iopscience.iop.org_open_access.html",
+    "text_file": "text/30-publishingsupport.iopscience.iop.org_open_access.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P31",
+    "url": "https://publishingsupport.iopscience.iop.org/open_access/apc-refund-policy/",
+    "raw_html": "pages/31-publishingsupport.iopscience.iop.org_open_access_apc-refund-policy.html",
+    "text_file": "text/31-publishingsupport.iopscience.iop.org_open_access_apc-refund-policy.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P32",
+    "url": "https://publishingsupport.iopscience.iop.org/preprint-pre-publication-policy/",
+    "raw_html": "pages/32-publishingsupport.iopscience.iop.org_preprint-pre-publication-policy.html",
+    "text_file": "text/32-publishingsupport.iopscience.iop.org_preprint-pre-publication-policy.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P33",
+    "url": "https://publishingsupport.iopscience.iop.org/accepted-manuscripts/",
+    "raw_html": "pages/33-publishingsupport.iopscience.iop.org_accepted-manuscripts.html",
+    "text_file": "text/33-publishingsupport.iopscience.iop.org_accepted-manuscripts.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P34",
+    "url": "https://publishingsupport.iopscience.iop.org/frequently-asked-questions/",
+    "raw_html": "pages/34-publishingsupport.iopscience.iop.org_frequently-asked-questions.html",
+    "text_file": "text/34-publishingsupport.iopscience.iop.org_frequently-asked-questions.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P35",
+    "url": "https://publishingsupport.iopscience.iop.org/contact-us/",
+    "raw_html": "pages/35-publishingsupport.iopscience.iop.org_contact-us.html",
+    "text_file": "text/35-publishingsupport.iopscience.iop.org_contact-us.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P36",
+    "url": "https://publishingsupport.iopscience.iop.org/about-journals/journal-physics-communications/",
+    "raw_html": "pages/36-publishingsupport.iopscience.iop.org_about-journals_journal-physics-communications.html",
+    "text_file": "text/36-publishingsupport.iopscience.iop.org_about-journals_journal-physics-communications.txt",
+    "host": "publishingsupport.iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P37",
+    "url": "https://ioppublishing.org/about-us/",
+    "raw_html": "pages/37-ioppublishing.org_about-us.html",
+    "text_file": "text/37-ioppublishing.org_about-us.txt",
+    "host": "ioppublishing.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P38",
+    "url": "https://ioppublishing.org/about-us/contact-us/",
+    "raw_html": "pages/38-ioppublishing.org_about-us_contact-us.html",
+    "text_file": "text/38-ioppublishing.org_about-us_contact-us.txt",
+    "host": "ioppublishing.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P39",
+    "url": "https://ioppublishing.org/legal/copyright/",
+    "raw_html": "pages/39-ioppublishing.org_legal_copyright.html",
+    "text_file": "text/39-ioppublishing.org_legal_copyright.txt",
+    "host": "ioppublishing.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P40",
+    "url": "https://ioppublishing.org/legal/textanddataminingpolicy/",
+    "raw_html": "pages/40-ioppublishing.org_legal_textanddataminingpolicy.html",
+    "text_file": "text/40-ioppublishing.org_legal_textanddataminingpolicy.txt",
+    "host": "ioppublishing.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P41",
+    "url": "https://iopscience.iop.org/page/aboutiopscience",
+    "raw_html": "pages/41-iopscience.iop.org_page_aboutiopscience.html",
+    "text_file": "text/41-iopscience.iop.org_page_aboutiopscience.txt",
+    "host": "iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  },
+  {
+    "id": "P42",
+    "url": "https://iopscience.iop.org/page/terms",
+    "raw_html": "pages/42-iopscience.iop.org_page_terms.html",
+    "text_file": "text/42-iopscience.iop.org_page_terms.txt",
+    "host": "iopscience.iop.org",
+    "fetched": "2026-11-24",
+    "http_status": 200
+  }
+]

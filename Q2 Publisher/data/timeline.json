@@ -1,0 +1,87 @@
+{
+  "generated": "2026-11-24",
+  "source_pages": [
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "note": "Timings are IOP's stated typical values. Journal-specific median decision times are on journal homepages (not fetched).",
+  "stages": [
+    {
+      "order": 0,
+      "stage": "Before submitting",
+      "timing": "self-paced",
+      "notes": "choose journal, check scope, run checklist, anonymise if double-anonymous"
+    },
+    {
+      "order": 1,
+      "stage": "Submission",
+      "timing": "not stated; no window found",
+      "notes": "confirm on journal page; Preflight tool for Word files"
+    },
+    {
+      "order": 2,
+      "stage": "Pre-review quality check",
+      "timing": "not stated",
+      "notes": "possible rejection or transfer offer; 10 days to accept or decline a transfer"
+    },
+    {
+      "order": 3,
+      "stage": "Peer review",
+      "timing": "journal-specific median (on homepage)",
+      "notes": "usually two reviewers; adjudicator if they disagree; extensions possible"
+    },
+    {
+      "order": 4,
+      "stage": "First decision",
+      "timing": "email on decision",
+      "notes": "provisional accept, minor/moderate/major revision, reject (resubmit possible), reject, transfer offer"
+    },
+    {
+      "order": "5a",
+      "stage": "Revision",
+      "timing": {
+        "minor": "1-2 weeks",
+        "moderate": "2-4 weeks",
+        "major": "4-8 weeks"
+      },
+      "notes": "point-by-point response; copyright form and permissions required"
+    },
+    {
+      "order": "5b",
+      "stage": "Formal acceptance",
+      "timing": "not stated",
+      "notes": "requires signed copyright form"
+    },
+    {
+      "order": 6,
+      "stage": "Accepted manuscript online",
+      "timing": "within 24 hours (most journals, optional)",
+      "notes": ""
+    },
+    {
+      "order": 7,
+      "stage": "Proofs",
+      "timing": "published about 1 week after corrections arrive",
+      "notes": "author responsible for accuracy"
+    },
+    {
+      "order": 8,
+      "stage": "Version of Record published",
+      "timing": "about 1 week after proof corrections",
+      "notes": ""
+    },
+    {
+      "order": 9,
+      "stage": "After publication",
+      "timing": "ongoing",
+      "notes": "repository deposit usually after 12-month embargo; corrigendum process"
+    }
+  ],
+  "key_facts": {
+    "rejection_rate": "most journals typically above 50% (IOP review page)",
+    "resubmission": "article rejected in same or substantially similar form generally not reconsidered by IOP primary journals"
+  }
+}

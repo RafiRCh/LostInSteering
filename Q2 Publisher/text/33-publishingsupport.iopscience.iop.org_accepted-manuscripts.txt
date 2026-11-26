@@ -1,0 +1,140 @@
+Accepted manuscripts
+ In response to feedback from the research community, IOP Publishing makes articles available online within 24 hours of acceptance. This is conditional on receipt of a completed assignment of copyright and publication agreement (‘copyright form’) and on confirmation that the author has permission to include any third party content, where applicable.
+Making the accepted manuscript available has a number of benefits for our authors, including;
+Earlier opportunity for research to be read and cited
+Authors can promote their work as soon as it is accepted by their peers – maintaining the momentum of the publication process
+For biomedical authors, research will be indexed in Medline sooner: Medline will class these articles as ‘ahead of print’ and will update their status once the final version of record is published
+Improved opportunities for funding approval as researchers can list their work earlier.
+Please note that the Accepted Manuscripts service is not available for submissions with long author lists (20+) or the following article types: Comments, Replies, Corrigenda, Errata and Addenda.
+ What's the process for Accepted Manuscripts? 
+ Once the acceptance decision has been made and we have received a signed copyright form, the accepted version of the manuscript will be made available online within 24 hours of acceptance. This version of the manuscript will not be language-edited or typeset and will be provided as a flat PDF. We will continue to work with authors on the production of their article, and the final version of record will replace the accepted manuscript version once this has been completed.
+The accepted manuscript will be available as a PDF on the journal website. It will be the same as the version accepted for publication, with the original figures and formatting. We will then continue to work with the authors to improve the paper for the final version of record. In order to make the accepted manuscript available as efficiently as possible, we are only able to make a watermarked PDF version of the original source file available online. Any supplementary content will be made available when the final version of record is published.
+ Can I opt out of Accepted Manuscripts? 
+ For most researchers there is no reason to opt out of this process. However, researchers planning promotional activity, like a press release, either with us or their institution, may wish to opt out to maintain the traditional embargo period for journalists. Also, researchers currently engaging in IP or patent applications may wish to opt out of accepted manuscripts. Authors who wish to opt out can select ‘No’ when answering the following question in the submission form:
+Accepted Manuscripts
+Author manuscripts are made available on IOPscience within 24 hours of acceptance. At this point, the manuscript will be made available on the journal’s website with a Digital Object Identifier (DOI) and will be fully citable. For more information about our accepted manuscript policy please refer to our accepted manuscripts FAQs.
+Would you like your accepted manuscript to be made available online within 24 hours of acceptance? 
+Before the article is accepted, authors can contact the journal to change their selection. However, as soon as the article is accepted the process will be automatic, so whichever option has been selected up to that point will be immediately applied and cannot be changed.
+ What appears online as part of the Accepted Manuscript? 
+Title and abstract: these are taken from those entered on the submission form. Therefore, please check and ensure these are correct and do not include any LaTex coding.
+Author(s) and affiliations: these are taken from ScholarOne account details. Therefore, please check and ensure this information is up to date and matches the manuscript PDF. Please note: only one primary affiliation per author is supported for the Accepted Manuscript, this will be updated for the final published version of the manuscript.
+As the main manuscript information that appears alongside the PDF is taken from data entered by the author in ScholarOne, we advise authors to carefully check over any text entered during the submission process. In particular, we recommend using the ‘Special Characters’ functionality in ScholarOne to insert any non-standard formatting and text wherever possible, e.g. for LaTeX code. This will help to ensure that the manuscript information is accurately displayed when the Accepted Manuscript in made available online.
+ Can I make changes to the Accepted Manuscript before the version of record is published? 
+ As the Accepted Manuscript has entered the scientific record, we do not make changes to the Accepted Manuscript version once it has appeared online. Typographic mistakes and other alterations can of course still be made to the manuscript at the proof stage before the final version of record is published.
+ Can an Accepted Manuscript be withdrawn or retracted? 
+ Once an accepted manuscript or published article is available online, it is considered to be a part of the permanent scholarly record and it cannot be withdrawn, unless the research is found to: 
+Contain defamatory content. 
+Violate the privacy of a research subject. 
+Be the subject of a court order. 
+Pose a serious health risk to the general public if acted upon. 
+In instances where the article available online is not the subject of any of the above, it can be retracted, however, if it meets the Committee on Publication Ethics (COPE) retraction guidelines. As a member of COPE, we will investigate any scientific or legal concern regarding an accepted manuscript or published paper following the COPE guidelines and retract the manuscript if needed. 
+When articles are retracted they are not removed from the website, as per COPE guidelines, they are retained with a clear notice of retraction and bibliographic databases are notified. Retaining the original work ensures transparency of the published record, as online versions may have been accessed and cited by researchers prior to retraction. Copyright still applies to retracted articles, meaning permission may be required to re-use the retracted work, or submit the retracted work to another journal. 
+To request a withdrawal or retraction, please contact the IOP Publishing Research Integrity Team.
+ Which journals publish Accepted Manuscripts? 
+ The following journals all publish Accepted Manuscripts:
+2D Materials
+Applied Physics Express
+Biofabrication
+Bioinspiration & Biomimetics
+Biomedical Materials
+Biomedical Physics & Engineering Express
+Chinese Physics B
+Chinese Physics C
+Classical and Quantum Gravity
+ECS Journal of Solid State Science and Technology 
+Electronic Structure
+Engineering Research Express
+Environmental Research Communications
+Environmental Research Letters
+European Journal of Physics
+Flexible & Printed Electronics
+Fluid Dynamics Research
+Functional Composites and Structures
+International Journal of Extreme Manufacturing
+Inverse Problems
+IOP SciNotes
+Japanese Journal of Applied Physics
+Journal of Breath Research
+Journal of Micromechanics and Microengineering
+Journal of Neural Engineering
+Journal of Physics A: Mathematical and Theoretical
+Journal of Physics B: Atomic, Molecular and Optical Physics
+Journal of Physics Communication
+Journal of Physics D: Applied Physics
+Journal of Physics G: Nuclear and Particle Physics
+Journal of Physics: Complexity
+Journal of Physics: Condensed Matter
+Journal of Physics: Energy
+Journal of Physics: Materials
+Journal of Physics: Photonics
+Journal of Optics
+Journal of Radiological Protection
+Journal of The Electrochemical Society
+Machine Learning: Science and Technology
+Materials for Quantum Technology
+Materials Research Express
+Measurement Science and Technology
+Medical Engineering & Physics
+Medical Sensors & Imaging
+Methods and Applications in Fluorescence
+Metrologia
+Modelling and Simulation in Materials Science and Engineering
+Multifunctional Materials
+Nanotechnology
+Nano Express
+Nano Futures
+New Journal of Physics
+Nuclear Fusion
+Physica Scripta
+Physical Biology
+Physics in Medicine & Biology
+Physiological Measurement
+Plasma Research Express
+Plasma Physics and Controlled Fusion
+Plasma Science and Technology
+Plasma Sources Science and Technology
+Progress in Biomedical Engineering
+Progress in Energy
+Quantum Science and Technology
+Reports on Progress in Physics
+Semiconductor Science and Technology
+Smart Materials and Structures
+Superconductor Science and Technology
+Surface Topography: Metrology and Properties
+ How do I cite an Accepted Manuscript? 
+ As the DOI remains constant, we recommend the inclusion of the DOI when citing the accepted manuscript. The exact syntax of the citation will differ between reference styles, but we suggest e.g.: Author, A, Author B, and Author C 2016 New J. Phys. https://doi.org/10.1088/1367-2630/aa0000
+ Author rights: Accepted Manuscript 
+ After acceptance, each Named Author of an article to be published/published on a subscription basis may:
+Unless otherwise stated, any reference below to an Embargo Period is a reference to a period of 12 months from the Date of Publication.
+1. Post the Accepted Manuscript at any time on their Personal Website, provided that any copyright notice and any cover sheet applied by IOP is not deleted or modified. It may not be posted under any form of open access or Creative Commons Licence during the Embargo Period. After the Embargo Period, a CC BY-NC-ND licence applies to the Accepted Manuscript, in which case it may then only be posted under that CC BY-NC-ND licence provided that all the terms of the licence are adhered to, and any copyright notice and any cover sheet applied by IOP is not deleted or modified.
+2. Post the Accepted Manuscript on their employer’s or institution’s website after the Embargo Period under a CC BY-NC-ND licence, provided that all the terms of the licence are adhered to, and any copyright notice and any cover sheet applied by IOP is not deleted or modified.
+3. Post the Accepted Manuscript to an institutional repository or subject repository (in both cases ONLY where non-commercial) after the Embargo Period under a CC BY-NC-ND licence, provided that all terms of the licence are adhered to, and any copyright notice and any cover sheet applied by IOP is not deleted or modified.
+4. Post the Accepted Manuscript to a non-commercial Scientific Social Network after the Embargo Period under a CC BY-NC-ND licence, provided that all terms of the licence are adhered to, and any copyright notice and any cover sheet applied by IOP is not deleted or modified.
+5. NOT post the Accepted Manuscript to any commercial Scientific Social Network, commercial repository or any other publisher website. For example, ResearchGate, Mendeley* and Academia.edu are commercial Scientific Social Networks and so the Accepted Manuscript of the article may not be posted to them or shared on them.
+6. *Post the Accepted Manuscript, in their private library on Mendeley (their private document file space which is not accessible by third parties), provided that any copyright notice and any cover sheet applied by IOP is not deleted or modified.
+7. Post the Accepted Manuscript to arXiv after the Embargo Period under a CC BY-NC-ND licence, provided that all terms of the licence are adhered to, and any copyright notice and any cover sheet applied by IOP is not deleted or modified.
+8. However, a limited number of IOP journals allow the Named Authors to post the Accepted Manuscript to arXiv at any time (please note that this does not apply to bioRxiv) provided that any copyright notice and any cover sheet applied by IOP is not deleted or modified. You must select the ‘non-exclusive licence to distribute‘ and not an open access or Creative Commons Licence offered by arXiv when uploading the article (You may indicate that the CC BY-NC-ND licence applies after the Embargo Period by including the following wording on the Accepted Manuscript, ‘This Accepted Manuscript is available for reuse under a CC BY-NC-ND licence after the 12 month embargo period provided that all the terms and conditions of the licence are adhered to’ (unless there is a cover sheet applied to it by IOP which already states this). The journals this currently applies to are:
+Journal of Physics A: Mathematical and Theoretical
+Journal of Physics G: Nuclear and Particle Physics
+Classical and Quantum Gravity
+Journal of Cosmology and Astroparticle Physics
+Journal of Instrumentation
+Journal of Statistical Mechanics: Theory and Experiment
+European Journal of Physics
+Quantum Science and Technology
+10. Post the Accepted Manuscript to bioRxiv after the Embargo Period, provided that any copyright notice and any cover sheet applied by IOP is not deleted or modified, provided you select the CC BY-NC-ND licence offered by bioRxiv under their ‘distribution/reuse options’ when uploading the article and provided all the terms of the licence are adhered to.
+You may indicate that the CC BY-NC-ND licence applies after the Embargo Period by including the following wording on the Accepted Manuscript, “This Accepted Manuscript is available for reuse under a CC BY-NC-ND licence after the 12 month embargo period provided that all the terms of the licence are adhered to” (unless there is a cover sheet applied to it by IOP which already states this).
+Once the Final Published Version has been published on IOPscience, in all cases where the Accepted Manuscript has been posted, the Named Authors must add citation details and a link from your posting of the Accepted Manuscript to the Version of Record via DOI. IOP requires that the Named Authors include the Statement of Provenance as set out in the ‘Definitions’ section below.
+The Named Authors may not post the Accepted Manuscript in any repositories, Scientific Social Networks or websites that automatically apply an open access licence to the article granting reuse rights under the terms of the repository, Scientific Social Network or website (unless it applies a CC BY-NC-ND licence, in which case it may only be posted under that licence after the Embargo Period).
+For clarity, IOP only currently applies the CC BY-NC-ND licence to the Accepted Manuscripts of articles published in the Journals which apply to this policy (and this only applies after the Embargo Period).
+ Will the Accepted Manuscript be indexed? 
+ The DOI and metadata will be registered with Crossref and indexed by Google for discoverability. Relevant papers will also be indexed in PubMed. PubMed will class these articles as ‘ahead of print’ and will update their status once the final version of record is published.
+Currently Web Of Science, SCOPUS and other services do not support accepted manuscripts, but if they decide to do this we will do the necessary work to allow them to index the relevant metadata.
+ Will the Accepted Manuscript have a DOI? 
+ Yes, and we will also show some basic metadata that will include the date the manuscript became available online, author names, and affiliations where available.
+When the version of record is available this will be published with the same DOI to ensure there is a consistent reference for citing the work.
+ Related information:
+ Use our Submission Checklist - also available in Chinese
+ Author rights and article sharing
+ Resources for Researchers and Reviewers
+ Back to top

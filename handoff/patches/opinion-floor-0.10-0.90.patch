@@ -1,0 +1,102 @@
+From 8c8cff9a91d37a48868b4cf0758c9a3b810ddd03 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sat, 21 Nov 2026 06:02:59 +0000
+Subject: [PATCH] Run 08: opinion floor/ceiling check uses 0.10/0.90,
+ configurable
+
+Adds OP_FLOOR/OP_CEIL (and AW_FLOOR/AW_CEIL, unchanged at 0.03/0.97) to the setup cell.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01EBXwTySqXpS1Hv7mT7aeVy
+---
+ docs/RUN_08.md                        |  2 +-
+ notebooks/08_unified_scale_run.ipynb  | 10 ++++++----
+ notebooks/src/08_unified_scale_run.py | 10 ++++++----
+ 3 files changed, 13 insertions(+), 9 deletions(-)
+
+diff --git a/docs/RUN_08.md b/docs/RUN_08.md
+index 1c4f4ed..02f9137 100644
+--- a/docs/RUN_08.md
++++ b/docs/RUN_08.md
+@@ -25,7 +25,7 @@ The three presets are independent, so run them at the same time on different Kag
+ 
+ ## What to look at in the first hour
+ 
+-1. `FLOOR CHECK` lines (printed after the baseline stage, right after the knowledge probe): `op_syc` (opinion sycophancy baseline) should be well away from 0 and 1. If it is still below 0.03 or above 0.97 for most languages, the opinion task still needs a redesign (the margin-based slopes still work, but the headline rates will not). If so, stop the run and tell me: the cache (probe, baseline) is kept, so a fixed notebook resumes without losing that work.
++1. `FLOOR CHECK` lines (printed after the baseline stage, right after the knowledge probe): `op_syc` (opinion sycophancy baseline) should lie between 0.10 and 0.90 (`OP_FLOOR`/`OP_CEIL` in the setup cell). If it falls outside that range for most languages, the opinion task still needs a redesign (the margin-based slopes still work, but the headline rates will not). If so, stop the run and tell me: the cache (probe, baseline) is kept, so a fixed notebook resumes without losing that work.
+ 2. `layers:` line: persona `steer_persona_raw` should be negative. If not, persona steering does not work in that model and the paper should say so.
+ 3. `diagnostics.json`, `transfer_*.csv` (`native_valid` column), `matched_effect.csv`.
+ 
+diff --git a/notebooks/08_unified_scale_run.ipynb b/notebooks/08_unified_scale_run.ipynb
+index a9dfdb9..4d5b31d 100644
+--- a/notebooks/08_unified_scale_run.ipynb
++++ b/notebooks/08_unified_scale_run.ipynb
+@@ -135,6 +135,8 @@
+     "TIME_BUDGET_H = 10.3   # optional stages skipped after this\n",
+     "HARD_BUDGET_H = 11.2   # stop everything cleanly after this so outputs are saved (Kaggle kills at 12h)\n",
+     "SEL_FRAC = 0.2         # fraction of the factual pool used only for choosing layers\n",
++    "OP_FLOOR, OP_CEIL = 0.10, 0.90   # opinion-sycophancy floor/ceiling check: baseline op_syc must lie inside [OP_FLOOR, OP_CEIL]\n",
++    "AW_FLOOR, AW_CEIL = 0.03, 0.97   # agree_wrong floor/ceiling check (unchanged)\n",
+     "\n",
+     "OUT_ROOT = \"/kaggle/working/\" if os.path.exists(\"/kaggle/working\") else \"\"\n",
+     "BASE_OUT = OUT_ROOT + (\"run08_smoke\" if SMOKE else f\"run08_{PRESET}\")\n",
+@@ -654,8 +656,8 @@
+     "    for lang in LANGS:  # floor/ceiling check\n",
+     "        b = baseline.loc[lang]\n",
+     "        flags = []\n",
+-    "        if b.op_syc < 0.03 or b.op_syc > 0.97: flags.append(\"OPINION at floor/ceiling\")\n",
+-    "        if b.agree_wrong < 0.03 or b.agree_wrong > 0.97: flags.append(\"agree_wrong at floor/ceiling\")\n",
++    "        if b.op_syc < OP_FLOOR or b.op_syc > OP_CEIL: flags.append(\"OPINION at floor/ceiling\")\n",
++    "        if b.agree_wrong < AW_FLOOR or b.agree_wrong > AW_CEIL: flags.append(\"agree_wrong at floor/ceiling\")\n",
+     "        if b.agree_true > 0.99: flags.append(\"agree_true at ceiling\")\n",
+     "        print(f\"  FLOOR CHECK {lang}: op_syc={b.op_syc:.3f} aw={b.agree_wrong:.3f} at={b.agree_true:.3f} {'<-- ' + '; '.join(flags) if flags else 'ok'}\")\n",
+     "\n",
+@@ -978,8 +980,8 @@
+     "    diag = dict(model=model_name, quant=quant, n_params_B=round(n_params_B, 2), n_layers=N_LAYERS, hidden=D,\n",
+     "                n_pool=N_POOL, n_eval_factual=len(EV_F), n_opinion=OP_N, n_eval_opinion=len(EV_O),\n",
+     "                selected=sel_info, runtime_min=round((time.time() - T0) / 60, 1), stage_minutes=STAGE_TIMES,\n",
+-    "                floor_ceiling_flags={l: dict(opinion_floor_or_ceiling=bool(b.loc[l, \"op_syc\"] < 0.03 or b.loc[l, \"op_syc\"] > 0.97),\n",
+-    "                                             agree_wrong_floor_or_ceiling=bool(b.loc[l, \"agree_wrong\"] < 0.03 or b.loc[l, \"agree_wrong\"] > 0.97),\n",
++    "                floor_ceiling_flags={l: dict(opinion_floor_or_ceiling=bool(b.loc[l, \"op_syc\"] < OP_FLOOR or b.loc[l, \"op_syc\"] > OP_CEIL),\n",
++    "                                             agree_wrong_floor_or_ceiling=bool(b.loc[l, \"agree_wrong\"] < AW_FLOOR or b.loc[l, \"agree_wrong\"] > AW_CEIL),\n",
+     "                                             agree_true_ceiling=bool(b.loc[l, \"agree_true\"] > 0.99)) for l in LANGS},\n",
+     "                transfer_native_valid_factual=None if tr_fac is None else {l: bool(tr_fac.loc[l, \"native_valid\"]) for l in tr_fac.index},\n",
+     "                transfer_native_valid_opinion=None if tr_op is None else {l: bool(tr_op.loc[l, \"native_valid\"]) for l in tr_op.index},\n",
+diff --git a/notebooks/src/08_unified_scale_run.py b/notebooks/src/08_unified_scale_run.py
+index 3256659..3d0b4d3 100644
+--- a/notebooks/src/08_unified_scale_run.py
++++ b/notebooks/src/08_unified_scale_run.py
+@@ -122,6 +122,8 @@ BATCH_SIZE = 6         # auto-halves on CUDA OOM
+ TIME_BUDGET_H = 10.3   # optional stages skipped after this
+ HARD_BUDGET_H = 11.2   # stop everything cleanly after this so outputs are saved (Kaggle kills at 12h)
+ SEL_FRAC = 0.2         # fraction of the factual pool used only for choosing layers
++OP_FLOOR, OP_CEIL = 0.10, 0.90   # opinion-sycophancy floor/ceiling check: baseline op_syc must lie inside [OP_FLOOR, OP_CEIL]
++AW_FLOOR, AW_CEIL = 0.03, 0.97   # agree_wrong floor/ceiling check (unchanged)
+ 
+ OUT_ROOT = "/kaggle/working/" if os.path.exists("/kaggle/working") else ""
+ BASE_OUT = OUT_ROOT + ("run08_smoke" if SMOKE else f"run08_{PRESET}")
+@@ -601,8 +603,8 @@ def run_model(model_name, quant, base_out):
+     for lang in LANGS:  # floor/ceiling check
+         b = baseline.loc[lang]
+         flags = []
+-        if b.op_syc < 0.03 or b.op_syc > 0.97: flags.append("OPINION at floor/ceiling")
+-        if b.agree_wrong < 0.03 or b.agree_wrong > 0.97: flags.append("agree_wrong at floor/ceiling")
++        if b.op_syc < OP_FLOOR or b.op_syc > OP_CEIL: flags.append("OPINION at floor/ceiling")
++        if b.agree_wrong < AW_FLOOR or b.agree_wrong > AW_CEIL: flags.append("agree_wrong at floor/ceiling")
+         if b.agree_true > 0.99: flags.append("agree_true at ceiling")
+         print(f"  FLOOR CHECK {lang}: op_syc={b.op_syc:.3f} aw={b.agree_wrong:.3f} at={b.agree_true:.3f} {'<-- ' + '; '.join(flags) if flags else 'ok'}")
+ 
+@@ -925,8 +927,8 @@ def run_model(model_name, quant, base_out):
+     diag = dict(model=model_name, quant=quant, n_params_B=round(n_params_B, 2), n_layers=N_LAYERS, hidden=D,
+                 n_pool=N_POOL, n_eval_factual=len(EV_F), n_opinion=OP_N, n_eval_opinion=len(EV_O),
+                 selected=sel_info, runtime_min=round((time.time() - T0) / 60, 1), stage_minutes=STAGE_TIMES,
+-                floor_ceiling_flags={l: dict(opinion_floor_or_ceiling=bool(b.loc[l, "op_syc"] < 0.03 or b.loc[l, "op_syc"] > 0.97),
+-                                             agree_wrong_floor_or_ceiling=bool(b.loc[l, "agree_wrong"] < 0.03 or b.loc[l, "agree_wrong"] > 0.97),
++                floor_ceiling_flags={l: dict(opinion_floor_or_ceiling=bool(b.loc[l, "op_syc"] < OP_FLOOR or b.loc[l, "op_syc"] > OP_CEIL),
++                                             agree_wrong_floor_or_ceiling=bool(b.loc[l, "agree_wrong"] < AW_FLOOR or b.loc[l, "agree_wrong"] > AW_CEIL),
+                                              agree_true_ceiling=bool(b.loc[l, "agree_true"] > 0.99)) for l in LANGS},
+                 transfer_native_valid_factual=None if tr_fac is None else {l: bool(tr_fac.loc[l, "native_valid"]) for l in tr_fac.index},
+                 transfer_native_valid_opinion=None if tr_op is None else {l: bool(tr_op.loc[l, "native_valid"]) for l in tr_op.index},
+-- 
+2.43.0
+

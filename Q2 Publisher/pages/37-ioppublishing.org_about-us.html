@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <!-- Cookie TCF listener -->
+    <script>
+      window.iabConfig = { allowedVendors: ['755', '804', '1020' ], allowedGoogleVendors: [] }
+    </script>
+    <!-- Bluconic scripts -->
+              <script src="https://cdp.ioppublishing.org/script.js"></script>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="pingback" href="https://ioppublishing.org/wp/xmlrpc.php" />
+
+        <style>
+      .is-loading main { opacity: 0; transform: translate3d(0, 10vh, 0); transition: opacity 800ms, transform 600ms; }
+
+      .is-loading .g-menu__main { opacity: 0; font-size: 0.9rem; transition: opacity 150ms; }
+
+      .fonts-loaded, .is-loading .fonts-loaded { opacity: 1; font-size: 1.25rem; }
+    </style>
+    <noscript>
+      <style>
+        .is-loading main, .is-loading .no-js main, .is-loading .g-menu__main, .is-loading .no-js .g-menu__main {
+        opacity: 1; transform: translate3d(0, 0, 0); }
+      </style>
+    </noscript>
+    <script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>About Us - IOP Publishing</title>
+	<link rel="canonical" href="https://ioppublishing.org/about-us/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="About Us - IOP Publishing" />
+	<meta property="og:description" content="About us Expanding the world of physics IOP Publishing is a society-owned scientific publisher, providing impact, recognition and value for the scientific community. IOP Publishing’s portfolio includes more than 100 journals, around half of which are published jointly with or on behalf of partner societies and research organisations. Our publishing portfolio reflects the growth of [&hellip;]" />
+	<meta property="og:url" content="https://ioppublishing.org/about-us/" />
+	<meta property="og:site_name" content="IOP Publishing" />
+	<meta property="article:modified_time" content="2026-03-10T16:41:45+00:00" />
+	<meta property="og:image" content="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min.jpg" />
+	<meta property="og:image:width" content="2500" />
+	<meta property="og:image:height" content="1500" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="3 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/ioppublishing.org\/about-us\/","url":"https:\/\/ioppublishing.org\/about-us\/","name":"About Us - IOP Publishing","isPartOf":{"@id":"https:\/\/ioppublishing.org\/#website"},"primaryImageOfPage":{"@id":"https:\/\/ioppublishing.org\/about-us\/#primaryimage"},"image":{"@id":"https:\/\/ioppublishing.org\/about-us\/#primaryimage"},"thumbnailUrl":"https:\/\/ioppublishing.org\/wp-content\/uploads\/2023\/03\/About-Us_header_2500-x-1500-min.jpg","datePublished":"2023-02-07T22:09:41+00:00","dateModified":"2026-03-10T16:41:45+00:00","breadcrumb":{"@id":"https:\/\/ioppublishing.org\/about-us\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/ioppublishing.org\/about-us\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/ioppublishing.org\/about-us\/#primaryimage","url":"https:\/\/ioppublishing.org\/wp-content\/uploads\/2023\/03\/About-Us_header_2500-x-1500-min.jpg","contentUrl":"https:\/\/ioppublishing.org\/wp-content\/uploads\/2023\/03\/About-Us_header_2500-x-1500-min.jpg","width":2500,"height":1500},{"@type":"BreadcrumbList","@id":"https:\/\/ioppublishing.org\/about-us\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/ioppublishing.org\/"},{"@type":"ListItem","position":2,"name":"About Us"}]},{"@type":"WebSite","@id":"https:\/\/ioppublishing.org\/#website","url":"https:\/\/ioppublishing.org\/","name":"IOP Publishing","description":"IOP Publishing","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/ioppublishing.org\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="IOP Publishing &raquo; Feed" href="https://ioppublishing.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IOP Publishing &raquo; Comments Feed" href="https://ioppublishing.org/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://ioppublishing.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fioppublishing.org%2Fabout-us%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://ioppublishing.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fioppublishing.org%2Fabout-us%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-cover-inline-css">
+.wp-block-cover,.wp-block-cover-image{align-items:center;background-position:50%;box-sizing:border-box;display:flex;justify-content:center;min-height:430px;overflow:hidden;overflow:clip;padding:1em;position:relative}.wp-block-cover .has-background-dim:not([class*=-background-color]),.wp-block-cover-image .has-background-dim:not([class*=-background-color]),.wp-block-cover-image.has-background-dim:not([class*=-background-color]),.wp-block-cover.has-background-dim:not([class*=-background-color]){background-color:#000}.wp-block-cover .has-background-dim.has-background-gradient,.wp-block-cover-image .has-background-dim.has-background-gradient{background-color:transparent}.wp-block-cover-image.has-background-dim:before,.wp-block-cover.has-background-dim:before{background-color:inherit;content:""}.wp-block-cover .wp-block-cover__background,.wp-block-cover .wp-block-cover__gradient-background,.wp-block-cover-image .wp-block-cover__background,.wp-block-cover-image .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim:not(.has-background-gradient):before,.wp-block-cover.has-background-dim:not(.has-background-gradient):before{bottom:0;left:0;opacity:.5;position:absolute;right:0;top:0}.wp-block-cover-image.has-background-dim.has-background-dim-10 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-10 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-10:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-10 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-10 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-10:not(.has-background-gradient):before{opacity:.1}.wp-block-cover-image.has-background-dim.has-background-dim-20 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-20 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-20:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-20 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-20 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-20:not(.has-background-gradient):before{opacity:.2}.wp-block-cover-image.has-background-dim.has-background-dim-30 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-30 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-30:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-30 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-30 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-30:not(.has-background-gradient):before{opacity:.3}.wp-block-cover-image.has-background-dim.has-background-dim-40 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-40 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-40:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-40 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-40 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-40:not(.has-background-gradient):before{opacity:.4}.wp-block-cover-image.has-background-dim.has-background-dim-50 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-50 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-50:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-50 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-50 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-50:not(.has-background-gradient):before{opacity:.5}.wp-block-cover-image.has-background-dim.has-background-dim-60 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-60 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-60:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-60 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-60 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-60:not(.has-background-gradient):before{opacity:.6}.wp-block-cover-image.has-background-dim.has-background-dim-70 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-70 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-70:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-70 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-70 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-70:not(.has-background-gradient):before{opacity:.7}.wp-block-cover-image.has-background-dim.has-background-dim-80 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-80 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-80:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-80 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-80 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-80:not(.has-background-gradient):before{opacity:.8}.wp-block-cover-image.has-background-dim.has-background-dim-90 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-90 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-90:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-90 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-90 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-90:not(.has-background-gradient):before{opacity:.9}.wp-block-cover-image.has-background-dim.has-background-dim-100 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-100 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-100:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-100 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-100 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-100:not(.has-background-gradient):before{opacity:1}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-0,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-0,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-0,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-0{opacity:0}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-10,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-10,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-10,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-10{opacity:.1}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-20,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-20,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-20,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-20{opacity:.2}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-30,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-30,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-30,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-30{opacity:.3}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-40,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-40,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-40,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-40{opacity:.4}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-50,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-50,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-50,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-50{opacity:.5}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-60,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-60,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-60,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-60{opacity:.6}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-70,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-70,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-70,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-70{opacity:.7}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-80,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-80,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-80,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-80{opacity:.8}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-90,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-90,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-90,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-90{opacity:.9}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-100,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-100,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-100,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-100{opacity:1}.wp-block-cover-image.alignleft,.wp-block-cover-image.alignright,.wp-block-cover.alignleft,.wp-block-cover.alignright{max-width:420px;width:100%}.wp-block-cover-image.aligncenter,.wp-block-cover-image.alignleft,.wp-block-cover-image.alignright,.wp-block-cover.aligncenter,.wp-block-cover.alignleft,.wp-block-cover.alignright{display:flex}.wp-block-cover .wp-block-cover__inner-container,.wp-block-cover-image .wp-block-cover__inner-container{color:inherit;position:relative;width:100%}.wp-block-cover-image.is-position-top-left,.wp-block-cover.is-position-top-left{align-items:flex-start;justify-content:flex-start}.wp-block-cover-image.is-position-top-center,.wp-block-cover.is-position-top-center{align-items:flex-start;justify-content:center}.wp-block-cover-image.is-position-top-right,.wp-block-cover.is-position-top-right{align-items:flex-start;justify-content:flex-end}.wp-block-cover-image.is-position-center-left,.wp-block-cover.is-position-center-left{align-items:center;justify-content:flex-start}.wp-block-cover-image.is-position-center-center,.wp-block-cover.is-position-center-center{align-items:center;justify-content:center}.wp-block-cover-image.is-position-center-right,.wp-block-cover.is-position-center-right{align-items:center;justify-content:flex-end}.wp-block-cover-image.is-position-bottom-left,.wp-block-cover.is-position-bottom-left{align-items:flex-end;justify-content:flex-start}.wp-block-cover-image.is-position-bottom-center,.wp-block-cover.is-position-bottom-center{align-items:flex-end;justify-content:center}.wp-block-cover-image.is-position-bottom-right,.wp-block-cover.is-position-bottom-right{align-items:flex-end;justify-content:flex-end}.wp-block-cover-image.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container{margin:0}.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-bottom-left .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-bottom-right .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-center-left .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-center-right .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-top-left .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-top-right .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-bottom-left .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-bottom-right .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-center-left .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-center-right .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-top-left .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-top-right .wp-block-cover__inner-container{margin:0;width:auto}.wp-block-cover .wp-block-cover__image-background,.wp-block-cover video.wp-block-cover__video-background,.wp-block-cover-image .wp-block-cover__image-background,.wp-block-cover-image video.wp-block-cover__video-background{border:none;bottom:0;box-shadow:none;height:100%;left:0;margin:0;max-height:none;max-width:none;-o-object-fit:cover;object-fit:cover;outline:none;padding:0;position:absolute;right:0;top:0;width:100%}.wp-block-cover .wp-block-cover__embed-background,.wp-block-cover-image .wp-block-cover__embed-background{border:none;bottom:0;box-shadow:none;height:100%;left:0;margin:0;max-height:none;max-width:none;outline:none;padding:0;pointer-events:none;position:absolute;right:0;top:0;width:100%}.wp-block-cover .wp-block-cover__embed-background .wp-block-embed__wrapper,.wp-block-cover-image .wp-block-cover__embed-background .wp-block-embed__wrapper{bottom:0;height:100%;left:0;margin:0;padding:0;position:absolute;right:0;top:0;width:100%}.wp-block-cover .wp-block-cover__embed-background .wp-block-embed__wrapper iframe,.wp-block-cover .wp-block-cover__embed-background iframe,.wp-block-cover-image .wp-block-cover__embed-background .wp-block-embed__wrapper iframe,.wp-block-cover-image .wp-block-cover__embed-background iframe{height:100vh;left:50%;min-height:100%;min-width:100%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%);width:100vw}.wp-block-cover-image.has-parallax,.wp-block-cover.has-parallax,.wp-block-cover__image-background.has-parallax,video.wp-block-cover__video-background.has-parallax{background-attachment:fixed;background-repeat:no-repeat;background-size:cover}@supports (-webkit-touch-callout:inherit){.wp-block-cover-image.has-parallax,.wp-block-cover.has-parallax,.wp-block-cover__image-background.has-parallax,video.wp-block-cover__video-background.has-parallax{background-attachment:scroll}}@media (prefers-reduced-motion:reduce){.wp-block-cover-image.has-parallax,.wp-block-cover.has-parallax,.wp-block-cover__image-background.has-parallax,video.wp-block-cover__video-background.has-parallax{background-attachment:scroll}}.wp-block-cover-image.is-repeated,.wp-block-cover.is-repeated,.wp-block-cover__image-background.is-repeated,video.wp-block-cover__video-background.is-repeated{background-repeat:repeat;background-size:auto}.wp-block-cover-image-text,.wp-block-cover-image-text a,.wp-block-cover-image-text a:active,.wp-block-cover-image-text a:focus,.wp-block-cover-image-text a:hover,.wp-block-cover-text,.wp-block-cover-text a,.wp-block-cover-text a:active,.wp-block-cover-text a:focus,.wp-block-cover-text a:hover,section.wp-block-cover-image h2,section.wp-block-cover-image h2 a,section.wp-block-cover-image h2 a:active,section.wp-block-cover-image h2 a:focus,section.wp-block-cover-image h2 a:hover{color:#fff}.wp-block-cover-image .wp-block-cover.has-left-content{justify-content:flex-start}.wp-block-cover-image .wp-block-cover.has-right-content{justify-content:flex-end}.wp-block-cover-image.has-left-content .wp-block-cover-image-text,.wp-block-cover.has-left-content .wp-block-cover-text,section.wp-block-cover-image.has-left-content>h2{margin-left:0;text-align:left}.wp-block-cover-image.has-right-content .wp-block-cover-image-text,.wp-block-cover.has-right-content .wp-block-cover-text,section.wp-block-cover-image.has-right-content>h2{margin-right:0;text-align:right}.wp-block-cover .wp-block-cover-text,.wp-block-cover-image .wp-block-cover-image-text,section.wp-block-cover-image>h2{font-size:2em;line-height:1.25;margin-bottom:0;max-width:840px;padding:.44em;text-align:center;z-index:1}:where(.wp-block-cover-image:not(.has-text-color)),:where(.wp-block-cover:not(.has-text-color)){color:#fff}:where(.wp-block-cover-image.is-light:not(.has-text-color)),:where(.wp-block-cover.is-light:not(.has-text-color)){color:#000}:root :where(.wp-block-cover h1:not(.has-text-color)),:root :where(.wp-block-cover h2:not(.has-text-color)),:root :where(.wp-block-cover h3:not(.has-text-color)),:root :where(.wp-block-cover h4:not(.has-text-color)),:root :where(.wp-block-cover h5:not(.has-text-color)),:root :where(.wp-block-cover h6:not(.has-text-color)),:root :where(.wp-block-cover p:not(.has-text-color)){color:inherit}body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__video-background{z-index:0}body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__embed-background{z-index:0}body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__image-background{z-index:0}body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__background,body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__gradient-background,body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)).has-background-dim:not(.has-background-gradient):before{z-index:1}body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__inner-container{z-index:1}.has-modal-open body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__inner-container{z-index:auto}
+/*# sourceURL=https://ioppublishing.org/wp/wp-includes/blocks/cover/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://ioppublishing.org/wp/wp-includes/blocks/list/style.min.css */
+</style>
+<style id="wp-block-media-text-inline-css">
+.wp-block-media-text{box-sizing:border-box;direction:ltr;display:grid;grid-template-columns:50% 1fr;grid-template-rows:auto}.wp-block-media-text.has-media-on-the-right{grid-template-columns:1fr 50%}.wp-block-media-text.is-vertically-aligned-top>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-top>.wp-block-media-text__media{align-self:start}.wp-block-media-text.is-vertically-aligned-center>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-center>.wp-block-media-text__media,.wp-block-media-text>.wp-block-media-text__content,.wp-block-media-text>.wp-block-media-text__media{align-self:center}.wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__media{align-self:end}.wp-block-media-text>.wp-block-media-text__media{grid-column:1;grid-row:1;margin:0}.wp-block-media-text>.wp-block-media-text__content{direction:ltr;grid-column:2;grid-row:1;padding:0 8%;word-break:break-word}.wp-block-media-text.has-media-on-the-right>.wp-block-media-text__media{grid-column:2;grid-row:1}.wp-block-media-text.has-media-on-the-right>.wp-block-media-text__content{grid-column:1;grid-row:1}.wp-block-media-text__media a{display:block}.wp-block-media-text__media img,.wp-block-media-text__media video{height:auto;max-width:unset;vertical-align:middle;width:100%}.wp-block-media-text.is-image-fill>.wp-block-media-text__media{background-size:cover;height:100%;min-height:250px}.wp-block-media-text.is-image-fill>.wp-block-media-text__media>a{display:block;height:100%}.wp-block-media-text.is-image-fill>.wp-block-media-text__media img{clip:rect(0,0,0,0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.wp-block-media-text.is-image-fill-element>.wp-block-media-text__media{height:100%;min-height:250px;position:relative}.wp-block-media-text.is-image-fill-element>.wp-block-media-text__media>a{display:block;height:100%}.wp-block-media-text.is-image-fill-element>.wp-block-media-text__media img{height:100%;-o-object-fit:cover;object-fit:cover;position:absolute;width:100%}@media (max-width:600px){.wp-block-media-text.is-stacked-on-mobile{grid-template-columns:100%!important}.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__media{grid-column:1;grid-row:1}.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__content{grid-column:1;grid-row:2}}
+/*# sourceURL=https://ioppublishing.org/wp/wp-includes/blocks/media-text/style.min.css */
+</style>
+<style id="wp-block-columns-inline-css">
+.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+/*# sourceURL=https://ioppublishing.org/wp/wp-includes/blocks/columns/style.min.css */
+</style>
+<style id="wp-block-group-inline-css">
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://ioppublishing.org/wp/wp-includes/blocks/group/style.min.css */
+</style>
+<style id="wp-block-spacer-inline-css">
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://ioppublishing.org/wp/wp-includes/blocks/spacer/style.min.css */
+</style>
+
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #050505;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--red: #EB0000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.556), 20px);--wp--preset--font-size--large: clamp(22.041px, 1.378rem + ((1vw - 3.2px) * 1.293), 36px);--wp--preset--font-size--x-large: clamp(25.014px, 1.563rem + ((1vw - 3.2px) * 1.573), 42px);--wp--preset--font-size--subheading: 30px;--wp--preset--font-size--level-2: 2.0rem;--wp--preset--font-size--page-title: 2.4rem;--wp--preset--font-size--heading: 4.375rem;--wp--preset--font-family--franklin-gothic-urw: "franklin-gothic-urw", sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);--wp--preset--spacing--40: clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);--wp--preset--spacing--50: clamp(2.5rem, 8vw, 6.5rem);--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 1113px;--wp--style--global--wide-size: 1400px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--white);color: var(--wp--preset--color--black);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: 1.6;--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: 0px;--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--contrast);text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}:root :where(a:where(:not(.wp-element-button)):active){color: var(--wp--preset--color--secondary);text-decoration: none;}h1, h2, h3, h4, h5, h6{font-weight: 400;line-height: 1.4;}h1{font-size: clamp(2.032rem, 2.032rem + ((1vw - 0.2rem) * 2.36), 3.625rem);line-height: 1.2;}h2{font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);line-height: 1.2;}h3{font-size: var(--wp--preset--font-size--x-large);}h4{font-size: var(--wp--preset--font-size--large);}h5{font-size: var(--wp--preset--font-size--medium);font-weight: 700;text-transform: uppercase;}h6{font-size: var(--wp--preset--font-size--medium);text-transform: uppercase;}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--primary);border-radius: 0;border-width: 0;color: var(--wp--preset--color--contrast);font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}:root :where(.wp-element-button:visited, .wp-block-button__link:visited){color: var(--wp--preset--color--contrast);}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}:root :where(.wp-element-button:focus, .wp-block-button__link:focus){background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}:root :where(.wp-element-button:active, .wp-block-button__link:active){background-color: var(--wp--preset--color--secondary);color: var(--wp--preset--color--base);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-subheading-font-size{font-size: var(--wp--preset--font-size--subheading) !important;}.has-level-2-font-size{font-size: var(--wp--preset--font-size--level-2) !important;}.has-page-title-font-size{font-size: var(--wp--preset--font-size--page-title) !important;}.has-heading-font-size{font-size: var(--wp--preset--font-size--heading) !important;}.has-franklin-gothic-urw-font-family{font-family: var(--wp--preset--font-family--franklin-gothic-urw) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='chart-builder-css' href='https://ioppublishing.org/wp-content/plugins/chart-builder/public/css/chart-builder-public.css?ver=20.0.8.1' media='all' />
+<link rel='stylesheet' id='styles-css' href='https://ioppublishing.org/wp-content/themes/snap/dist/styles.3ebd9e9774d401587c0d0192c55986e5.css' media='all' />
+<link rel='stylesheet' id='lazyload-video-css-css' href='https://ioppublishing.org/wp-content/plugins/lazy-load-for-videos/public/css/lazyload-shared.css?ver=2.18.12' media='all' />
+<style id="lazyload-video-css-inline-css">
+.entry-content a.lazy-load-youtube, a.lazy-load-youtube, .lazy-load-vimeo{ background-size: cover; }.titletext.youtube { display: none; }.lazy-load-div:before { content: "\25B6"; text-shadow: 0px 0px 60px rgba(0,0,0,0.8); }
+/*# sourceURL=lazyload-video-css-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-heading-css' href='https://ioppublishing.org/wp/wp-includes/blocks/heading/style.min.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='wp-block-paragraph-css' href='https://ioppublishing.org/wp/wp-includes/blocks/paragraph/style.min.css?ver=7.1.4' media='all' />
+<script id="jquery-core-js" src="https://ioppublishing.org/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" defer src="https://ioppublishing.org/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="chart-builder-plugin-js-extra">
+var chart_builder_public_ajax = {"ajax_url":"https://ioppublishing.org/wp/wp-admin/admin-ajax.php"};
+//# sourceURL=chart-builder-plugin-js-extra
+</script>
+<script id="chart-builder-plugin-js" defer src="https://ioppublishing.org/wp-content/plugins/chart-builder/public/js/chart-builder-public-plugin.js?ver=20.0.8.1"></script>
+<script id="chart-builder-js-extra">
+var aysChartBuilderPublicChartSettings = {"ajax":{"url":"https://ioppublishing.org/wp/wp-admin/admin-ajax.php","nonces":{"get_chart_source_data":"4d205d5a22"},"actions":{"get_chart_source_data":"ays_chart_get_chart_source_data"}}};
+//# sourceURL=chart-builder-js-extra
+</script>
+<script id="chart-builder-js" defer src="https://ioppublishing.org/wp-content/plugins/chart-builder/public/js/chart-builder-public.js?ver=20.0.8.1"></script>
+<link rel="https://api.w.org/" href="https://ioppublishing.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://ioppublishing.org/wp-json/wp/v2/pages/141363" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ioppublishing.org/wp/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://ioppublishing.org/?p=141363' />
+<!-- Stream WordPress user activity plugin v4.4.0 -->
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><link rel="icon" href="https://ioppublishing.org/wp-content/uploads/2023/04/cropped-iopp-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://ioppublishing.org/wp-content/uploads/2023/04/cropped-iopp-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ioppublishing.org/wp-content/uploads/2023/04/cropped-iopp-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://ioppublishing.org/wp-content/uploads/2023/04/cropped-iopp-favicon-270x270.png" />
+<style id="wp-custom-css">
+html {scroll-padding: 80px;}
+
+/* .font-bold {
+	font-weight: 500 !important;
+  -webkit-text-stroke: 1px currentColor !important;
+} */
+</style>
+
+
+    <!-- Polyfills -->
+    <script>
+  (function () {
+    var newBrowser = ('fetch' in window && 'Promise' in window && 'assign' in Object && 'keys' in Object);
+
+    if (! newBrowser) {
+      var scriptEl = document.createElement('script');
+      console.log('You need some polyfills, loading them now...');
+
+      scriptEl.src = 'https://polyfill.io/v3/polyfill.min.js';
+      scriptEl.async = false;
+      document.head.appendChild(scriptEl);
+    }
+  })();
+
+  window.MSInputMethodContext && document.documentMode && document.write('<script src="https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js"><\/script>');
+</script>
+
+    <!-- Google Analytics (controlled by Didomi consent script) -->
+    <script type="didomi/javascript" data-vendor="didomi:google">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-2254461-26',
+      'auto'); ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var
+      f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WFDKJD');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Didomi consent script -->
+        <!-- End Didomi consent script -->
+  <style id="core-block-supports-inline-css">
+.wp-container-core-group-is-layout-9cb2c61b > .alignfull{margin-right:calc(0px * -1);margin-left:calc(0px * -1);}.wp-elements-1 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--red);}.wp-elements-2 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--red);}.wp-elements-3 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--black);}.wp-container-core-columns-is-layout-7387b849{flex-wrap:nowrap;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+</head>
+  <body class="wp-singular page-template-default page page-id-141363 page-parent wp-theme-snap flex flex-col min-h-screen bg-white no-js font-body text-black">
+        <script>
+      document.body.classList.add('is-loading');
+    </script>
+
+    <a class="sr-only focus:not-sr-only bg-white z-30 max-w-full focus:w-48 focus:fixed" href="#main">
+  <span class="block p-2">Skip to main content</span>
+</a>
+
+    
+<div class="c-browser-alert-banner fixed left-0 top-0 w-full h-full pointer-events-none z-30">
+  <div class="c-browser-alert-banner__text h-24 shadow-lg flex">
+    <div class="c-browser-alert-banner__container">
+      <p class="my-0 mb-4 lg:mb-0 lg:mr-4 font-normal max-w-none">
+        Your web browser is out of date. Please update it for greater security, speed and the best experience on this
+        site.
+      </p>
+      <a class="c-btn c-btn--secondary"
+        href="https://bestvpn.org/outdatedbrowser/en.html"
+        target="_blank"
+        rel="noopener noreferrer">
+        Choose a different browser   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="ml-2 w-4 h-4">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#arrow-horizontal"></use>
+  </svg>
+
+      </a>
+    </div>
+  </div>
+</div>
+
+    <!-- Header -->
+    
+
+<section class="g-header w-full z-20 bg-white drop-shadow-md">
+  <header id="header-sticky" class="w-full" data-behaviour="menu" data-header>
+		<nav class="g-header__nav flex justify-between items-center px-8" data-nav aria-label="Main">
+
+			<a class="g-header__home-link order-last my-0 lg:order-first" href="/" aria-label="IOP Publishing Home" data-home-link>
+				  <svg xmlns="http://www.w3.org/2000/svg" width="132" height="21" class="w-32 h-auto">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#logo-iopp"></use>
+  </svg>
+
+			</a>
+
+			<div class="flex justify-end lg:mt-0 lg:block h-18">
+
+				<button class="g-header__expand-button font-bold relative z-1 items-center" data-menu-button="data-menu-button" type="button" aria-expanded="false" aria-haspopup="true">
+					<span class="pointer-events-none font-heading leading-normal" data-text></span>
+					<span class="g-header__menu-icon pointer-events-none ml-3">
+						<span></span>
+					</span>
+				</button>
+
+				<div
+					class="g-menu__content text-left h-full overflow-hidden md:overflow-auto bg-black px-8 lg:px-0 lg:bg-white lg:overflow-hidden py-4 text-14 pb-16 lg:py-0" data-menu-content="data-menu-content">
+										<ul class="lg:flex lg:space-x-4 h-full max-w-full" role="menu">
+													
+							
+							<li role="menuitem" class="g-menu__item block lg:space-x-2 items-center ">
+																	<a class="items-center block text-18 my-0 pb-5 lg:pb-0 lg:inline-flex lg:h-full lg:px-2 no-underline text-red lg:text-black lg:hover:text-red lg:hover:border-b-4 whitespace-nowrap" href="https://ioppublishing.org/researchers/" data-index="1">Researchers</a>
+															</li>
+													
+							
+							<li role="menuitem" class="g-menu__item block lg:space-x-2 items-center ">
+																	<a class="items-center block text-18 my-0 pb-5 lg:pb-0 lg:inline-flex lg:h-full lg:px-2 no-underline text-red lg:text-black lg:hover:text-red lg:hover:border-b-4 whitespace-nowrap" href="https://ioppublishing.org/librarians/" data-index="2">Librarians</a>
+															</li>
+													
+							
+							<li role="menuitem" class="g-menu__item block lg:space-x-2 items-center ">
+																	<a class="items-center block text-18 my-0 pb-5 lg:pb-0 lg:inline-flex lg:h-full lg:px-2 no-underline text-red lg:text-black lg:hover:text-red lg:hover:border-b-4 whitespace-nowrap" href="https://ioppublishing.org/partners/" data-index="3">Partners</a>
+															</li>
+													
+							
+							<li role="menuitem" class="g-menu__item block lg:space-x-2 items-center ">
+																	<a class="items-center block text-18 my-0 pb-5 lg:pb-0 lg:inline-flex lg:h-full lg:px-2 no-underline text-red lg:text-black lg:hover:text-red lg:hover:border-b-4 whitespace-nowrap" href="https://ioppublishing.org/publications/" data-index="4">Publications</a>
+															</li>
+													
+							
+							<li role="menuitem" class="g-menu__item block lg:space-x-2 items-center ">
+																	<a class="items-center block text-18 my-0 pb-5 lg:pb-0 lg:inline-flex lg:h-full lg:px-2 no-underline text-red lg:text-black lg:hover:text-red lg:hover:border-b-4 whitespace-nowrap" href="https://ioppublishing.org/news/" data-index="5">News</a>
+															</li>
+													
+							
+							<li role="menuitem" class="g-menu__item block lg:space-x-2 items-center g-menu__item--current">
+																	<a class="items-center block text-18 my-0 pb-5 lg:pb-0 lg:inline-flex lg:h-full lg:px-2 no-underline text-red lg:text-black lg:hover:text-red lg:hover:border-b-4 whitespace-nowrap" href="https://ioppublishing.org/about-us/" data-index="6">About Us</a>
+															</li>
+													
+							
+							<li role="menuitem" class="g-menu__item block lg:space-x-2 items-center ">
+																	<a class="items-center block text-18 my-0 pb-5 lg:pb-0 lg:inline-flex lg:h-full lg:px-2 no-underline text-red lg:text-black lg:hover:text-red lg:hover:border-b-4 whitespace-nowrap" href="https://ioppublishing.org/work-with-us/" data-index="7">Work with Us</a>
+															</li>
+											</ul>
+                    
+<button class="g-header__search-button hidden relative z-1 items-center px-2 py-1 md:py-2.5 border-red rounded-4 border-1 md:text-16 md:leading-16 lg:mr-0 hover:underline focus:underline"
+  data-search-button
+  type="button"
+  aria-expanded="false"
+  aria-haspopup="true">
+  <span class="pointer-events-none" data-text>Search</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-4 h-4 ml-2">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-search"></use>
+  </svg>
+
+</button>
+
+<div class="g-menu__search bg-red text-white py-8 px-2 left-0" data-search-content>
+  <div class="absolute w-full top-4">
+    <div class="container">
+      <button class="py-2 ml-auto flex items-center font-bold relative z-1 hover:underline focus:underline" data-close>
+        Close
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="g-menu__close-icon w-6 h-6 ml-2">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-plus-close"></use>
+  </svg>
+
+      </button>
+    </div>
+  </div>
+  <form action="https://ioppublishing.org" method="get" role="search" class="container-sm">
+    <div class="space-y-4 sm:flex sm:space-x-4 sm:space-y-0">
+      <div class="flex-1">
+        <label for="menu_search" class="block mb-2 font-bold text-20">Search</label>
+        <input type="text"
+          name="s"
+          id="menu_search"
+          class="c-header-search__input bg-transparent appearance-none block w-full" />
+      </div>
+      <button aria-label="submit"
+        class="c-btn c-btn--secondary self-end inline-flex items-center justify-center sm:w-auto md:py-3.5 md:border-2 md:border-red lg:py-3">
+        <span class="mr-2">Search</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-4 h-4">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-search"></use>
+  </svg>
+
+      </button>
+    </div>
+  </form>
+</div>
+				</div>
+			</div>
+
+		</nav>
+	</header>
+</section>
+
+        <main class="flex-grow flex-shrink-0 page pt-8 lg:pt-28" id="main">
+                <div class="entry-content">
+      
+<div class="wp-block-group alignfull p-heading has-global-padding is-layout-constrained wp-container-core-group-is-layout-9cb2c61b wp-block-group-is-layout-constrained" style="padding-right:0;padding-left:0">
+<div class="wp-block-cover alignfull" style="min-height:200px;aspect-ratio:unset;"><img fetchpriority="high" decoding="async" width="2500" height="1500" class="wp-block-cover__image-background wp-image-142553 lazyload" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAASAAQMAAAAkhMIYAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAASRJREFUeNrtwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwDPLwAAZE7P2YAAAAASUVORK5CYII=" style="object-position:50% 61%" data-object-fit="cover" data-object-position="50% 61%" data-src="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min.jpg" data-srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min.jpg 2500w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-150x90.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-350x210.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-600x360.jpg 600w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-1200x720.jpg 1200w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-1800x1080.jpg 1800w" data-max-width="2500" data-sizes="auto" data-eio-rwidth="2500" data-eio-rheight="1500" /><noscript><img fetchpriority="high" decoding="async" width="2500" height="1500" class="wp-block-cover__image-background wp-image-142553" alt="" src="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min.jpg" style="object-position:50% 61%" data-object-fit="cover" data-object-position="50% 61%" srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min.jpg 2500w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-150x90.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-350x210.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-600x360.jpg 600w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-1200x720.jpg 1200w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_header_2500-x-1500-min-1800x1080.jpg 1800w" sizes="(max-width: 2500px) 100vw, 2500px" data-eio="l" /></noscript><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<p class="has-text-align-center wp-block-paragraph"></p>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-group alignfull p-heading has-global-padding is-layout-constrained wp-container-core-group-is-layout-9cb2c61b wp-block-group-is-layout-constrained" style="padding-right:0;padding-left:0">
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<h1 class="wp-block-heading has-heading-font-size">About us</h1>
+
+
+
+<h2 class="wp-block-heading">Expanding the world of physics</h2>
+
+
+
+<p class="wp-block-paragraph">IOP Publishing is a society-owned scientific publisher, providing impact, recognition and value for the scientific community. IOP Publishing’s portfolio includes more than 100 journals, around half of which are published jointly with or on behalf of partner societies and research organisations. Our publishing portfolio reflects the growth of scientific research in core scientific fields, while recognising the increasingly interdisciplinary nature of scientific research.</p>
+</div>
+</div>
+
+
+
+<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group alignfull p-text-media p-text-media--black-right has-black-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile has-white-color has-black-background-color has-text-color has-background has-link-color wp-elements-1"><div class="wp-block-media-text__content">
+<h2 class="wp-block-heading">Who we are</h2>
+
+
+
+<p class="wp-block-paragraph">IOP Publishing is a wholly owned subsidiary of the&nbsp;<a href="https://www.iop.org/about"><strong>Institute of Physics</strong></a>. Our net income goes directly to the IOP to assist their mission to help everyone build their knowledge of physics and to provide professional support for physicists.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.iop.org/explore-physics"><strong>Explore the IOP’s initiatives</strong></a></p>
+</div><figure class="wp-block-media-text__media"><img decoding="async" width="1115" height="593" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABFsAAAJRAQMAAACgJSoXAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAGhJREFUeNrtwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcA0asAAEKn084AAAAAElFTkSuQmCC" alt="" class="wp-image-144478 size-full lazyload ewww_webp_lazy_load" data-src="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1.jpg" data-srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1.jpg 1115w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-150x80.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-350x186.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-600x319.jpg 600w" data-max-width="1115" data-sizes="auto" data-eio-rwidth="1115" data-eio-rheight="593" data-src-webp="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1.jpg.webp" data-srcset-webp="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1.jpg.webp 1115w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-150x80.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-350x186.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-600x319.jpg 600w" /><noscript><img decoding="async" width="1115" height="593" src="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1.jpg" alt="" class="wp-image-144478 size-full" srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1.jpg 1115w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-150x80.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-350x186.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_Who-we-are_535px-1-600x319.jpg 600w" sizes="(max-width: 1115px) 100vw, 1115px" data-eio="l" /></noscript></figure></div>
+</div>
+
+
+
+<div class="wp-block-group alignfull p-text-media p-text-media--white-left has-white-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-media-text is-stacked-on-mobile has-black-color has-white-background-color has-text-color has-background has-link-color wp-elements-2"><figure class="wp-block-media-text__media"><img decoding="async" width="2230" height="2042" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAbeAQMAAACFn7q2AAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAbFJREFUeNrtwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBrd1gAAdQPbWsAAAAASUVORK5CYII=" alt="" class="wp-image-142848 size-full lazyload ewww_webp_lazy_load" data-src="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1.jpg" data-srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1.jpg 2230w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-150x137.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-350x320.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-600x549.jpg 600w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-1200x1099.jpg 1200w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-1800x1648.jpg 1800w" data-max-width="2230" data-sizes="auto" data-eio-rwidth="2230" data-eio-rheight="2042" data-src-webp="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1.jpg.webp" data-srcset-webp="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1.jpg.webp 2230w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-150x137.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-350x320.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-600x549.jpg 600w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-1200x1099.jpg 1200w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-1800x1648.jpg 1800w" /><noscript><img decoding="async" width="2230" height="2042" src="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1.jpg" alt="" class="wp-image-142848 size-full" srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1.jpg 2230w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-150x137.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-350x320.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-600x549.jpg 600w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-1200x1099.jpg 1200w, https://ioppublishing.org/wp-content/uploads/2023/03/About-us_What-we-do_535px-min-1-1800x1648.jpg 1800w" sizes="(max-width: 2230px) 100vw, 2230px" data-eio="l" /></noscript></figure><div class="wp-block-media-text__content">
+<h2 class="wp-block-heading">What we do</h2>
+
+
+
+<p class="wp-block-paragraph">We work closely with researchers, librarians and partners worldwide to produce academic <a href="https://ioppublishing.org/researchers/our-journals/">journals</a>, <a href="https://ioppublishing.org/publications/ebooks/">books</a> and <a href="https://ioppublishing.org/publications/conference-series/">conference proceedings</a>.</p>
+
+
+
+<p class="wp-block-paragraph">We also have a <a href="https://ioppublishing.org/publications/science-news-and-media/">science news and media</a> portfolio which includes <a href="https://physicsworld.com/?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=pwlaunch&amp;gclid=Cj0KCQjw8e-gBhD0ARIsAJiDsaV8GuLTn708UULtgK6fb8G_Bu0t7gkeHAoCb5SszaTLM0Kfk6IN128aAoKCEALw_wcB">Physics World</a>, a trusted source of science news. </p>
+
+
+
+<p class="wp-block-paragraph">Our aim is to publish the latest and best research in the physical sciences and beyond, and make that research available to as many people as possible. All our academic publications are hosted on <a href="https://iopscience.iop.org/" target="_blank" rel="noreferrer noopener">IOPScience</a>, a platform specifically designed to help readers quickly and easily access the content we publish.</p>
+
+
+
+<p class="wp-block-paragraph">We also provide a range of services to help the scientific community register, validate, edit, disseminate, preserve and maximise their research.</p>
+</div></div>
+</div>
+
+
+
+<div class="wp-block-group alignfull p-centre-statement-block has-text-color has-background has-link-color wp-elements-3 has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="color:#1a1a1a;background-color:#f5f5f5">
+<div class="wp-block-group centre-statement-block has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading">Open Physics</h2>
+
+
+
+<p class="wp-block-paragraph">Making universal access to research a reality is a priority. We believe conducting science more openly can accelerate scientific discovery and we are committed to supporting the wider adoption of open practices across the physical sciences. We call this approach Open Physics and we have developed a programme of activities to make it a reality.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://ioppublishing.org/open-physics/"><strong>More about Open Physics</strong></a></p>
+</div>
+</div>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-columns p-two-column-text is-layout-flex wp-container-core-columns-is-layout-7387b849 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h2 class="wp-block-heading">Social responsibilities</h2>
+
+
+
+<p class="wp-block-paragraph">Playing a positive role in the community and considering our environmental and social impact is important to us.</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://ioppublishing.org/supporting-environmental-ehange/">How we support environmental change</a></li>
+
+
+
+<li><a href="https://ioppublishing.org/about-us/diversity-equity-inclusion-at-iop-publishing/">Diversity, equity and inclusion</a></li>
+</ul>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h2 class="wp-block-heading">Highlight reports</h2>
+
+
+
+<p class="wp-block-paragraph">Every year we provide an overview of all the great work our teams do for our authors, reviewers, board members, librarians and partners.</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://ioppublishing.org/highlights-2025/">Highlights report 2025</a></li>
+
+
+
+<li><a href="https://ioppublishing.org/highlights-report-2024">Highlights report 2024</a></li>
+
+
+
+<li><a href="https://ioppublishing.org/highlights-report-2023/">Highlights report 2023</a></li>
+
+
+
+<li><a href="https://ioppublishing.org/about-us/highlights-report-2022/">Highlights report 2022</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-7387b849 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h2 class="wp-block-heading"><strong>Our Board of Directors</strong></h2>
+
+
+
+<p class="wp-block-paragraph"><a href="https://ioppublishing.org/about-us/iop-publishings-board-of-directors/">Our Board of Directors</a> is composed of an experienced group of executive and non-executive directors who meet regularly throughout the year and oversee the management of the company.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h2 class="wp-block-heading"><strong>Get in touch</strong></h2>
+
+
+
+<p class="wp-block-paragraph">To speak to a member of the IOP Publishing team about any aspect of our work, simply get in touch with <a href="mailto:customerservices@ioppublishing.org">customerservices@ioppublishing.org</a> </p>
+</div>
+</div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group alignfull p-stats-with-cover-image has-white-color has-black-background-color has-text-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-cover alignfull" style="min-height:307px;aspect-ratio:unset;"><img decoding="async" width="2500" height="1500" class="wp-block-cover__image-background wp-image-142554 lazyload" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAASAAQMAAAAkhMIYAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAASRJREFUeNrtwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwDPLwAAZE7P2YAAAAASUVORK5CYII=" data-object-fit="cover" data-src="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min.jpg" data-srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min.jpg 2500w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-150x90.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-350x210.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-600x360.jpg 600w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-1200x720.jpg 1200w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-1800x1080.jpg 1800w" data-max-width="2500" data-sizes="auto" data-eio-rwidth="2500" data-eio-rheight="1500" /><noscript><img decoding="async" width="2500" height="1500" class="wp-block-cover__image-background wp-image-142554" alt="" src="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min.jpg" data-object-fit="cover" srcset="https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min.jpg 2500w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-150x90.jpg 150w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-350x210.jpg 350w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-600x360.jpg 600w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-1200x720.jpg 1200w, https://ioppublishing.org/wp-content/uploads/2023/03/About-Us_image_1_2500-x-1500-min-1800x1080.jpg 1800w" sizes="(max-width: 2500px) 100vw, 2500px" data-eio="l" /></noscript><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
+</div></div>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<h3 class="wp-block-heading stats__title">Did you know?</h3>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-7387b849 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="wp-block-paragraph"><span class="has-x-large-font-size">104</span>We publish over 100 journals, both independently and in partnership</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="wp-block-paragraph"><span class="has-x-large-font-size"><span class="has-x-large-font-size"></span>25</span>prestigious societies and research organisations partner with us to publish their journals, books and other publications</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="wp-block-paragraph"><span class="has-x-large-font-size"><span class="has-x-large-font-size"></span>530</span>We have 530 staff in eleven countries, serving our customers and the research community</p>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+      </main>
+
+    
+    
+
+
+<footer class="g-footer border-t-2 border-black">
+  <div class="container">
+    <div class="g-footer__main py-11 md:py-[100px] text-18 leading-22">
+      <div class="w-full">
+        <div class="space-y-0 md:gap-24 md:flex">
+                                <div>
+                              <p class="mb-6 font-bold">
+                  Legal
+                </p>
+              
+              <ul class="g-footer__menu lg:-mt-1" role="menu">
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-primary hover:underline focus:underline hover:text-primary-dark focus:text-primary-dark"
+                      href="https://ioppublishing.org/advertising-policy/">
+                      Advertising policy
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-primary hover:underline focus:underline hover:text-primary-dark focus:text-primary-dark"
+                      href="https://ioppublishing.org/legal/copyright/">
+                      Copyright notice
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-primary hover:underline focus:underline hover:text-primary-dark focus:text-primary-dark"
+                      href="https://ioppublishing.org/legal/disclaimer-terms/">
+                      Disclaimer terms
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-primary hover:underline focus:underline hover:text-primary-dark focus:text-primary-dark"
+                      href="https://ioppublishing.org/federated-access-privacy-statement/">
+                      Federated access privacy statement
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-primary hover:underline focus:underline hover:text-primary-dark focus:text-primary-dark"
+                      href="https://ioppublishing.org/legal/textanddataminingpolicy/">
+                      Text and Data Mining (T&amp;DM) Policy
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-primary hover:underline focus:underline hover:text-primary-dark focus:text-primary-dark"
+                      href="https://ioppublishing.org/legal/privacy-cookies-policy/">
+                      Privacy and cookies
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-primary hover:underline focus:underline hover:text-primary-dark focus:text-primary-dark"
+                      href="https://ioppublishing.org/terms-conditions/">
+                      Terms and conditions
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+                                          <div>
+                              <p class="mb-6 font-bold">
+                  Social, environmental and compliance
+                </p>
+              
+              <ul class="g-footer__menu md:pr-4 lg:-mt-1" role="menu">
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/legal/environmental-policy/">
+                      Environmental policy
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/wp-content/uploads/2026/08/D-COR-BK-0726-Gender-Pay-Gap-2025_5.pdf">
+                      2025 Gender Pay Gap Report
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://www.iop.org/anti-slavery-and-human-trafficking-statement-financial-year-ending-31-december-2022#gref">
+                      Modern Slavery policy
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/sustainable-development-goals/">
+                      Sustainable Development Goals
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/legal/supplier-sustainability-code-of-conduct/">
+                      Supplier Sustainability Code of Conduct
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/legal-gpsr-compliance/">
+                      GPSR Compliance
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/artificial-intelligence/">
+                      Artificial Intelligence
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+          
+                                <div>
+                              <p class="mb-6 font-bold">
+                  Our Company
+                </p>
+              
+              <ul class="g-footer__menu md:pr-4 lg:-mt-1" role="menu">
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/about-us/contact-us/">
+                      Contact us
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://www.ioppublishingcareers.org/current-vacancies.html">
+                      Current vacancies
+                    </a>
+                  </li>
+                                  <li role="menuitem">
+                    <a class="block pb-3 text-red hover:underline focus:underline hover:text-red focus:text-red"
+                      href="https://ioppublishing.org/work-with-us/">
+                      Work with us
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+                  </div>
+
+        <div class="mt-6 md:mt-10 lg:col-start-1 lg:col-span-12">
+                                <div class="block">
+              <div class="flex justify-between">
+                
+  
+<div class="c-social-list ">
+    <ul class="flex flex-wrap items-center share-btn gap-y-2.5 gap-x-6 list-none">
+          <li>
+        <a class="c-social-list__link flex-shrink-0 block p-2 text-white rounded-full w-10 h-10 lg:w-8 lg:h-8 lg:p-1.5"
+          href="https://www.linkedin.com/company/iop-publishing"
+          aria-label="linkedin"
+          target="_blank"
+          rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-full h-full">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#linkedin"></use>
+  </svg>
+
+        </a>
+      </li>
+          <li>
+        <a class="c-social-list__link flex-shrink-0 block p-2 text-white rounded-full w-10 h-10 lg:w-8 lg:h-8 lg:p-1.5"
+          href="https://bsky.app/profile/ioppublishing.bsky.social"
+          aria-label="bluesky"
+          target="_blank"
+          rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-full h-full">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#bluesky"></use>
+  </svg>
+
+        </a>
+      </li>
+          <li>
+        <a class="c-social-list__link flex-shrink-0 block p-2 text-white rounded-full w-10 h-10 lg:w-8 lg:h-8 lg:p-1.5"
+          href="https://www.facebook.com/ioppublishing/"
+          aria-label="facebook"
+          target="_blank"
+          rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-full h-full">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#facebook"></use>
+  </svg>
+
+        </a>
+      </li>
+          <li>
+        <a class="c-social-list__link flex-shrink-0 block p-2 text-white rounded-full w-10 h-10 lg:w-8 lg:h-8 lg:p-1.5"
+          href="https://www.youtube.com/channel/UC6sGrQTcmY8NpmfGEfRqRrg"
+          aria-label="youtube"
+          target="_blank"
+          rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-full h-full">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#youtube"></use>
+  </svg>
+
+        </a>
+      </li>
+          <li>
+        <a class="c-social-list__link flex-shrink-0 block p-2 text-white rounded-full w-10 h-10 lg:w-8 lg:h-8 lg:p-1.5"
+          href="https://ioppublishing.org/wp-content/uploads/2020/11/WeChat-QR-Code.png"
+          aria-label="wechat"
+          target="_blank"
+          rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-full h-full">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#wechat"></use>
+  </svg>
+
+        </a>
+      </li>
+          <li>
+        <a class="c-social-list__link flex-shrink-0 block p-2 text-white rounded-full w-10 h-10 lg:w-8 lg:h-8 lg:p-1.5"
+          href="https://www.weibo.com/u/2931886367"
+          aria-label="weibo"
+          target="_blank"
+          rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-full h-full">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#weibo"></use>
+  </svg>
+
+        </a>
+      </li>
+          <li>
+        <a class="c-social-list__link flex-shrink-0 block p-2 text-white rounded-full w-10 h-10 lg:w-8 lg:h-8 lg:p-1.5"
+          href="https://www.threads.net/@iop.publishing"
+          aria-label="threads"
+          target="_blank"
+          rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-full h-full">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#threads"></use>
+  </svg>
+
+        </a>
+      </li>
+      </ul>
+</div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB2IAAAdiAQMAAAB9979AAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAActJREFUeNrtwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACApwHddgABJifvtAAAAABJRU5ErkJggg==" class="w-24 h-24 lazyload" data-src="https://ioppublishing.org/wp-content/themes/snap/dist/14001-logo-min.jpg" decoding="async" width="1890" height="1890" data-eio-rwidth="1890" data-eio-rheight="1890" /><noscript><img src='https://ioppublishing.org/wp-content/themes/snap/dist/14001-logo-min.jpg' class='w-24 h-24' data-eio="l" /></noscript>
+
+              </div>
+            </div>
+                    <div class="mt-12 md:flex md:justify-between md:items-end">
+                        <div class="g-footer__logo mx-auto md:mx-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="132" height="21" class="w-32 h-auto fill-black">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#logo-iopp-black"></use>
+  </svg>
+
+            </div>
+            <div class="md:pr-8">
+              
+                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <div class="c-cookie-banner fixed pointer-events-none h-screen w-full flex flex-col top-0 z-30">
+  <div id="cookies-eu-banner"
+    style="display: none;"
+    class="c-cookie-banner__main bg-red pointer-events-auto mt-auto py-3 sm:py-4"
+    data-behaviour="cookie-banner"
+    data-ga-id=""
+    data-gtm-id="">
+    <div class="container">
+      <div class="lg:flex lg:items-center">
+        <div class="c-cookie-banner__text font-normal text-16 leading-22 text-center mb-4 px-2 lg:pl-0 lg:mb-0 lg:pr-8 lg:text-left">
+          <p>
+            We use cookies to ensure that we give you the best experience on our website. Continued use of our website
+            confirms acceptance of our necessary cookies.
+          </p>
+        </div>
+        <div class="c-cookie-banner__buttons mx-auto space-y-3 sm:space-y-0 sm:flex sm:justify-center sm:-mx-4 lg:ml-auto lg:mr-0 lg:items-start lg:justify-end sm:space-x-4">
+          <button class="c-cookie-banner__button c-btn c-btn--on-dark" id="cookies-eu-accept">Accept</button>
+          <button class="c-cookie-banner__button c-btn c-btn--on-dark c-btn--secondary" id="cookies-eu-reject">
+            Reject
+          </button>
+
+                      <a class="c-cookie-banner__button c-btn c-btn--on-dark c-btn--secondary"
+              href="https://ioppublishing.org/legal/privacy-cookies-policy/"
+              id="cookies-eu-more">
+              Read more
+            </a>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Background of PhotoSwipe. It's a separate element as animating opacity is faster than rgba(). -->
+  <div class="pswp__bg bg-black"></div>
+
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
+    <!-- Container that holds slides. PhotoSwipe keeps only 3 of them in the DOM to save memory. Don't modify these 3 pswp__item elements, data is added later on. -->
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <!-- Controls are self-explanatory. Order can be changed. -->
+
+        <div class="pswp__counter"></div>
+
+        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+        <!-- element will get class pswp__preloader active when preloader is running -->
+        <div class="pswp__preloader ml-auto">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex ml-auto">
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="c-gallery__icon c-gallery__icon--in w-6 h-6 text-white pointer-events-none">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-gallery-zoom-in"></use>
+  </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="c-gallery__icon c-gallery__icon--out w-6 h-6 text-white pointer-events-none">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-gallery-zoom-out"></use>
+  </svg>
+
+          </button>
+
+          <button class="pswp__button pswp__button--close p-2 flex justify-end items-center text-white font-bold"
+            title="Close (Esc)">
+            Close
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="c-gallery__icon c-gallery__icon--close w-6 h-6 pointer-events-none origin center ml-2">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-plus-close"></use>
+  </svg>
+
+          </button>
+        </div>
+      </div>
+
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-6 h-6 pointer-events-none text-white">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-chevron-left"></use>
+  </svg>
+
+      </button>
+
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="w-6 h-6 pointer-events-none text-white">
+    <use xlink:href="/wp-content/themes/snap/dist/sprite37206fdc56c90152.svg#icon-chevron-left"></use>
+  </svg>
+
+      </button>
+
+      <div class="pswp__caption" data-caption>
+        <div class="pswp__caption__center text-16 leading-22 text-white"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- JS -->
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp/wp-*.php","/wp/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/snap/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+	var relevanssi_rt_regex = /(&|\?)_(rt|rt_nonce)=(\w+)/g
+	var newUrl = window.location.search.replace(relevanssi_rt_regex, '')
+	if (newUrl.substr(0, 1) == '&') {
+		newUrl = '?' + newUrl.substr(1)
+	}
+	history.replaceState(null, null, window.location.pathname + newUrl + window.location.hash)
+</script>
+<script id="eio-lazy-load-js-before">
+const eio_lazy_vars = {"bg_min_dpr":1.1,"exactdn_domain":"","safe_paths":["\/wp-content\/plugins","\/wp-content\/themes","\/wp\/wp-includes\/"],"safe_domains":["ioppublishing.org","www.ioppublishing.org"],"skip_autoscale":0,"threshold":0,"use_dpr":1};Object.freeze(eio_lazy_vars);
+//# sourceURL=eio-lazy-load-js-before
+</script>
+<script async data-wp-strategy="async" id="eio-lazy-load-js" defer src="https://ioppublishing.org/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=891"></script>
+<script id="chart-builder-charts-google-js" defer src="https://ioppublishing.org/wp-content/plugins/chart-builder/public/js/google-chart.js?ver=20.0.8.1"></script>
+<script id="chart-builder-CSVExport.js-js" defer src="https://ioppublishing.org/wp-content/plugins/chart-builder/public/js/export/CSVExport.js?ver=20.0.8.1"></script>
+<script id="chart-builder-xlsx.core.min.js-js" defer src="https://ioppublishing.org/wp-content/plugins/chart-builder/public/js/export/xlsx.core.min.js?ver=20.0.8.1"></script>
+<script id="chart-builder-fileSaver.js-js" defer src="https://ioppublishing.org/wp-content/plugins/chart-builder/public/js/export/FileSaver.js?ver=20.0.8.1"></script>
+<script id="chart-builder-jhxlsx.js-js" defer src="https://ioppublishing.org/wp-content/plugins/chart-builder/public/js/export/jhxlsx.js?ver=20.0.8.1"></script>
+<script id="init-js" defer src="https://ioppublishing.org/wp-content/themes/snap/dist/index.e0fbcd460c626018c6c0b9b256798235.js"></script>
+<script id="lazyload-video-js-js" defer src="https://ioppublishing.org/wp-content/plugins/lazy-load-for-videos/public/js/lazyload-shared.js?ver=2.18.12"></script>
+<script id="lazyload-youtube-js-js-before">
+window.llvConfig=window.llvConfig||{};window.llvConfig.youtube={"colour":"red","buttonstyle":"default","controls":true,"loadpolicy":true,"thumbnailquality":"sddefault","preroll":"","postroll":"","overlaytext":"","loadthumbnail":true,"cookies":false,"callback":"<!--YOUTUBE_CALLBACK-->"};
+//# sourceURL=lazyload-youtube-js-js-before
+</script>
+<script id="lazyload-youtube-js-js" defer src="https://ioppublishing.org/wp-content/plugins/lazy-load-for-videos/public/js/lazyload-youtube.js?ver=2.18.12"></script>
+<script id="lazyload-vimeo-js-js-before">
+window.llvConfig=window.llvConfig||{};window.llvConfig.vimeo={"buttonstyle":"default","playercolour":"#00adef","preroll":"","postroll":"","show_title":false,"overlaytext":"","loadthumbnail":true,"thumbnailquality":"medium","cookies":false,"callback":"<!--VIMEO_CALLBACK-->"};
+//# sourceURL=lazyload-vimeo-js-js-before
+</script>
+<script id="lazyload-vimeo-js-js" defer src="https://ioppublishing.org/wp-content/plugins/lazy-load-for-videos/public/js/lazyload-vimeo.js?ver=2.18.12"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://ioppublishing.org/wp/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://ioppublishing.org/wp/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+
+    <script type="text/javascript">
+      window.didomiOnReady = window.didomiOnReady || []; window.didomiOnReady.push(function (Didomi) { // Call other
+      functions on the SDK });
+    </script>
+
+    <script type="didomi/javascript" data-vendor="c:pardot">
+      piAId = '970933'; piCId = '1150'; piHostname = 'pi.pardot.com';
+
+      (function() { function async_load(){ var s = document.createElement('script'); s.type = 'text/javascript'; s.src =
+      ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; var c =
+      document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); } if(window.attachEvent) {
+      window.attachEvent('onload', async_load); } else { window.addEventListener('load', async_load, false); } })();
+    </script>
+  </body>
+</html>

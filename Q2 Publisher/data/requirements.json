@@ -1,0 +1,55 @@
+{
+  "generated": "2026-11-24",
+  "source_pages": [
+    "P02",
+    "P03",
+    "P25",
+    "P30",
+    "P08"
+  ],
+  "submission_checklist": [
+    "fits aims and scope",
+    "article type known",
+    "full PDF prepared",
+    "peer review model known (single vs double anonymous)",
+    "clear abstract",
+    "co-author details and ORCID iDs (if fewer than 20 co-authors)",
+    "references per style guide",
+    "third-party material cited; permissions before acceptance",
+    "supplementary material ready",
+    "ethics statement and journal ethics policy met",
+    "research data policy considered",
+    "ORCID iD"
+  ],
+  "journal_choice_factors": [
+    "peer review quality",
+    "relevance and audience",
+    "scope",
+    "article types (Letter vs Paper)",
+    "reputation",
+    "indexing (Web of Science, Scopus; 'Abstracted in' on journal page)",
+    "language",
+    "cost (APCs, colour figures)",
+    "open access vs subscription"
+  ],
+  "open_access": {
+    "gold": "CC-BY; authors keep copyright",
+    "green": "accepted version archivable in subscription journals (rules on overview page, not fully read)",
+    "transformative_agreements": "hub on publishingsupport; IOPP Journal Finder checks eligibility"
+  },
+  "copyright": {
+    "hybrid_subscription": "author transfers copyright to IOP",
+    "fully_gold_oa": "author grants non-exclusive licence to IOP",
+    "effect": "only from acceptance date"
+  },
+  "tools": [
+    "Preflight (pre-submission, Word files)",
+    "IOPP Journal Finder",
+    "transfer service"
+  ],
+  "unverified": [
+    "APC amounts",
+    "submission window",
+    "journal scope pages (not fetched)"
+  ]
+}

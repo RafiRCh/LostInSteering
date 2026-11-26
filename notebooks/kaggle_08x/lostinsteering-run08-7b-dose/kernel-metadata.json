@@ -1,0 +1,18 @@
+{
+  "id": "lynxsilver/lostinsteering-run08-7b-dose-all-langs",
+  "title": "LostInSteering Run08 7B dose all langs",
+  "code_file": "lostinsteering-run08-7b-dose.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "lynxsilver/lostinsteering"
+  ],
+  "model_sources": []
+}

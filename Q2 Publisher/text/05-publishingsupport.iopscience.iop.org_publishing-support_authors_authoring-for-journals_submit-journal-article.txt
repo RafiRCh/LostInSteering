@@ -1,0 +1,190 @@
+How to submit your journal article
+ IOP Publishing aims to be flexible and to make submission as easy as possible for authors. We only require a PDF file for a new submission. These guidelines apply to our journals where you submit your journal article via the ScholarOne Manuscripts submissions system.
+ Use our Submission Checklist - also available in Chinese 
+ Use our Submission Checklist to check that you’re ready to submit an article to us. It covers all of the things you’ll need to cover before you start the process. Once you’ve checked everything off the list, find the journal where you want to submit your article and follow the submission guidelines on our ScholarOne site.
+There is also a Chinese language version of the Checklist.
+ How to submit your journal article 
+ If you are an early career researcher you may find our PDF guides (available in both English and Chinese) helpful.
+Please submit all new articles via the ‘Submit an article‘ link for the relevant journal. If you are a new author, you will need to set up an account before submitting your first article. Before submitting your article please read ‘What we look for in your article’.
+Please ensure that you enter all the required information about your article. You will first be asked to select an article type for your manuscript, to enter the title and abstract, and then to select some keywords. Please note that, if your article is accepted for publication, we will display these keywords on the published article.
+Author information:
+You will then be asked to enter your author information. Please include all the authors (if there are less than 10). Please see Author roles and responsibilities for guidelines on who qualifies/should be included as a coauthor. We recommend you use authors’ full names and ORCID identifiers to avoid ambiguity. Please note: we require the submitting author to provide their ORCID. You can check if a co-author already exists in the journal’s database by entering the author’s e-mail address. You should ensure that all author e-mail addresses are correct to the best of your knowledge.
+For papers with 20 authors or fewer, please add information for all authors. For papers with more than 20 authors, please add information for at least the first 10 authors. 
+The information you provide will be used by the journal to correspond with yourself and your co-authors, to maintain accurate records, and to detect and manage any potential conflicts of interest. 
+If your article is accepted, the information you provide will also be used to display the author names and affiliations with the Accepted Manuscripts. Please ensure that author names, email addresses, and affiliations are accurate, with correct spelling and punctuation. 
+Follow these steps to add your co-authors in the Author Information page: 
+Check whether your co-author exists in IOP’s ScholarOne database; enter the co-author’s e-mail address and click ‘Search’. If you have authored an IOP article in the recent past, you can also use the ‘Your Recent Co-Authors’ menu at the bottom of the page to add any available authors. 
+If your co-author is found after searching, their information will appear in a pop up window; click ‘Add Author’ to include these details in the author list. 
+If your co-author cannot be found by searching, please add them using the ‘create a new author’ link that appears. The journal team will then create a full account for your co-author, using the information you provide, once your article has been submitted. 
+Troubleshooting: 
+If you need to add a co-author with Chinese, Korean, or Japanese characters in their name, please enter the author’s first name in the ‘First (Given) Name’ field, and their family name in the ‘Last (Family) Name’ field. 
+If you cannot find your co-author after searching for them, please consider whether they may have recently changed their email address. 
+If you find a co-author using an old email address or institution, please inform the journal team of their correct details once you have submitted your article. Please do not create a new account for the co-author. The journal email address can be found via this page.
+Note that you may not need to search for all your co-authors if the journal you are submitting to offers ‘submission pre-fill’ at the start of the submission process. If this is the case, please click ‘Select’ and then ‘Edit’ to add the required email addresses for each available co-author. 
+Recommended & opposed reviewers
+You may also propose preferred (and non-preferred) reviewers on submission. The suggested referees should have suitable subject expertise and not have any conflicts of interest (please see the IOP ethical policy for journals for further information on conflict of interest). These suggestions will be considered, but the editorial staff and/or Editorial Board will make the final decision regarding reviewer selection.
+Policies & information
+Any pertinent information that could affect the way the manuscript is handled may be provided in a cover letter. This may include highlighting anything particularly notable or significant about their research, and information about previous versions of this manuscript submitted to the current journal or to other journal(s).
+You will be asked to provide information on all funders associated with your work. It is vital that you enter this information as it helps you to meet your funder requirements as well as to make your research more discoverable. Please search the Open Funder Registry for your funding institutions, and provide grant numbers.
+Finally, before submitting your article, you are required to confirm that you have read and understood the IOP ethical policy for journals, and that your submission complies with its terms.
+Open Access
+If you have submitted to a hybrid open access journal you are then required to choose between publishing under a gold open access licence or on a subscription basis. You may change your decision at a later stage in the review process e.g. when completing Copyright. If you have submitted to a fully open access journal then you must agree to publish under a gold open access licence. You must also state whether or not you have reproduced any previously published material in your submission, and to confirm that you would like your accepted manuscript to be made available online within 24 hours of acceptance.
+File uploads
+File upload: to make submission as easy as possible for you,when submitting a new article, we only require you to upload a single PDF file (and any relevant supplementary data) for your article. The PDF should contain your complete manuscript, including any embedded figures and tables. You may upload your article from the arXiv directly by entering the arXiv e-print number. Please also submit any permissions that you have already obtained at this stage.
+If you experience any problems submitting your article online, please contact the journal for assistance.
+Please note, IOP journals do not charge you to submit an article. If there are any publication fees to pay (for open access, colour printing or page charges), these will be made clear to you at the point of submission, and are payable on acceptance for publication.
+ Author roles and responsibilities 
+ IOP Publishing follows the authorship criteria set out by the International Council of Medical Journal Editors (ICMJE). Within this, for someone to be considered an author of a work, they must meet all 4 of the following criteria: 
+Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND 
+Drafting the work or revising it critically for important intellectual content; AND 
+Final approval of the version to be published; AND 
+Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. 
+All named authors should be able to identify which co-authors worked on specific parts of the work. In addition, authors should have confidence in the integrity of the contributions of their co-authors. Authorship should never be bought, sold, or otherwise traded. We reserve the right to request evidence supporting authorship contribution, and reserve the right to reject any work which is suspected to have been bought, sold or otherwise traded.
+It’s important all authors agree prior to submission the authorship of their paper, the order in which author names are presented, and ensure all those, and only those, who meet this criteria are included as authors. Acquisition of funding, collection of data or general supervision of the research group does not constitute authorship. 
+Other individuals who have contributed to the study in a lesser capacity should be acknowledged, subject to their consent to be named (we may not ask you to provide evidence of this, but please keep a copy for your records), but not cited as authors. Please ensure you declare in the acknowledgments if an individual or organisation has supported with any portions of the work that have been outsourced (such as for translation work, support with experiments etc). Please note, the acknowledgements should not be used to misleadingly imply a contribution or endorsement by individuals who have not, in fact, been involved with the work or given an endorsement. 
+We strongly encourage authors to make specific attributions of contribution and responsibility in the acknowledgements of the article. Authors may wish to use a taxonomy such as CRediT to describe the contributions of each author. 
+We understand some research fields follow long standing prescribed authorship practices for recognised ‘big science’ collaborations, which may differ from the above. Corresponding authors of relevant articles will be asked to confirm upon submission if their paper follows these established practices, and this will be assessed at the journal level according to the accepted practices within that field of study.
+If an unresolvable authorship dispute arises, the institution(s) where the work was undertaken should be asked to investigate. IOP Publishing will not arbitrate in cases where there is disagreement over authorship. IOP Publishing has the right to remove your article from the review process until a resolution can be agreed, or issue an expression of concern to the work whilst the investigation is ongoing. 
+Responsibility of the submitting author 
+It is the submitting author’s responsibility to ensure that all named authors have consented to submission to the journal, approved the submitted version of the article, and all further revisions.
+It is the submitting author’s responsibility to ensure the paper is not under consideration by any other journal at the time of submission.
+It is the submitting author’s responsibility to ensure the contact details for all co-authors are correctly entered into the submission system and are correct at the time of submission.
+Responsibility of the corresponding author 
+All communications during the submission, peer review and production process will be directed to the corresponding author.
+The corresponding author identified on the submission form must match the corresponding author identified on the manuscript.
+The contact details of the corresponding author are displayed on the final published manuscript, and the corresponding author handles all post-acceptance enquiries, including reader and media requests.
+Changes in authorship 
+Any changes to authorship during the peer review process must be approved by all authors of the paper, and all authors must confirm to the journal that they give their consent and made a genuine intellectual contribution to the paper.
+In addition, you must explain to the journal the reasons behind the change in authorship based on the guidelines above. If additional authors are being added to the manuscript, you will need to provide evidence of their significant contribution to the work.
+Proof of contribution includes but is not limited to:
+Earlier drafts of the manuscript with the requested author’s edits
+Laboratory reports with requested author’s name
+Email exchanges directly related to the manuscript or relevant experiments
+WhatsApp Chats directly related to the manuscript or relevant experiments
+Logbooks
+Research notes
+It is the responsibility of the authors to ensure that evidence proving their contributions to the manuscript is kept during the submission process and can be provided at request.
+IOP Publishing reserves the right to refuse requests if there is reason to doubt the legitimacy of the request.
+Changes to authorship are not permitted after publication. For the avoidance of doubt, publication includes the accepted version of the manuscript going online.
+Changing a corresponding author
+IOP Publishing’s policy is that the corresponding author cannot be changed once they have been initially nominated at submission.
+If discrepancies are identified during the peer review process, your paper will be placed on hold and you will be contacted by editorial staff to rectify the anomaly.
+The only exception to this policy is where the corresponding author’s circumstances have materially changed so they are clearly no longer available to fulfil the role at publication. Examples of when the corresponding author is no longer available to fulfil the role at publication include:
+corresponding author has gone on parental leave;
+corresponding author has retired;
+corresponding author has left academia;
+corresponding author has gone on sabbatical;
+corresponding author is on long-term sick leave; or
+corresponding author has died .
+This must be confirmed in writing by the relevant institutions (for outgoing and incoming corresponding authors) at the time of request.
+For clarity, the corresponding author is designated at the submission stage and can never be changed in order to gain funding or discounts/waivers, or to comply with sanctions or mandates for funding already received, or for any reason other than the ones stated above. It is expected that the author group will discuss and agree author roles, taking into account any funding requirements before submitting a manuscript to IOP Publishing.
+This policy applies to all manuscripts in all journals either partly or wholly owned by IOPP Publishing, see full list. The following partner journals also apply this policy on their titles:
+European Journal of Physics (European Physical Society)
+Europhysics Letters (European Physical Society)
+Journal of Radiological Protection (Society for Radiological Protection)
+Medical Engineering & Physics (Institute of Physics and Engineering in Medicine)
+Medical Sensors & Imaging (Institute of Physics and Engineering in Medicine)
+New Journal of Physics (Deutsche Physikalische Gesellschaft)
+Nonlinearity (London Mathematical Society)
+Physics in Medicine & Biology (Institute of Physics and Engineering in Medicine)
+Physiological Measurement (Institute of Physics and Engineering in Medicine)
+Deceased authors 
+In cases where an author has sadly passed away before a paper has been submitted, or during peer review, we require consent from a familial or legal proxy of the deceased for the paper to be reviewed for potential publication. Deceased authors are still eligible for co-authorship if they made a significant intellectual contribution to the article (see above).
+ What files to submit for your new article 
+ The files you need to submit on initial submission are:
+ 1
+ A PDF of the complete manuscript for review (designated 'Complete Document for Review (PDF Only)'), containing the names and institutes of authors, and figures and tables embedded within the text. Authors are asked to consider the need for clarity and readability when selecting column type, line spacing, font size and layout when preparing the PDF, to assist reviewers.
+ 2
+ Any permissions that you have already obtained at this stage.
+ 3
+ Any suitable supplementary data (see below for details about suitable files).
+We encourage you to submit supplementary data files with your manuscript. If you are submitting video files, most standard file formats are suitable: animated GIF, AVI, MPG, etc. However, we strongly recommend video files be delivered in the MPEG-4 container, encoded with the H264 codec. Other formats are permitted, but using MPEG-4 will provide the most faithful rendering of your video in the HTML journal article.
+Video files should be a maximum of 10 MB file size each. Exceptions can be made in cases where larger files are essential for the science being presented.
+The recommended settings are:
+Frame size: 480 x 360 pixels
+Frame rate: 15 frames/s
+Data rate: 150 kB/s.
+Some of our journals encourage authors to submit video abstracts. Read more about video abstracts here.
+ Which journals these guidelines apply to 
+ Our guidelines are applicable to the journals listed below. For guidelines specific to other partner journals, including the American Astronomical Society titles, please consult those journals’ respective homepages. Journal homepages can be accessed from here.
+2D Materials 
+Biofabrication 
+Bioinspiration and Biomimetics 
+Biomedical Materials 
+Biomedical Physics and Engineering Express 
+Classical and Quantum Gravity
+Engineering Research Express
+Electronic Structure
+Environmental Research Communications
+Environmental Research Letters
+Environmental Research: Climate
+Environmental Research: Health
+Environmental Research: Ecology
+Environmental Research: Infrastructure and Sustainability
+European Journal of Physics 
+Flexible & Printed Electronics
+Inverse Problems
+Journal of Breath Research 
+Journal of Micromechanics and Microengineering 
+Journal of Neural Engineering 
+Journal of Optics 
+Journal of Physics A: Mathematical and Theoretical 
+Journal of Physics B: Atomic, Molecular and Optical Physics
+Journal of Physics D: Applied Physics 
+Journal of Physics G: Nuclear and Particle Physics 
+Journal of Physics: Complexity
+Journal of Physics: Condensed Matter
+Journal of Physics: Energy
+Journal of Physics: Materials
+Journal of Physics: Photonics
+Journal of Radiological Protection
+Machine Learning: Science and Technology
+Materials for Quantum Technology
+Materials Research Express 
+Measurement Science and Technology
+Medical Engineering & Physics
+Medical Sensors & Imaging
+Methods and Applications in Fluorescence 
+Metrologia 
+Modelling and Simulation in Materials Science and Engineering 
+Multifunctional Materials
+Nanotechnology
+Nano Express
+NanoFutures
+Neuromorphic Computing and Engineering
+New Journal of Physics 
+Nonlinearity 
+Nuclear Fusion 
+Physica Scripta 
+Physical Biology 
+Physics Education 
+Physics in Medicine & Biology 
+Physiological Measurement 
+Plasma Physics and Controlled Fusion 
+Plasma Research Express
+Plasma Sources Science and Technology
+Progress in Biomedical Engineering
+Progress in Energy
+Quantum Science & Technology 
+Reports on Progress in Physics 
+Semiconductor Science and Technology 
+Smart Materials and Structures 
+Superconductor Science and Technology 
+Surface Topography: Metrology and Properties 
+ Pre-submission article assessment via Paperpal Preflight 
+ A Chinese language version of this page is also available.
+When you submit a paper you can now use our new article checker tool to help increase the chances of your paper being accepted for peer review. Paperpal Preflight is a free automated web-based tool that detects the most common issues when preparing your paper, giving you the opportunity to make changes before you submit to a journal.
+You will be asked to upload a Microsoft Word version of your manuscript before a range of automated checks are carried out on your paper. The results of the automated checks are then communicated back to you via a free walkthrough of any problems found. You also have the option to purchase a copy of your manuscript with suggested changes highlighted using Track Changes; although this is not compulsory.
+Use Preflight article assessment service
+Checks carried out provide feedback on the following and more:
+Language
+Grammar
+The presence of Ethics, Funding, Conflict of Interest and Data access statements
+Labelling of figures and table
+We encourage you to use Paperpal Preflight as it will increase the chances of your article being accepted for peer review. Don’t forget to use our Submission Checklist before you submit your paper too!
+Use Submission Checklist
+ Next step
+ The review process on our journals 
+ Previous step
+ Writing your journal article 
+ Back to top

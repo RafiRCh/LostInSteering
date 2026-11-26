@@ -1,0 +1,2 @@
+Snapshot of github.com/blader/humanizer SKILL.md, version 4.0.0, commit a32f244 (2026-11-19).
+Used only when scripts/fetch_humanizer.py cannot reach GitHub. MIT license, see LICENSE.

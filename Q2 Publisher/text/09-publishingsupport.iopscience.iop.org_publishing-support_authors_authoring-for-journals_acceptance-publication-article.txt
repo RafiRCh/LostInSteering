@@ -1,0 +1,29 @@
+From acceptance through to publication of your article
+ Here we describe what happens to your article after acceptance, including the option of having your accepted manuscript made available within 24 hours, and the proof checking stage.
+ What we do with your article after acceptance 
+ After acceptance, your article will be typeset into our house style (see our Style guide for journal articles) using the source files that you have provided. This includes conversion of figure files and sizing them to fit the journal template. A proof will then be produced, which you will be asked to check.
+Most IOP Publishing journals offer the option to make the Accepted Manuscript version available within 24 hours of acceptance. At this point, you can start to promote your paper to your peers (see the ‘After publication’ section for more details). For further information on the ‘Accepted Manuscript’ process, and which of our journals offer this option, please see our Accepted Manuscripts page.
+Please note that, in exceptional circumstances, we reserve the right to withdraw an article at any time before publishing.
+ Checking the proofs of your journal article 
+ You will be contacted by email when the proof of your article is ready for you to check. Most journals use an online proofing tool, a few use PDF proofing.
+The ultimate responsibility for ensuring the accuracy of the published article rests with you, the author. If you are likely to be absent during the proof review period, then please let us know so that we can contact your co-authors (if applicable) or extend the deadline accordingly. In the unlikely event that we do not hear from you for a prolonged period, we may publish the article without your corrections.
+When checking your proof, you should take particular care to check the mathematics, tables and references. Only minor, essential corrections can be made at this stage. Minor changes are those that do not significantly affect either the scientific meaning of the article or its bibliographic identity. No changes can be made to authorship (other than those covered by our Name change policy) and references cannot be added or removed unless in response to a specific proof query. You should provide new files if figures need correction.
+Please do not supply a new source file because it is difficult to identify corrections, and some could be missed. The only exception is if the wrong version of the source file has been used to create the proof; in this case, please contact the journal team who will arrange to have a new proof prepared.
+Online proofing
+You should check your proof carefully and make corrections directly through our online proofing tool, which is quick and avoids transcription errors. Simply click into the content and make changes, as you would with a word-processing program like Microsoft Word, Google Docs or Pages for Mac. Respond to all queries and, if required, add comments to the Production team.
+The online (HTML) version of the proof should be used to check and amend the content of the article. The reference PDF version of the proof (available via the online proofing tool) should be used to check the layout, for example, of figures, tables and mathematics. Please make your corrections directly to the online proof.
+The reference PDF version is static and reflects the article content at the time it was loaded into the online tool. Note that the two versions will not be identical in terms of layout. For example, the figures may appear in different positions; in the PDF version they will appear at the top of the page as close as possible to their first citation, whereas in the online version they will appear below the paragraph in which they are first cited. There may also be differences in the fonts used between the text and mathematics in the two versions. These cosmetic variations should not be a cause for concern and do not need to be corrected/noted.
+If you have problems using the online tool, then please download the reference PDF proof (available via the online proofing tool) and annotate it using the instructions below. You can then either upload the corrected PDF using the ‘attach’ option in the interface and finalize/submit the article, or return it via email to the journal team.
+PDF proofing
+For PDF proofs, annotate the article with strikethrough, replacement text and insert text tools in Adobe Reader (or equivalent). To add production comments, use a sticky note. Please ensure that all changes are visible in the ‘Comments’ list, so that your corrections are not missed.
+Alternatively, you can supply a list of changes that clearly indicates where amendments are required.
+ Publication of your journal article 
+ Once you have sent your proof corrections, they will be carried out in accordance with the journal style. The paper will then be published online as quickly as possible, typically around a week after the corrections have been received. For journals that are printed, print publication may not happen for some time depending on the frequency of the journal. You will be informed by email when your paper is published online and invited to provide feedback on the publication process via a survey.
+The published article has both HTML and PDF versions. As with the proof, there may be cosmetic differences between the two versions, such as figure position and the font used for mathematics, although the content itself will be the same.
+ Purchasing reprints of a journal article 
+ Reprints of a journal article can be purchased directly from the article abstract page in IOPscience, via the ‘Buy this article in print’ link within the Article information section (circled in red in the screenshot). For orders in excess of 250 copies, please email pod@ioppublishingpublishing.org.
+ Next step
+ After publication of your article 
+ Previous step
+ Writing and submitting your revised article 
+ Back to top
