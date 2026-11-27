@@ -1,0 +1,18 @@
+{
+  "id": "YOUR-KAGGLE-USERNAME/lostinsteering-run12-qwen-14b",
+  "title": "lostinsteering run12 qwen 14b",
+  "code_file": "lostinsteering-run12-qwen-14b.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [
+    "qwen-lm/qwen2.5/transformers/14b-instruct/1"
+  ]
+}
