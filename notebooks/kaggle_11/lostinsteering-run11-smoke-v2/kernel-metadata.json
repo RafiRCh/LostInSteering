@@ -1,0 +1,19 @@
+{
+  "id": "YOUR-KAGGLE-USERNAME/lostinsteering-run11-smoke-v2",
+  "title": "lostinsteering run11 smoke v2",
+  "code_file": "lostinsteering-run11-smoke-v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [
+    "qwen-lm/qwen2.5/transformers/0.5b-instruct/1",
+    "google/gemma-4/transformers/gemma-4-e4b-it/2"
+  ]
+}
